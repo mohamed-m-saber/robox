@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: arduinobot-py-examples
+Version: 0.0.1
+Summary: Python examples for Arduino-based robot using ROS 2
+Maintainer: saber
+Maintainer-email: saber@todo.todo
+License: MIT

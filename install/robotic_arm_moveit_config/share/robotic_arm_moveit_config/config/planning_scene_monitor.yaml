@@ -1,0 +1,12 @@
+move_group:
+  ros__parameters:
+    use_sim_time: false
+    planning_scene_monitor_options:
+      name: "planning_scene_monitor"
+      robot_description: "robot_description"
+      joint_state_topic: "/joint_states"
+      attached_collision_object_topic: "/moveit_cpp/planning_scene_monitor"
+      publish_planning_scene: true
+      publish_geometry_updates: true
+      publish_state_updates: true
+      publish_transforms_updates: true

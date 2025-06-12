@@ -1,0 +1,25 @@
+# # arm:
+# #   kinematics_solver: trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin
+# #   kinematics_solver_search_resolution: 0.005
+# #   kinematics_solver_timeout: 0.05
+# #   kinematics_solver_attempts: 3
+# #   ignore_joints: ["gripper_right_joint", "gripper_left_joint"]
+
+
+# /**:
+#   ros__parameters:
+#     arm:
+#       kinematics_solver: trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin
+#       kinematics_solver_timeout: 0.2 # Increased for complex arm
+#       solve_type: Distance # Better for joint-limited arms
+#       position_only_ik: false
+#       kinematics_solver_attempts: 10 # Increased attempts
+#       ik_link: wrist_link # Explicit end-effector
+#       ignore_joints: ["gripper_right_joint", "gripper_left_joint"]
+
+
+arm:
+  kinematics_solver: kdl_kinematics_plugin/KDLKinematicsPlugin
+  kinematics_solver_search_resolution: 0.005
+  kinematics_solver_timeout: 0.05
+  kinematics_solver_attempts: 3

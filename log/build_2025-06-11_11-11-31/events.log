@@ -1,0 +1,436 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (-) JobUnselected: {'identifier': 'arduinobot_py_examples'}
+[0.000227] (-) JobUnselected: {'identifier': 'arm_moveit'}
+[0.000251] (-) JobUnselected: {'identifier': 'robotic_arm_moveit_config'}
+[0.000272] (arm_description) JobQueued: {'identifier': 'arm_description', 'dependencies': OrderedDict()}
+[0.000797] (arm_description) JobStarted: {'identifier': 'arm_description'}
+[0.022250] (arm_description) JobProgress: {'identifier': 'arm_description', 'progress': 'cmake'}
+[0.023279] (arm_description) JobProgress: {'identifier': 'arm_description', 'progress': 'build'}
+[0.023941] (arm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saber/robox_ws/build/arm_description', '--', '-j16', '-l16'], 'cwd': '/home/saber/robox_ws/build/arm_description', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2693-3-Dell_TIME105207791', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'saber', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saber/robox_ws/install/arm_description/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/saber', 'OLDPWD': '/home/saber/robox_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '2406', 'SYSTEMD_EXEC_PID': '2693', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '128574', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saber/robox_ws/install:/home/saber/arduinobot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'saber', 'JOURNAL_STREAM': '8:27832', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saber', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/saber/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Dell:@/tmp/.ICE-unix/2639,unix/Dell:/tmp/.ICE-unix/2639', 'INVOCATION_ID': '2a278768e0a4493ea15f070fddc8a21d', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NM1S72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0d30fe70-6838-4b93-bd39-7722affe88c3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saber/robox_ws/build/arm_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:/home/saber/robox_ws/install/arm_description/lib/python3.12/site-packages:/home/saber/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy'}), 'shell': False}
+[0.099826] (-) TimerEvent: {}
+[0.116836] (arm_description) StdoutLine: {'line': b'/usr/bin/cmake -S/home/saber/robox_ws/src/arm_description -B/home/saber/robox_ws/build/arm_description --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.199937] (-) TimerEvent: {}
+[0.224463] (arm_description) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/saber/robox_ws/build/arm_description/CMakeFiles /home/saber/robox_ws/build/arm_description//CMakeFiles/progress.marks\n'}
+[0.239247] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[0.242004] (arm_description) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.242158] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_type_description.dir/build.make CMakeFiles/arm_description__rosidl_generator_type_description.dir/depend\n'}
+[0.242304] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_arm_description.dir/build.make CMakeFiles/ament_cmake_python_copy_arm_description.dir/depend\n'}
+[0.243898] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.244084] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_generator_type_description.dir/DependInfo.cmake "--color="\n'}
+[0.244181] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.244249] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/ament_cmake_python_copy_arm_description.dir/DependInfo.cmake "--color="\n'}
+[0.256947] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.257241] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.257365] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_type_description.dir/build.make CMakeFiles/arm_description__rosidl_generator_type_description.dir/build\n'}
+[0.257510] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_arm_description.dir/build.make CMakeFiles/ament_cmake_python_copy_arm_description.dir/build\n'}
+[0.258396] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.258537] (arm_description) StdoutLine: {'line': b'/usr/bin/cmake -E copy_directory /home/saber/robox_ws/build/arm_description/rosidl_generator_py/arm_description /home/saber/robox_ws/build/arm_description/ament_cmake_python/arm_description/arm_description\n'}
+[0.258640] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.258724] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_generator_type_description.dir/build'.\n"}
+[0.258805] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.268465] (arm_description) StdoutLine: {'line': b'[  2%] Built target arm_description__rosidl_generator_type_description\n'}
+[0.270106] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__cpp.dir/build.make CMakeFiles/arm_description__cpp.dir/depend\n'}
+[0.270417] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_c.dir/build.make CMakeFiles/arm_description__rosidl_generator_c.dir/depend\n'}
+[0.272498] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.272730] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__cpp.dir/DependInfo.cmake "--color="\n'}
+[0.273993] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.275808] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.275939] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_generator_c.dir/DependInfo.cmake "--color="\n'}
+[0.283627] (arm_description) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_arm_description\n'}
+[0.284812] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_arm_description_egg.dir/build.make CMakeFiles/ament_cmake_python_build_arm_description_egg.dir/depend\n'}
+[0.285023] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.285216] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__cpp.dir/build.make CMakeFiles/arm_description__cpp.dir/build\n'}
+[0.286313] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.286400] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/ament_cmake_python_build_arm_description_egg.dir/DependInfo.cmake "--color="\n'}
+[0.287063] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.287185] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__cpp.dir/build'.\n"}
+[0.287282] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.289050] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.289204] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_c.dir/build.make CMakeFiles/arm_description__rosidl_generator_c.dir/build\n'}
+[0.295986] (arm_description) StdoutLine: {'line': b'[  5%] Built target arm_description__cpp\n'}
+[0.296487] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.296569] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_generator_c.dir/build'.\n"}
+[0.296653] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.298136] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.298366] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_arm_description_egg.dir/build.make CMakeFiles/ament_cmake_python_build_arm_description_egg.dir/build\n'}
+[0.299540] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.299670] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description/ament_cmake_python/arm_description && /usr/bin/python3 setup.py egg_info\n'}
+[0.299980] (-) TimerEvent: {}
+[0.310019] (arm_description) StdoutLine: {'line': b'[ 19%] Built target arm_description__rosidl_generator_c\n'}
+[0.312047] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/depend\n'}
+[0.312402] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/depend\n'}
+[0.312584] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/depend\n'}
+[0.312796] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/depend\n'}
+[0.313020] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_c.dir/depend\n'}
+[0.313255] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/depend\n'}
+[0.315412] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.315638] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/DependInfo.cmake "--color="\n'}
+[0.315742] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.315810] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake "--color="\n'}
+[0.315872] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.315930] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color="\n'}
+[0.316096] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.316197] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_c.dir/DependInfo.cmake "--color="\n'}
+[0.316321] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.316434] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color="\n'}
+[0.316615] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.316730] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake "--color="\n'}
+[0.330487] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.331121] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.331310] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_c.dir/build\n'}
+[0.331421] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/build\n'}
+[0.331694] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.332017] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.332173] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.332300] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/build\n'}
+[0.332406] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.332498] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/build\n'}
+[0.332623] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/build\n'}
+[0.332856] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/build\n'}
+[0.334572] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.334720] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_c.dir/build'.\n"}
+[0.334847] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.334944] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.335065] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/build'.\n"}
+[0.335159] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.336936] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.337086] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/build'.\n"}
+[0.337197] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.337292] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.337390] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/build'.\n"}
+[0.337494] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.338312] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.338490] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/build'.\n"}
+[0.338601] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.338703] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.338802] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/build'.\n"}
+[0.338901] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.350203] (arm_description) StdoutLine: {'line': b'[ 61%] Built target arm_description__rosidl_typesupport_fastrtps_c\n'}
+[0.350545] (arm_description) StdoutLine: {'line': b'[ 61%] Built target arm_description__rosidl_typesupport_fastrtps_cpp\n'}
+[0.350705] (arm_description) StdoutLine: {'line': b'[ 61%] Built target arm_description__rosidl_typesupport_cpp\n'}
+[0.350828] (arm_description) StdoutLine: {'line': b'[ 61%] Built target arm_description__rosidl_typesupport_introspection_c\n'}
+[0.350939] (arm_description) StdoutLine: {'line': b'[ 61%] Built target arm_description__rosidl_typesupport_c\n'}
+[0.351118] (arm_description) StdoutLine: {'line': b'[ 69%] Built target arm_description__rosidl_typesupport_introspection_cpp\n'}
+[0.351994] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description.dir/build.make CMakeFiles/arm_description.dir/depend\n'}
+[0.354791] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.354936] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description.dir/DependInfo.cmake "--color="\n'}
+[0.367508] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.367755] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description.dir/build.make CMakeFiles/arm_description.dir/build\n'}
+[0.369171] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.369316] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description.dir/build'.\n"}
+[0.369448] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.378833] (arm_description) StdoutLine: {'line': b'[ 69%] Built target arm_description\n'}
+[0.380737] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f /home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/build.make /home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/depend\n'}
+[0.381257] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/robot_arm_ik_node.dir/build.make CMakeFiles/robot_arm_ik_node.dir/depend\n'}
+[0.382778] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.382879] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description/arm_description__py /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/arm_description__py /home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/DependInfo.cmake "--color="\n'}
+[0.384573] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.384664] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/robot_arm_ik_node.dir/DependInfo.cmake "--color="\n'}
+[0.394283] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.394540] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f /home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/build.make /home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/build\n'}
+[0.397178] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.397425] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for '/home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/build'.\n"}
+[0.397519] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.400064] (-) TimerEvent: {}
+[0.407913] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.408144] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/robot_arm_ik_node.dir/build.make CMakeFiles/robot_arm_ik_node.dir/build\n'}
+[0.410459] (arm_description) StdoutLine: {'line': b'[ 72%] Built target arm_description__py\n'}
+[0.411656] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_py.dir/build.make CMakeFiles/arm_description__rosidl_generator_py.dir/depend\n'}
+[0.413797] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.413923] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_generator_py.dir/DependInfo.cmake "--color="\n'}
+[0.428139] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.428349] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_py.dir/build.make CMakeFiles/arm_description__rosidl_generator_py.dir/build\n'}
+[0.433835] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.434124] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_generator_py.dir/build'.\n"}
+[0.434214] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.446647] (arm_description) StdoutLine: {'line': b'[ 77%] Built target arm_description__rosidl_generator_py\n'}
+[0.448616] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/depend\n'}
+[0.448939] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/depend\n'}
+[0.449200] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/depend\n'}
+[0.450700] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.450888] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color="\n'}
+[0.451192] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.451303] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color="\n'}
+[0.451477] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.451584] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/DependInfo.cmake "--color="\n'}
+[0.458514] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.466617] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.467116] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.467269] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/build\n'}
+[0.467417] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/build\n'}
+[0.468888] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.469212] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/build\n'}
+[0.470562] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.470711] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.470809] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/build'.\n"}
+[0.470902] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/build'.\n"}
+[0.471015] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.471113] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.471397] (arm_description) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o\x1b[0m\n'}
+[0.472057] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.472183] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/build'.\n"}
+[0.472267] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.473030] (arm_description) StdoutLine: {'line': b'/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_IOSTREAMS_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SERIALIZATION_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -DFMT_SHARED -DROS_PACKAGE_NAME=\\"arm_description\\" -DTINYXML2_IMPORT -D_FILE_OFFSET_BITS=64 -I/home/saber/robox_ws/build/arm_description/rosidl_generator_c -I/home/saber/robox_ws/build/arm_description/rosidl_generator_cpp -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/tf2 -isystem /opt/ros/jazzy/include/tf2_ros -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/rclcpp_components -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/message_filters -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/rclcpp_action -isystem /opt/ros/jazzy/include/tf2_msgs -isystem /opt/ros/jazzy/include/tf2_geometry_msgs -isystem /usr/include/eigen3 -isystem /opt/ros/jazzy/include/moveit_ros_planning_interface -isystem /opt/ros/jazzy/include/moveit_msgs -isystem /opt/ros/jazzy/include/moveit_core -isystem /opt/ros/jazzy/include/controller_manager_msgs -isystem /usr/include/bullet -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include -isystem /opt/ros/jazzy/include/parameter_traits -isystem /opt/ros/jazzy/include/rsl -isystem /opt/ros/jazzy/include/rclcpp_lifecycle -isystem /opt/ros/jazzy/include/lifecycle_msgs -isystem /opt/ros/jazzy/include/rcl_lifecycle -isystem /opt/ros/jazzy/include/moveit_ros_planning -isystem /opt/ros/jazzy/include/eigen_stl_containers -isystem /opt/ros/jazzy/include/pluginlib -isystem /opt/ros/jazzy/include/ament_index_cpp -isystem /opt/ros/jazzy/include/class_loader -isystem /opt/ros/jazzy/include/urdf -isystem /opt/ros/jazzy/include/urdfdom -isystem /opt/ros/jazzy/include/urdfdom_headers -isystem /opt/ros/jazzy/include/srdfdom -isystem /opt/ros/jazzy/include/visualization_msgs -isystem /opt/ros/jazzy/include/sensor_msgs -isystem /opt/ros/jazzy/include/tf2_eigen -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -isystem /opt/ros/jazzy/include/rcl_action -isystem /opt/ros/jazzy/include/geometric_shapes -isystem /opt/ros/jazzy/include/resource_retriever -isystem /opt/ros/jazzy/include/shape_msgs -isystem /opt/ros/jazzy/include/angles -isystem /opt/ros/jazzy/include/object_recognition_msgs -isystem /opt/ros/jazzy/include/octomap_msgs -isystem /opt/ros/jazzy/include/trajectory_msgs -isystem /opt/ros/jazzy/include/kdl_parser -isystem /opt/ros/jazzy/include/moveit_ros_occupancy_map_monitor -isystem /opt/ros/jazzy/include/composition_interfaces -isystem /opt/ros/jazzy/include/moveit_ros_move_group -isystem /opt/ros/jazzy/include/std_srvs -isystem /opt/ros/jazzy/include/moveit_ros_warehouse -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o -MF CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o.d -o CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o -c /home/saber/robox_ws/src/arm_description/src/pose.cpp\n'}
+[0.484492] (arm_description) StdoutLine: {'line': b'[ 97%] Built target arm_description_s__rosidl_typesupport_fastrtps_c\n'}
+[0.484874] (arm_description) StdoutLine: {'line': b'[ 97%] Built target arm_description_s__rosidl_typesupport_c\n'}
+[0.485106] (arm_description) StdoutLine: {'line': b'[ 97%] Built target arm_description_s__rosidl_typesupport_introspection_c\n'}
+[0.500189] (-) TimerEvent: {}
+[0.588904] (arm_description) StdoutLine: {'line': b'running egg_info\n'}
+[0.600336] (-) TimerEvent: {}
+[0.617161] (arm_description) StdoutLine: {'line': b'writing arm_description.egg-info/PKG-INFO\n'}
+[0.617526] (arm_description) StdoutLine: {'line': b'writing dependency_links to arm_description.egg-info/dependency_links.txt\n'}
+[0.617784] (arm_description) StdoutLine: {'line': b'writing top-level names to arm_description.egg-info/top_level.txt\n'}
+[0.681592] (arm_description) StdoutLine: {'line': b"reading manifest file 'arm_description.egg-info/SOURCES.txt'\n"}
+[0.682295] (arm_description) StdoutLine: {'line': b"writing manifest file 'arm_description.egg-info/SOURCES.txt'\n"}
+[0.700471] (-) TimerEvent: {}
+[0.715816] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.727809] (arm_description) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_arm_description_egg\n'}
+[0.800685] (-) TimerEvent: {}
+[0.901548] (-) TimerEvent: {}
+[1.002328] (-) TimerEvent: {}
+[1.102828] (-) TimerEvent: {}
+[1.203384] (-) TimerEvent: {}
+[1.304099] (-) TimerEvent: {}
+[1.404531] (-) TimerEvent: {}
+[1.505056] (-) TimerEvent: {}
+[1.605495] (-) TimerEvent: {}
+[1.705927] (-) TimerEvent: {}
+[1.806312] (-) TimerEvent: {}
+[1.906688] (-) TimerEvent: {}
+[2.006983] (-) TimerEvent: {}
+[2.107275] (-) TimerEvent: {}
+[2.207586] (-) TimerEvent: {}
+[2.307861] (-) TimerEvent: {}
+[2.408160] (-) TimerEvent: {}
+[2.508533] (-) TimerEvent: {}
+[2.608833] (-) TimerEvent: {}
+[2.709143] (-) TimerEvent: {}
+[2.809460] (-) TimerEvent: {}
+[2.909778] (-) TimerEvent: {}
+[3.010123] (-) TimerEvent: {}
+[3.110519] (-) TimerEvent: {}
+[3.211019] (-) TimerEvent: {}
+[3.311298] (-) TimerEvent: {}
+[3.411605] (-) TimerEvent: {}
+[3.512078] (-) TimerEvent: {}
+[3.612723] (-) TimerEvent: {}
+[3.713403] (-) TimerEvent: {}
+[3.813857] (-) TimerEvent: {}
+[3.914371] (-) TimerEvent: {}
+[4.014684] (-) TimerEvent: {}
+[4.115101] (-) TimerEvent: {}
+[4.215621] (-) TimerEvent: {}
+[4.316003] (-) TimerEvent: {}
+[4.416469] (-) TimerEvent: {}
+[4.516938] (-) TimerEvent: {}
+[4.617382] (-) TimerEvent: {}
+[4.717783] (-) TimerEvent: {}
+[4.818244] (-) TimerEvent: {}
+[4.918692] (-) TimerEvent: {}
+[5.019062] (-) TimerEvent: {}
+[5.119596] (-) TimerEvent: {}
+[5.220349] (-) TimerEvent: {}
+[5.321209] (-) TimerEvent: {}
+[5.422169] (-) TimerEvent: {}
+[5.522699] (-) TimerEvent: {}
+[5.623368] (-) TimerEvent: {}
+[5.723930] (-) TimerEvent: {}
+[5.824443] (-) TimerEvent: {}
+[5.924798] (-) TimerEvent: {}
+[6.025174] (-) TimerEvent: {}
+[6.125519] (-) TimerEvent: {}
+[6.225812] (-) TimerEvent: {}
+[6.326218] (-) TimerEvent: {}
+[6.426739] (-) TimerEvent: {}
+[6.527152] (-) TimerEvent: {}
+[6.627544] (-) TimerEvent: {}
+[6.727997] (-) TimerEvent: {}
+[6.828283] (-) TimerEvent: {}
+[6.894034] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode::\x1b[01;32m\x1b[KGoToPoseServiceNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.894307] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:142:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass GoToPoseServiceNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_temporary_id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.894413] (arm_description) StderrLine: {'line': b'  142 |         tf_buffer_ = std::make_shared<tf2_ros::Buffer>(this->\x1b[01;31m\x1b[Kget_temporary_id\x1b[m\x1b[K());\n'}
+[6.894495] (arm_description) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.895544] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template argument deduction failed:\n'}
+[6.895692] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;31m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.895776] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.895841] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr(GoToPoseServiceNode*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.895967] (arm_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[6.896045] (arm_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:13\x1b[m\x1b[K,\n'}
+[6.896107] (arm_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[6.896295] (arm_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:1\x1b[m\x1b[K:\n'}
+[6.896382] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:535:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(const std::weak_ptr<_Tp>&, std::nothrow_t)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.896443] (arm_description) StderrLine: {'line': b'  535 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Tp>& __r, std::nothrow_t) noexcept\n'}
+[6.896502] (arm_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.896561] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:535:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.896668] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::weak_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.896784] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.896913] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.896995] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:463:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc, class ... _Args> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.897073] (arm_description) StderrLine: {'line': b'  463 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)\n'}
+[6.897131] (arm_description) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.897186] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:463:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.897241] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_alloc_shared_tag<_Alloc>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.897296] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.897351] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.897412] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:412:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::nullptr_t)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.897481] (arm_description) StderrLine: {'line': b'  412 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t) noexcept : shared_ptr() { }\n'}
+[6.897580] (arm_description) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.897649] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:412:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.897712] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.897825] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.897982] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.898047] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:395:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Yp, class _Del, class> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::unique_ptr<_Yp, _Del>&&)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.898116] (arm_description) StderrLine: {'line': b'  395 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Yp, _Del>&& __r)\n'}
+[6.898174] (arm_description) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.898230] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:395:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.898292] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Yp, _Del>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.898350] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.898404] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.898457] (arm_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:86\x1b[m\x1b[K:\n'}
+[6.898511] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/backward/auto_ptr.h:327:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Yp, class> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::auto_ptr<_Yp>&&)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.898566] (arm_description) StderrLine: {'line': b'  327 |     \x1b[01;36m\x1b[Kshared_ptr<_Tp>\x1b[m\x1b[K::shared_ptr(std::auto_ptr<_Tp1>&& __r)\n'}
+[6.898621] (arm_description) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.898675] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/backward/auto_ptr.h:327:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.898730] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Yp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.898784] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.898838] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.898891] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:380:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Yp, class> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(const std::weak_ptr<_Yp>&)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.898946] (arm_description) StderrLine: {'line': b'  380 |         explicit \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Yp>& __r)\n'}
+[6.899013] (arm_description) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.899070] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:380:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.899124] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::weak_ptr<_Yp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.899187] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.899241] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.899295] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:368:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Yp, class> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::shared_ptr<_Tp>&&)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.899357] (arm_description) StderrLine: {'line': b'  368 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr<_Yp>&& __r) noexcept\n'}
+[6.899411] (arm_description) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.899463] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:368:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.899518] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.899573] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.899626] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.899679] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:359:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::shared_ptr<_Tp>&&)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.899734] (arm_description) StderrLine: {'line': b'  359 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr&& __r) noexcept\n'}
+[6.899786] (arm_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.899839] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:359:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.899893] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.899946] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.900019] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.900077] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:351:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Yp, class> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(const std::shared_ptr<_Tp>&)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.900146] (arm_description) StderrLine: {'line': b'  351 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r) noexcept\n'}
+[6.900202] (arm_description) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.900257] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:351:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.900320] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.900375] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.900429] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.900483] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:311:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Yp> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(const std::shared_ptr<_Tp>&, typename std::__shared_ptr<_Tp>::element_type*)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.900538] (arm_description) StderrLine: {'line': b'  311 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r, element_type* __p) noexcept\n'}
+[6.900593] (arm_description) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.900646] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:311:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.900699] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.900754] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.900808] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.900860] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:287:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Deleter, class _Alloc> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::nullptr_t, _Deleter, _Alloc)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.900915] (arm_description) StderrLine: {'line': b'  287 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d, _Alloc __a)\n'}
+[6.900979] (arm_description) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.901039] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:287:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.901093] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[6.901148] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.901201] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.901254] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:268:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Yp, class _Deleter, class _Alloc, class> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp*, _Deleter, _Alloc)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.901317] (arm_description) StderrLine: {'line': b'  268 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d, _Alloc __a)\n'}
+[6.901379] (arm_description) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.901432] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:268:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.901485] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[6.901539] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.901592] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.901646] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:248:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Deleter> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::nullptr_t, _Deleter)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.901700] (arm_description) StderrLine: {'line': b'  248 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d)\n'}
+[6.901753] (arm_description) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.901806] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:248:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.901861] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[6.901923] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.901998] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.902060] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:231:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Yp, class _Deleter, class> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp*, _Deleter)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.902125] (arm_description) StderrLine: {'line': b'  231 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d)\n'}
+[6.902195] (arm_description) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.902264] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:231:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.902318] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[6.902372] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.902435] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.902489] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:214:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Yp, class> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp*)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.902543] (arm_description) StderrLine: {'line': b'  214 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p) : __shared_ptr<_Tp>(__p) { }\n'}
+[6.902597] (arm_description) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.902658] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:214:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.902712] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.902766] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.902821] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.902878] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:204:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(const std::shared_ptr<_Tp>&)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.902932] (arm_description) StderrLine: {'line': b'  204 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr&) noexcept = default; ///< Copy constructor\n'}
+[6.903007] (arm_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.903064] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:204:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.903118] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.903173] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.903227] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.903279] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:202:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K()-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.903333] (arm_description) StderrLine: {'line': b'  202 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K() noexcept : __shared_ptr<_Tp>() { }\n'}
+[6.903406] (arm_description) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.903469] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:202:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.903524] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[6.903578] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.903631] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.903684] (arm_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:53\x1b[m\x1b[K:\n'}
+[6.903739] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> \x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::shared_ptr<_Tp>)-> std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.903794] (arm_description) StderrLine: {'line': b'  395 |     class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K;\n'}
+[6.903856] (arm_description) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.903911] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.903988] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.904054] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.904109] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.904165] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:545:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Del> std::\x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Tp, _Dp>)-> shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.904220] (arm_description) StderrLine: {'line': b'  545 |     \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Tp, _Del>) ->  shared_ptr<_Tp>;\n'}
+[6.904281] (arm_description) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.904336] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:545:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.904390] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.904444] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.904496] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.904549] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:543:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::\x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(weak_ptr<_Tp>)-> shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.904603] (arm_description) StderrLine: {'line': b'  543 |     \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(weak_ptr<_Tp>) ->  shared_ptr<_Tp>;\n'}
+[6.904656] (arm_description) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.904708] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:543:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.904763] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:146:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::weak_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KGoToPoseServiceNode*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.904817] (arm_description) StderrLine: {'line': b'  146 |                 std::shared_ptr(this\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "arm");\n'}
+[6.904873] (arm_description) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.928401] (-) TimerEvent: {}
+[7.028695] (-) TimerEvent: {}
+[7.129010] (-) TimerEvent: {}
+[7.229314] (-) TimerEvent: {}
+[7.329628] (-) TimerEvent: {}
+[7.429988] (-) TimerEvent: {}
+[7.530302] (-) TimerEvent: {}
+[7.630579] (-) TimerEvent: {}
+[7.730844] (-) TimerEvent: {}
+[7.831138] (-) TimerEvent: {}
+[7.931427] (-) TimerEvent: {}
+[8.031697] (-) TimerEvent: {}
+[8.131959] (-) TimerEvent: {}
+[8.232312] (-) TimerEvent: {}
+[8.332745] (-) TimerEvent: {}
+[8.433152] (-) TimerEvent: {}
+[8.533682] (-) TimerEvent: {}
+[8.633989] (-) TimerEvent: {}
+[8.734328] (-) TimerEvent: {}
+[8.834645] (-) TimerEvent: {}
+[8.934961] (-) TimerEvent: {}
+[9.035352] (-) TimerEvent: {}
+[9.135789] (-) TimerEvent: {}
+[9.236279] (-) TimerEvent: {}
+[9.336585] (-) TimerEvent: {}
+[9.436894] (-) TimerEvent: {}
+[9.500358] (arm_description) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_arm_ik_node.dir/build.make:79: CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o] Error 1\n'}
+[9.500571] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[9.500732] (arm_description) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[9.500815] (arm_description) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:629: CMakeFiles/robot_arm_ik_node.dir/all] Error 2\n'}
+[9.500989] (arm_description) StderrLine: {'line': b'gmake: *** [Makefile:149: all] Error 2\n'}
+[9.504161] (arm_description) CommandEnded: {'returncode': 2}
+[9.522364] (arm_description) JobEnded: {'identifier': 'arm_description', 'rc': 2}
+[9.532985] (-) EventReactorShutdown: {}

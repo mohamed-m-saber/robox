@@ -1,0 +1,97 @@
+# default_velocity_scaling_factor: 0.1
+# default_acceleration_scaling_factor: 0.1
+
+
+# joint_limits:
+
+#   rotating_base_joint:
+#     has_velocity_limits: true
+#     max_velocity: 3.14
+#     has_acceleration_limits: true
+#     max_acceleration: 5.0
+
+#   shoulder_joint:
+#     has_velocity_limits: true
+#     max_velocity: 3.14
+#     has_acceleration_limits: true
+#     max_acceleration: 5.0
+
+#   elbow_joint:
+#     has_velocity_limits: true
+#     max_velocity: 3.14
+#     has_acceleration_limits: true
+#     max_acceleration: 5.0
+#   forearm_joint:
+#     has_velocity_limits: true
+#     max_velocity: 3.14
+#     has_acceleration_limits: true
+#     max_acceleration: 5.0
+
+#   wrist_joint:
+#     has_velocity_limits: true
+#     max_velocity: 3.14
+#     has_acceleration_limits: true
+#     max_acceleration: 5.0
+#   gripper_left_joint:
+#     has_velocity_limits: true
+#     max_velocity: 0.5
+#     has_acceleration_limits: true
+#     max_acceleration: 1.0
+ 
+#   gripper_right_joint:
+#     has_velocity_limits: true
+#     max_velocity: 0.5
+#     has_acceleration_limits: true
+#     max_acceleration: 1.0
+   
+  
+default_velocity_scaling_factor: 0.5  # Increased from 0.1
+default_acceleration_scaling_factor: 0.5  # Increased from 0.1
+
+joint_limits:
+  rotating_base_joint:
+    has_position_limits: true
+    min_position: -1.57  # -90°
+    max_position: 1.57   # 90°
+    has_velocity_limits: true
+    max_velocity: 3.14
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+
+  shoulder_joint:
+    has_position_limits: true
+    min_position: -1.308  # -75°
+    max_position: 1.308   # 75°
+    has_velocity_limits: true
+    max_velocity: 3.14
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+
+  elbow_joint:
+    has_position_limits: true
+    min_position: -1.57  # -90°
+    max_position: 1.57   # 90°
+    has_velocity_limits: true
+    max_velocity: 3.14
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+
+  forearm_joint:
+    has_position_limits: true
+    min_position: -1.57  # -90°
+    max_position: 1.57   # 90°
+    has_velocity_limits: true
+    max_velocity: 3.14
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+
+  wrist_joint:
+    has_position_limits: true
+    min_position: -1.57  # -90°
+    max_position: 1.57   # 90°
+    has_velocity_limits: true
+    max_velocity: 3.14
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+
+  # Gripper joints remain unchanged

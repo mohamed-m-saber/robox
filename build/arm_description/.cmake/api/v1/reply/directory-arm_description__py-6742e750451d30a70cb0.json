@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "arm_description__py",
+		"source" : "/home/saber/robox_ws/build/arm_description/arm_description__py"
+	}
+}
