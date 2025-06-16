@@ -1,0 +1,22 @@
+[0.811s] Invoking command in '/home/saber/robox_ws/build/moveit_configs_utils': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/saber/robox_ws/build/moveit_configs_utils/build --no-deps symlink_data --force
+[1.103s] running develop
+[1.295s] running egg_info
+[1.320s] writing moveit_configs_utils.egg-info/PKG-INFO
+[1.323s] writing dependency_links to moveit_configs_utils.egg-info/dependency_links.txt
+[1.323s] writing requirements to moveit_configs_utils.egg-info/requires.txt
+[1.323s] writing top-level names to moveit_configs_utils.egg-info/top_level.txt
+[1.361s] reading manifest file 'moveit_configs_utils.egg-info/SOURCES.txt'
+[1.362s] writing manifest file 'moveit_configs_utils.egg-info/SOURCES.txt'
+[1.381s] running build_ext
+[1.382s] Creating /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit-configs-utils.egg-link (link to .)
+[1.382s] 
+[1.382s] Installed /home/saber/robox_ws/build/moveit_configs_utils
+[1.382s] running symlink_data
+[1.382s] symbolically linking /home/saber/robox_ws/build/moveit_configs_utils/resource/moveit_configs_utils -> /home/saber/robox_ws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[1.382s] symbolically linking /home/saber/robox_ws/build/moveit_configs_utils/package.xml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils
+[1.382s] symbolically linking /home/saber/robox_ws/build/moveit_configs_utils/default_configs/ompl_defaults.yaml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.383s] symbolically linking /home/saber/robox_ws/build/moveit_configs_utils/default_configs/ompl_planning.yaml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.383s] symbolically linking /home/saber/robox_ws/build/moveit_configs_utils/default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.383s] symbolically linking /home/saber/robox_ws/build/moveit_configs_utils/default_configs/stomp_planning.yaml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.383s] symbolically linking /home/saber/robox_ws/build/moveit_configs_utils/default_configs/chomp_planning.yaml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.418s] Invoked command in '/home/saber/robox_ws/build/moveit_configs_utils' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/saber/robox_ws/build/moveit_configs_utils/build --no-deps symlink_data --force

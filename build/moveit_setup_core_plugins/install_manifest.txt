@@ -1,0 +1,3 @@
+/home/saber/robox_ws/install/moveit_setup_core_plugins/lib/libmoveit_setup_core_plugins.so
+/home/saber/robox_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/cmake/moveit_setup_core_pluginsTargetsExport.cmake
+/home/saber/robox_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/cmake/moveit_setup_core_pluginsTargetsExport-release.cmake

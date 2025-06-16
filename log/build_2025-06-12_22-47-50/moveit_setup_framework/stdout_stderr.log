@@ -1,0 +1,107 @@
+-- Found moveit_common: 2.12.3 (/home/saber/robox_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found moveit_core: 2.12.3 (/home/saber/robox_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found moveit_ros_planning: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_visualization: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread date_time system filesystem 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/saber/robox_ws/build/moveit_setup_framework
+[100%] Built target moveit_setup_framework
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/config.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/config.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/data/package_settings_config.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/data/package_settings_config.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/data/srdf_config.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/data/srdf_config.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/data/urdf_config.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/data/urdf_config.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/data_warehouse.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/data_warehouse.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/generated_file.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/generated_file.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/generated_time.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/generated_time.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/qt/double_list_widget.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/qt/double_list_widget.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/qt/helper_widgets.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/qt/helper_widgets.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/qt/rviz_panel.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/qt/rviz_panel.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/qt/setup_step_widget.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/qt/setup_step_widget.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/qt/xml_syntax_highlighter.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/qt/xml_syntax_highlighter.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/setup_step.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/setup_step.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/templates.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/templates.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/testing_utils.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/testing_utils.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/utilities.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/include/moveit_setup_framework/moveit_setup_framework/utilities.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/moveit_setup_framework_plugins.xml
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/templates/CMakeLists.txt
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/templates/config/pilz_cartesian_limits.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/templates/package.xml.template
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/environment/library_path.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/environment/library_path.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework//moveit_setup_framework_plugins.xml
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/ament_index/resource_index/package_run_dependencies/moveit_setup_framework
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/ament_index/resource_index/parent_prefix_path/moveit_setup_framework
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/environment/path.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/environment/path.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/local_setup.bash
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/local_setup.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/local_setup.zsh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/local_setup.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/package.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/ament_index/resource_index/packages/moveit_setup_framework
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_framework
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/cmake/moveit_setup_frameworkConfig.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/cmake/moveit_setup_frameworkConfig-version.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/package.xml
+-- Up-to-date: /home/saber/robox_ws/install/moveit_setup_framework/lib/libmoveit_setup_framework.so
+-- Up-to-date: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/cmake/moveit_setup_frameworkTargetsExport.cmake
+-- Up-to-date: /home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/cmake/moveit_setup_frameworkTargetsExport-release.cmake

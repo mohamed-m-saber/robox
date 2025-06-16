@@ -1,0 +1,137 @@
+-- Found moveit_common: 2.12.3 (/home/saber/robox_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found moveit_setup_framework: 2.12.3 (/home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread date_time system filesystem 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (1.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/saber/robox_ws/build/moveit_setup_srdf_plugins
+[  8%] Built target gtest
+[  8%] Built target gtest_main
+[ 10%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/virtual_joints.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/group_edit_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/kinematic_chain_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints_widget.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_default_collisions_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_end_effectors_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/virtual_joints_widget.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_kinematic_chain_widget.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_group_edit_widget.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_passive_joints_widget.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_planning_groups_widget.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_robot_poses_widget.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_rotated_header_view.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_virtual_joints_widget.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libmoveit_setup_srdf_plugins.so[0m
+[ 95%] Built target moveit_setup_srdf_plugins
+[ 97%] [32mBuilding CXX object CMakeFiles/test_srdf.dir/test/test_srdf.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_srdf[0m
+[100%] Built target test_srdf
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/moveit_setup_framework_plugins.xml
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/collision_linear_model.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/collision_linear_model.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/collision_matrix_model.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/collision_matrix_model.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/compute_default_collisions.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/compute_default_collisions.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/default_collisions.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/default_collisions.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/default_collisions_widget.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/default_collisions_widget.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/end_effectors.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/end_effectors.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/end_effectors_widget.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/end_effectors_widget.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/group_edit_widget.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/group_edit_widget.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/group_meta_config.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/group_meta_config.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/kinematic_chain_widget.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/kinematic_chain_widget.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/passive_joints.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/passive_joints.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/passive_joints_widget.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/passive_joints_widget.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/planning_groups.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/planning_groups.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/planning_groups_widget.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/planning_groups_widget.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/robot_poses.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/robot_poses.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/robot_poses_widget.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/robot_poses_widget.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/rotated_header_view.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/rotated_header_view.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/srdf_step.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/srdf_step.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/virtual_joints.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/virtual_joints.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/virtual_joints_widget.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/virtual_joints_widget.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.sh
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins//moveit_setup_framework_plugins.xml
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_setup_srdf_plugins
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_setup_srdf_plugins
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.sh
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.sh
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.bash
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.sh
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.zsh
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/packages/moveit_setup_srdf_plugins
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_srdf_plugins
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig.cmake
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig-version.cmake
+-- Symlinking: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.xml
+-- Installing: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so
+-- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so" to ""
+-- Installing: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsTargetsExport.cmake
+-- Installing: /home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsTargetsExport-release.cmake

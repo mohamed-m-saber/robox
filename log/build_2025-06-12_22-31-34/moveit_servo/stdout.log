@@ -1,0 +1,121 @@
+-- Found moveit_common: 2.12.3 (/home/saber/robox_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found control_msgs: 5.4.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+-- Found moveit_core: 2.12.3 (/home/saber/robox_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found moveit_ros_planning: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_planning_interface: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Found realtime_tools: 3.5.1 (/opt/ros/jazzy/share/realtime_tools/cmake)
+-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found ros_testing: 0.6.0 (/opt/ros/jazzy/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 3.4.4 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (1.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/saber/robox_ws/build/moveit_servo
+[  6%] Built target moveit_servo_lib_parameters
+[ 13%] Built target gtest_main
+[ 20%] Built target gtest
+[ 27%] Built target servo_node
+[ 31%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[ 34%] [32m[1mLinking CXX executable moveit_servo_ros_integration_test[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/utils/command.cpp.o[0m
+[ 41%] Built target servo_keyboard_input
+[ 44%] Built target moveit_servo_ros_integration_test
+[ 48%] [32m[1mLinking CXX shared library libmoveit_servo_lib_cpp.so[0m
+[ 58%] Built target moveit_servo_lib_cpp
+[ 79%] [32mBuilding CXX object CMakeFiles/demo_twist.dir/demos/cpp_interface/demo_twist.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/moveit_servo_cpp_integration_test.dir/tests/test_integration.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/demo_pose.dir/demos/cpp_interface/demo_pose.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/demo_joint_jog.dir/demos/cpp_interface/demo_joint_jog.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_ros.dir/src/servo_node.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/moveit_servo_utils_test.dir/tests/test_utils.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable moveit_servo_utils_test[0m
+[ 82%] Built target moveit_servo_utils_test
+[ 86%] [32m[1mLinking CXX executable moveit_servo_cpp_integration_test[0m
+[ 89%] [32m[1mLinking CXX executable demo_joint_jog[0m
+[ 93%] [32m[1mLinking CXX executable demo_twist[0m
+[ 93%] Built target moveit_servo_cpp_integration_test
+[ 93%] Built target demo_joint_jog
+[ 93%] Built target demo_twist
+[ 96%] [32m[1mLinking CXX executable demo_pose[0m
+[ 96%] Built target demo_pose
+[100%] [32m[1mLinking CXX shared library libmoveit_servo_lib_ros.so[0m
+[100%] Built target moveit_servo_lib_ros
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo_lib_parameters.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/lib/moveit_servo/servo_node
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/lib/moveit_servo/demo_joint_jog
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/lib/moveit_servo/demo_twist
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/lib/moveit_servo/demo_pose
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_servo/lib/moveit_servo/servo_node
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/lib/moveit_servo/servo_keyboard_input
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/collision_monitor.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/collision_monitor.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/servo.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/servo.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/servo_node.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/servo_node.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/utils/command.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/utils/command.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/utils/common.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/utils/common.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/utils/datatypes.h
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/include/moveit_servo/moveit_servo/utils/datatypes.hpp
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/launch/demo_joint_jog.launch.py
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/launch/demo_pose.launch.py
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/launch/demo_ros_api.launch.py
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/launch/demo_twist.launch.py
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/config/demo_rviz_config.rviz
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/config/demo_rviz_config_ros.rviz
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/config/panda_simulated_config.yaml
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/config/servo_parameters.yaml
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/config/test_config_panda.yaml
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/environment/library_path.sh
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/environment/library_path.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/ament_index/resource_index/package_run_dependencies/moveit_servo
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/ament_index/resource_index/parent_prefix_path/moveit_servo
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.sh
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/environment/path.sh
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/environment/path.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/local_setup.bash
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/local_setup.sh
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/local_setup.zsh
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/local_setup.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/package.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/ament_index/resource_index/packages/moveit_servo
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/ament_index/resource_index/rclcpp_components/moveit_servo
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig.cmake
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig-version.cmake
+-- Symlinking: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/package.xml
+-- Installing: /home/saber/robox_ws/install/moveit_servo/lib/libmoveit_servo_lib_cpp.so.2.12.3
+-- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_servo/lib/libmoveit_servo_lib_cpp.so.2.12.3" to ""
+-- Installing: /home/saber/robox_ws/install/moveit_servo/lib/libmoveit_servo_lib_cpp.so
+-- Installing: /home/saber/robox_ws/install/moveit_servo/lib/libmoveit_servo_lib_ros.so.2.12.3
+-- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_servo/lib/libmoveit_servo_lib_ros.so.2.12.3" to ""
+-- Installing: /home/saber/robox_ws/install/moveit_servo/lib/libmoveit_servo_lib_ros.so
+-- Installing: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/cmake/moveit_servoTargetsExport.cmake
+-- Installing: /home/saber/robox_ws/install/moveit_servo/share/moveit_servo/cmake/moveit_servoTargetsExport-release.cmake

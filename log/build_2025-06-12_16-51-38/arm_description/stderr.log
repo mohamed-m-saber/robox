@@ -1,0 +1,4 @@
+[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:[m[K In member function ‘[01m[Kvoid GoToPoseServiceNode::[01;32m[Kjoint_state_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:1064:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1064 |     void joint_state_callback([01;35m[Kconst sensor_msgs::msg::JointState::SharedPtr msg[m[K) {
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

@@ -1,0 +1,64 @@
+arm:
+  kinematics_solver: kdl_kinematics_plugin/KDLKinematicsPlugin
+  kinematics_solver_search_resolution: 0.005
+  kinematics_solver_timeout: 0.05
+  kinematics_solver_attempts: 3
+  
+# arm_with_gripper:
+#   kinematics_solver: trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin
+#   kinematics_solver_search_resolution: 0.005
+#   kinematics_solver_timeout: 10.0
+#   kinematics_solver_attempts: 50
+#   solve_type: Distance
+
+# gripper:
+#   kinematics_solver: kdl_kinematics_plugin/KDLKinematicsPlugin
+#   kinematics_solver_search_resolution: 0.005
+#   kinematics_solver_timeout: 0.05
+
+
+# arm:
+#   kinematics_solver: trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin
+#   kinematics_solver_timeout: 0.05
+#   kinematics_solver_attempts: 3
+#   epsilon: 0.00001
+#   solve_type: "Speed"
+
+
+# arm:
+#   kinematics_solver: pick_ik/PickIkPlugin
+#   kinematics_solver_timeout: 0.05
+#   kinematics_solver_attempts: 3
+#   mode: global
+#   stop_optimization_on_valid_solution: true
+#   position_scale: 1.0
+#   rotation_scale: 0.5
+#   position_threshold: 0.001
+#   orientation_threshold: 0.01
+#   cost_threshold: 0.001
+#   minimal_displacement_weight: 0.0
+#   gd_step_size: 0.0001
+#   joints:
+#     - rotating_base_joint
+#     - shoulder_joint
+#     - elbow_joint
+#     - forearm_joint
+#     - wrist_joint
+
+# arm:
+#   kinematics_solver: kdl_kinematics_plugin/KDLKinematicsPlugin
+#   kinematics_solver_search_resolution: 0.005
+#   kinematics_solver_timeout: 0.05
+#   kinematics_solver_attempts: 3
+
+# gripper:
+#   kinematics_solver: kdl_kinematics_plugin/KDLKinematicsPlugin
+#   kinematics_solver_search_resolution: 0.005
+#   kinematics_solver_timeout: 0.05
+#   kinematics_solver_attempts: 3
+
+# arm_with_gripper:
+#   kinematics_solver: kdl_kinematics_plugin/KDLKinematicsPlugin
+#   kinematics_solver_search_resolution: 0.005
+#   kinematics_solver_timeout: 0.05
+#   kinematics_solver_attempts: 3

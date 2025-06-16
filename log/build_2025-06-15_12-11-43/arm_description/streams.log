@@ -1,0 +1,36 @@
+[0.031s] Invoking command in '/home/saber/robox_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/ws_moveit/install/moveit_configs_utils:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/arm_description -- -j16 -l16
+[0.280s] Invoked command in '/home/saber/robox_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/ws_moveit/install/moveit_configs_utils:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/arm_description -- -j16 -l16
+[0.299s] Invoking command in '/home/saber/robox_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/ws_moveit/install/moveit_configs_utils:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saber/robox_ws/build/arm_description
+[0.315s] -- Install configuration: "Release"
+[0.315s] -- Execute custom install script
+[0.316s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/meshes/base_link.STL
+[0.316s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/meshes/elbow_link.STL
+[0.316s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/meshes/forearm_link.STL
+[0.316s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/meshes/gripper_left_link.STL
+[0.316s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/meshes/gripper_right_link.STL
+[0.316s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/meshes/rotating_base_link.STL
+[0.316s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/meshes/shoulder_link.STL
+[0.316s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/meshes/wrist_link.STL
+[0.317s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/urdf/arm.urdf
+[0.317s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/urdf/arm_description.csv
+[0.317s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/urdf/arm_simplified.urdf
+[0.317s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/launch/display.launch.py
+[0.317s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/launch/gazebo.launch.py
+[0.317s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/launch/moveit_ik_launch.py
+[0.317s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/rviz/robot.rviz
+[0.317s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+[0.318s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+[0.318s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+[0.318s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+[0.318s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/environment/path.sh
+[0.318s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/environment/path.dsv
+[0.318s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/local_setup.bash
+[0.318s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/local_setup.sh
+[0.318s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/local_setup.zsh
+[0.319s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/local_setup.dsv
+[0.319s] -- Symlinking: /home/saber/robox_ws/install/arm_description/share/arm_description/package.dsv
+[0.338s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/ament_index/resource_index/packages/arm_description
+[0.338s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+[0.338s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+[0.338s] -- Up-to-date symlink: /home/saber/robox_ws/install/arm_description/share/arm_description/package.xml
+[0.341s] Invoked command in '/home/saber/robox_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/ws_moveit/install/moveit_configs_utils:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saber/robox_ws/build/arm_description

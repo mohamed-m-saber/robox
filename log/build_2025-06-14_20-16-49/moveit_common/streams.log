@@ -1,0 +1,30 @@
+[0.050s] Invoking command in '/home/saber/robox_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saber/robox_ws/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/moveit_common
+[0.311s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.311s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.321s] -- Configuring done (0.3s)
+[0.329s] -- Generating done (0.0s)
+[0.332s] -- Build files have been written to: /home/saber/robox_ws/build/moveit_common
+[0.337s] Invoked command in '/home/saber/robox_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saber/robox_ws/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/moveit_common
+[0.339s] Invoking command in '/home/saber/robox_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/moveit_common -- -j16 -l16
+[0.415s] Invoked command in '/home/saber/robox_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/moveit_common -- -j16 -l16
+[0.433s] Invoking command in '/home/saber/robox_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saber/robox_ws/build/moveit_common
+[0.448s] -- Install configuration: "Release"
+[0.449s] -- Execute custom install script
+[0.450s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[0.451s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[0.452s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[0.452s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[0.452s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/environment/path.sh
+[0.452s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/environment/path.dsv
+[0.452s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/local_setup.bash
+[0.453s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/local_setup.sh
+[0.453s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/local_setup.zsh
+[0.453s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/local_setup.dsv
+[0.453s] -- Symlinking: /home/saber/robox_ws/install/moveit_common/share/moveit_common/package.dsv
+[0.468s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[0.469s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[0.469s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[0.469s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[0.469s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/package.xml
+[0.470s] -- Up-to-date symlink: /home/saber/robox_ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[0.473s] Invoked command in '/home/saber/robox_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saber/robox_ws/build/moveit_common

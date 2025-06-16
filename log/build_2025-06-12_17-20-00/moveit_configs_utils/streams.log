@@ -1,0 +1,53 @@
+[1.002s] Invoking command in '/home/saber/robox_ws/build/moveit_configs_utils': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/saber/robox_ws/build/moveit_configs_utils/build
+[1.265s] running develop
+[1.453s] Removing /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit-configs-utils.egg-link (link to .)
+[1.477s] Invoked command in '/home/saber/robox_ws/build/moveit_configs_utils' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/saber/robox_ws/build/moveit_configs_utils/build
+[1.478s] Invoking command in '/home/saber/robox_ws/src/moveit2/moveit_configs_utils': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/saber/robox_ws/build/moveit_configs_utils/build install --record /home/saber/robox_ws/build/moveit_configs_utils/install.log --single-version-externally-managed install_data --force
+[1.714s] running egg_info
+[1.733s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[1.733s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[1.733s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[1.733s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[1.773s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[1.782s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[1.782s] running build
+[1.782s] running build_py
+[1.782s] creating /home/saber/robox_ws/build/moveit_configs_utils/build
+[1.782s] creating /home/saber/robox_ws/build/moveit_configs_utils/build/lib
+[1.782s] creating /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[1.782s] copying moveit_configs_utils/__init__.py -> /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[1.783s] copying moveit_configs_utils/launches.py -> /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[1.783s] copying moveit_configs_utils/launch_utils.py -> /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[1.783s] copying moveit_configs_utils/moveit_configs_builder.py -> /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[1.784s] creating /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[1.784s] copying moveit_configs_utils/substitutions/xacro.py -> /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[1.784s] copying moveit_configs_utils/substitutions/__init__.py -> /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[1.785s] running install
+[1.790s] running install_lib
+[1.809s] creating /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils
+[1.809s] copying /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/__init__.py -> /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils
+[1.809s] creating /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/substitutions
+[1.809s] copying /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/xacro.py -> /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/substitutions
+[1.809s] copying /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/__init__.py -> /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/substitutions
+[1.809s] copying /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launches.py -> /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils
+[1.809s] copying /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launch_utils.py -> /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils
+[1.809s] copying /home/saber/robox_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/moveit_configs_builder.py -> /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils
+[1.810s] byte-compiling /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/__init__.py to __init__.cpython-312.pyc
+[1.810s] byte-compiling /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/substitutions/xacro.py to xacro.cpython-312.pyc
+[1.811s] byte-compiling /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/substitutions/__init__.py to __init__.cpython-312.pyc
+[1.811s] byte-compiling /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/launches.py to launches.cpython-312.pyc
+[1.812s] byte-compiling /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/launch_utils.py to launch_utils.cpython-312.pyc
+[1.813s] byte-compiling /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/moveit_configs_builder.py to moveit_configs_builder.cpython-312.pyc
+[1.815s] running install_data
+[1.815s] copying resource/moveit_configs_utils -> /home/saber/robox_ws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[1.816s] copying package.xml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils
+[1.816s] copying default_configs/ompl_defaults.yaml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.817s] copying default_configs/ompl_planning.yaml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.817s] copying default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.817s] copying default_configs/stomp_planning.yaml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.818s] copying default_configs/chomp_planning.yaml -> /home/saber/robox_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.818s] running install_egg_info
+[1.838s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils-2.12.3-py3.12.egg-info
+[1.839s] running install_scripts
+[1.962s] writing list of installed files to '/home/saber/robox_ws/build/moveit_configs_utils/install.log'
+[1.985s] Invoked command in '/home/saber/robox_ws/src/moveit2/moveit_configs_utils' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/saber/robox_ws/build/moveit_configs_utils/build install --record /home/saber/robox_ws/build/moveit_configs_utils/install.log --single-version-externally-managed install_data --force

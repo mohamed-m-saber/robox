@@ -10,14 +10,7 @@
   </material>
 
   <!-- World Link -->
-  <link name="world"/>
 
-  <!-- Base Joint -->
-  <joint name="world_to_base" type="fixed">
-    <parent link="world"/>
-    <child link="base_link"/>
-    <origin xyz="0 0 0" rpy="1.5 1.5 1.5"/>
-  </joint>
 
   <!-- Base Link -->
   <link name="base_link">

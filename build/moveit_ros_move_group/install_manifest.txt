@@ -1,0 +1,6 @@
+/home/saber/robox_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so.2.12.3
+/home/saber/robox_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so
+/home/saber/robox_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so.2.12.3
+/home/saber/robox_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so
+/home/saber/robox_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupTargetsExport.cmake
+/home/saber/robox_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupTargetsExport-release.cmake

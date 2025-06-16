@@ -1,0 +1,1 @@
+/home/saber/robox_ws/build/moveit_kinematics/srv_kinematics_plugin/include/moveit_kinematics/srv_kinematics_parameters.hpp

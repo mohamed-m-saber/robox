@@ -1,0 +1,1 @@
+/home/saber/robox_ws/build/moveit_simple_controller_manager/ament_cmake_environment_hooks/local_setup.sh

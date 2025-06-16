@@ -1,0 +1,265 @@
+[0.104s] Invoking command in '/home/saber/robox_ws/build/moveit_ros_visualization': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface/lib:/home/saber/robox_ws/install/moveit_ros_move_group/lib:/home/saber/robox_ws/install/moveit_ros_warehouse/lib:/home/saber/robox_ws/install/moveit_ros_robot_interaction/lib:/home/saber/robox_ws/install/moveit_kinematics/lib:/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_simple_controller_manager/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/saber/robox_ws/src/moveit2/moveit_ros/visualization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/moveit_ros_visualization
+[0.210s] -- The CXX compiler identification is GNU 13.3.0
+[0.264s] -- Detecting CXX compiler ABI info
+[0.432s] -- Detecting CXX compiler ABI info - done
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.461s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.465s] -- Found moveit_common: 2.12.3 (/home/saber/robox_ws/install/moveit_common/share/moveit_common/cmake)
+[0.493s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.754s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.861s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.063s] [0mmoveit_ros_visualization: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.069s] -- Found class_loader: 2.7.0 (/opt/ros/jazzy/share/class_loader/cmake)
+[1.117s] -- Found geometric_shapes: 2.3.2 (/opt/ros/jazzy/share/geometric_shapes/cmake)
+[1.150s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.253s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.277s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.324s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.499s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.506s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.555s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.800s] -- Found interactive_markers: 2.5.4 (/opt/ros/jazzy/share/interactive_markers/cmake)
+[1.820s] -- Found moveit_ros_planning: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[1.993s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.013s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.039s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.108s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.186s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.186s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.426s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.625s] -- Found moveit_ros_planning_interface: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[2.630s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[2.645s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[2.752s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[2.795s] -- Found moveit_ros_robot_interaction: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake)
+[2.811s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.817s] -- Found rviz2: 14.1.11 (/opt/ros/jazzy/share/rviz2/cmake)
+[2.825s] -- Found rviz_common: 14.1.11 (/opt/ros/jazzy/share/rviz_common/cmake)
+[2.867s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.870s] -- Found OGRE
+[2.870s] --   static     : OFF
+[2.870s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.870s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.870s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.870s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.870s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[2.870s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.870s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[2.870s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.871s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.871s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.871s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.914s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[2.930s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.136s] -- Found X11: /usr/include   
+[3.137s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.303s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.303s] -- Looking for gethostbyname
+[3.443s] -- Looking for gethostbyname - found
+[3.444s] -- Looking for connect
+[3.565s] -- Looking for connect - found
+[3.565s] -- Looking for remove
+[3.711s] -- Looking for remove - found
+[3.711s] -- Looking for shmat
+[3.874s] -- Looking for shmat - found
+[3.874s] -- Looking for IceConnectionNumber in ICE
+[4.039s] -- Looking for IceConnectionNumber in ICE - found
+[4.074s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[4.099s] -- Found rviz_default_plugins: 14.1.11 (/opt/ros/jazzy/share/rviz_default_plugins/cmake)
+[4.285s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread date_time system filesystem 
+[4.322s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[4.511s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[4.512s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[4.806s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[4.806s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[4.992s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[5.054s] -- Configuring done (4.9s)
+[5.599s] -- Generating done (0.4s)
+[5.663s] -- Build files have been written to: /home/saber/robox_ws/build/moveit_ros_visualization
+[5.736s] Invoked command in '/home/saber/robox_ws/build/moveit_ros_visualization' returned '0': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface/lib:/home/saber/robox_ws/install/moveit_ros_move_group/lib:/home/saber/robox_ws/install/moveit_ros_warehouse/lib:/home/saber/robox_ws/install/moveit_ros_robot_interaction/lib:/home/saber/robox_ws/install/moveit_kinematics/lib:/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_simple_controller_manager/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/saber/robox_ws/src/moveit2/moveit_ros/visualization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/moveit_ros_visualization
+[5.742s] Invoking command in '/home/saber/robox_ws/build/moveit_ros_visualization': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface/lib:/home/saber/robox_ws/install/moveit_ros_move_group/lib:/home/saber/robox_ws/install/moveit_ros_warehouse/lib:/home/saber/robox_ws/install/moveit_ros_robot_interaction/lib:/home/saber/robox_ws/install/moveit_kinematics/lib:/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_simple_controller_manager/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saber/robox_ws/build/moveit_ros_visualization -- -j16 -l16
+[5.885s] [  0%] Built target moveit_rviz_plugin_render_tools_autogen_timestamp_deps
+[5.933s] [  1%] [34m[1mAutomatic MOC for target moveit_rviz_plugin_render_tools[0m
+[6.952s] [  1%] Built target moveit_rviz_plugin_render_tools_autogen
+[7.005s] [  5%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/planning_scene_render.cpp.o[0m
+[7.005s] [  5%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/trajectory_visualization.cpp.o[0m
+[7.005s] [  6%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/planning_link_updater.cpp.o[0m
+[7.007s] [  8%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/moveit_rviz_plugin_render_tools_autogen/mocs_compilation.cpp.o[0m
+[7.009s] [ 10%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/render_shapes.cpp.o[0m
+[7.012s] [ 12%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/octomap_render.cpp.o[0m
+[7.015s] [ 13%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/robot_state_visualization.cpp.o[0m
+[7.016s] [ 15%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/mesh_shape.cpp.o[0m
+[7.022s] [ 17%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/trajectory_panel.cpp.o[0m
+[57.708s] [ 18%] [32m[1mLinking CXX shared library libmoveit_rviz_plugin_render_tools.so[0m
+[60.965s] [ 18%] Built target moveit_rviz_plugin_render_tools
+[60.995s] [ 18%] Built target moveit_planning_scene_rviz_plugin_core_autogen_timestamp_deps
+[60.995s] [ 18%] Built target moveit_robot_state_rviz_plugin_core_autogen_timestamp_deps
+[61.023s] [ 22%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin_core[0m
+[61.023s] [ 22%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin_core[0m
+[61.488s] [ 22%] Built target moveit_robot_state_rviz_plugin_core_autogen
+[61.525s] [ 25%] [32mBuilding CXX object robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/src/robot_state_display.cpp.o[0m
+[61.525s] [ 25%] [32mBuilding CXX object robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/moveit_robot_state_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[61.840s] [ 25%] Built target moveit_planning_scene_rviz_plugin_core_autogen
+[61.873s] [ 31%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/moveit_planning_scene_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[61.874s] [ 31%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/src/planning_scene_display.cpp.o[0m
+[61.874s] [ 31%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/src/background_processing.cpp.o[0m
+[213.172s] [ 32%] [32m[1mLinking CXX shared library libmoveit_planning_scene_rviz_plugin_core.so[0m
+[215.959s] [ 34%] [32m[1mLinking CXX shared library libmoveit_robot_state_rviz_plugin_core.so[0m
+[220.916s] [ 34%] Built target moveit_planning_scene_rviz_plugin_core
+[220.951s] [ 34%] Built target moveit_trajectory_rviz_plugin_core_autogen_timestamp_deps
+[220.951s] [ 34%] Built target moveit_planning_scene_rviz_plugin_autogen_timestamp_deps
+[220.983s] [ 37%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin_core[0m
+[220.983s] [ 37%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin[0m
+[221.088s] [ 37%] Built target moveit_planning_scene_rviz_plugin_autogen
+[221.144s] [ 41%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin.dir/src/plugin_init.cpp.o[0m
+[221.145s] [ 41%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin.dir/moveit_planning_scene_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[221.708s] [ 41%] Built target moveit_trajectory_rviz_plugin_core_autogen
+[221.768s] [ 44%] [32mBuilding CXX object trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core.dir/src/trajectory_display.cpp.o[0m
+[221.768s] [ 44%] [32mBuilding CXX object trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core.dir/moveit_trajectory_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[222.609s] [ 44%] Built target moveit_robot_state_rviz_plugin_core
+[222.640s] [ 44%] Built target moveit_robot_state_rviz_plugin_autogen_timestamp_deps
+[222.672s] [ 46%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin[0m
+[222.728s] [ 46%] Built target moveit_robot_state_rviz_plugin_autogen
+[222.768s] [ 50%] [32mBuilding CXX object robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/moveit_robot_state_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[222.768s] [ 50%] [32mBuilding CXX object robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/src/plugin_init.cpp.o[0m
+[231.913s] [ 51%] [32m[1mLinking CXX shared library libmoveit_trajectory_rviz_plugin_core.so[0m
+[232.169s] [ 53%] [32m[1mLinking CXX shared library libmoveit_robot_state_rviz_plugin.so[0m
+[233.311s] [ 53%] Built target moveit_trajectory_rviz_plugin_core
+[233.344s] [ 53%] Built target moveit_trajectory_rviz_plugin_autogen_timestamp_deps
+[233.375s] [ 55%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin[0m
+[233.422s] [ 55%] Built target moveit_trajectory_rviz_plugin_autogen
+[233.423s] [ 55%] Built target moveit_robot_state_rviz_plugin
+[233.465s] [ 58%] [32mBuilding CXX object trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/src/plugin_init.cpp.o[0m
+[233.466s] [ 58%] [32mBuilding CXX object trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[234.134s] [ 60%] [32m[1mLinking CXX shared library libmoveit_planning_scene_rviz_plugin.so[0m
+[234.715s] [ 60%] Built target moveit_planning_scene_rviz_plugin
+[234.742s] [ 60%] Built target moveit_motion_planning_rviz_plugin_core_autogen_timestamp_deps
+[234.768s] [ 62%] [34m[1mAutomatic MOC for target moveit_motion_planning_rviz_plugin_core[0m
+[235.764s] [ 62%] Built target moveit_motion_planning_rviz_plugin_core_autogen
+[235.780s] [ 67%] [34m[1mGenerating ui_motion_planning_rviz_plugin_frame.h[0m
+[235.780s] [ 67%] [34m[1mAutomatic RCC for src/icons/icons.qrc[0m
+[235.780s] [ 67%] [34m[1mGenerating ui_motion_planning_rviz_plugin_frame_joints.h[0m
+[235.851s] [ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_planning.cpp.o[0m
+[235.851s] [ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_display.cpp.o[0m
+[235.851s] [ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_joints_widget.cpp.o[0m
+[235.851s] [ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_context.cpp.o[0m
+[235.852s] [ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_states.cpp.o[0m
+[235.852s] [ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame.cpp.o[0m
+[235.852s] [ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/moveit_motion_planning_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[235.852s] [ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_objects.cpp.o[0m
+[235.852s] [ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_scenes.cpp.o[0m
+[235.852s] [ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_param_widget.cpp.o[0m
+[235.852s] [ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_manipulation.cpp.o[0m
+[235.852s] [ 87%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/moveit_motion_planning_rviz_plugin_core_autogen/2OST2OT5Q2/qrc_icons.cpp.o[0m
+[235.852s] [ 89%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/interactive_marker_display.cpp.o[0m
+[414.838s] [ 91%] [32m[1mLinking CXX shared library libmoveit_trajectory_rviz_plugin.so[0m
+[416.061s] [ 91%] Built target moveit_trajectory_rviz_plugin
+[469.805s] [ 93%] [32m[1mLinking CXX shared library libmoveit_motion_planning_rviz_plugin_core.so[0m
+[475.150s] [ 93%] Built target moveit_motion_planning_rviz_plugin_core
+[475.183s] [ 93%] Built target moveit_motion_planning_rviz_plugin_autogen_timestamp_deps
+[475.207s] [ 94%] [34m[1mAutomatic MOC for target moveit_motion_planning_rviz_plugin[0m
+[475.338s] [ 94%] Built target moveit_motion_planning_rviz_plugin_autogen
+[475.367s] [ 98%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin.dir/src/plugin_init.cpp.o[0m
+[475.367s] [ 98%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin.dir/moveit_motion_planning_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[486.955s] [100%] [32m[1mLinking CXX shared library libmoveit_motion_planning_rviz_plugin.so[0m
+[487.633s] [100%] Built target moveit_motion_planning_rviz_plugin
+[487.725s] Invoked command in '/home/saber/robox_ws/build/moveit_ros_visualization' returned '0': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface/lib:/home/saber/robox_ws/install/moveit_ros_move_group/lib:/home/saber/robox_ws/install/moveit_ros_warehouse/lib:/home/saber/robox_ws/install/moveit_ros_robot_interaction/lib:/home/saber/robox_ws/install/moveit_kinematics/lib:/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_simple_controller_manager/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saber/robox_ws/build/moveit_ros_visualization -- -j16 -l16
+[487.780s] Invoking command in '/home/saber/robox_ws/build/moveit_ros_visualization': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface/lib:/home/saber/robox_ws/install/moveit_ros_move_group/lib:/home/saber/robox_ws/install/moveit_ros_warehouse/lib:/home/saber/robox_ws/install/moveit_ros_robot_interaction/lib:/home/saber/robox_ws/install/moveit_kinematics/lib:/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_simple_controller_manager/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/saber/robox_ws/build/moveit_ros_visualization
+[487.795s] -- Install configuration: "Release"
+[487.798s] -- Execute custom install script
+[487.801s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/octomap_render.h
+[487.811s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/octomap_render.hpp
+[487.821s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/planning_link_updater.h
+[487.830s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/planning_link_updater.hpp
+[487.840s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/planning_scene_render.h
+[487.850s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/planning_scene_render.hpp
+[487.860s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/render_shapes.h
+[487.869s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/render_shapes.hpp
+[487.879s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/robot_state_visualization.h
+[487.888s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/robot_state_visualization.hpp
+[487.897s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/trajectory_panel.h
+[487.907s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/trajectory_panel.hpp
+[487.916s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/trajectory_visualization.h
+[487.926s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/rviz_plugin_render_tools/trajectory_visualization.hpp
+[487.935s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/ogre_helpers/mesh_shape.h
+[487.946s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/ogre_helpers/mesh_shape.hpp
+[487.959s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/robot_state_rviz_plugin/robot_state_display.h
+[487.969s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/robot_state_rviz_plugin/robot_state_display.hpp
+[487.979s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/planning_scene_rviz_plugin/background_processing.h
+[487.988s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/planning_scene_rviz_plugin/background_processing.hpp
+[487.998s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/planning_scene_rviz_plugin/planning_scene_display.h
+[488.008s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/planning_scene_rviz_plugin/planning_scene_display.hpp
+[488.018s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit_planning_scene_rviz_plugin_core_export.h
+[488.028s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/motion_planning_rviz_plugin/interactive_marker_display.h
+[488.037s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/motion_planning_rviz_plugin/interactive_marker_display.hpp
+[488.048s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/motion_planning_rviz_plugin/motion_planning_display.h
+[488.057s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/motion_planning_rviz_plugin/motion_planning_display.hpp
+[488.067s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/motion_planning_rviz_plugin/motion_planning_frame.h
+[488.077s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/motion_planning_rviz_plugin/motion_planning_frame.hpp
+[488.086s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/motion_planning_rviz_plugin/motion_planning_frame_joints_widget.h
+[488.096s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/motion_planning_rviz_plugin/motion_planning_frame_joints_widget.hpp
+[488.108s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/motion_planning_rviz_plugin/motion_planning_param_widget.h
+[488.115s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/motion_planning_rviz_plugin/motion_planning_param_widget.hpp
+[488.124s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/trajectory_rviz_plugin/trajectory_display.h
+[488.134s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/include/moveit_ros_visualization/moveit/trajectory_rviz_plugin/trajectory_display.hpp
+[488.144s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/MotionPlanning.png
+[488.154s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/PlanningScene.png
+[488.164s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/RobotState.png
+[488.173s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/Trajectory.png
+[488.183s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization//motion_planning_rviz_plugin_description.xml
+[488.192s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization//trajectory_rviz_plugin_description.xml
+[488.202s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization//planning_scene_rviz_plugin_description.xml
+[488.211s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization//robot_state_rviz_plugin_description.xml
+[488.224s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/library_path.sh
+[488.234s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/library_path.dsv
+[488.245s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/ament_index/resource_index/package_run_dependencies/moveit_ros_visualization
+[488.255s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/ament_index/resource_index/parent_prefix_path/moveit_ros_visualization
+[488.265s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/ament_prefix_path.sh
+[488.275s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/ament_prefix_path.dsv
+[488.285s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/path.sh
+[488.295s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/path.dsv
+[488.304s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.bash
+[488.314s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.sh
+[488.323s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.zsh
+[488.333s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.dsv
+[488.343s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/package.dsv
+[488.356s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/ament_index/resource_index/packages/moveit_ros_visualization
+[488.365s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/ament_index/resource_index/rviz_common__pluginlib__plugin/moveit_ros_visualization
+[488.375s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ConfigExtras.cmake
+[488.385s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ament_cmake_export_targets-extras.cmake
+[488.395s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ament_cmake_export_dependencies-extras.cmake
+[488.405s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/moveit_ros_visualizationConfig.cmake
+[488.414s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/moveit_ros_visualizationConfig-version.cmake
+[488.424s] -- Symlinking: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/package.xml
+[488.436s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so.2.12.3
+[488.436s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so.2.12.3" to ""
+[488.436s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so
+[488.436s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so.2.12.3
+[488.441s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so.2.12.3" to ""
+[488.441s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so
+[488.441s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so.2.12.3
+[488.441s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so.2.12.3" to ""
+[488.441s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so
+[488.441s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so.2.12.3
+[488.442s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so.2.12.3" to ""
+[488.442s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so
+[488.442s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so.2.12.3
+[488.443s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so.2.12.3" to ""
+[488.443s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so
+[488.443s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so.2.12.3
+[488.447s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so.2.12.3" to ""
+[488.448s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so
+[488.448s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so.2.12.3
+[488.450s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so.2.12.3" to ""
+[488.450s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so
+[488.450s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so.2.12.3
+[488.450s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so.2.12.3" to ""
+[488.451s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so
+[488.451s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so.2.12.3
+[488.451s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so.2.12.3" to ""
+[488.451s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so
+[488.452s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/moveit_ros_visualizationTargetsExport.cmake
+[488.452s] -- Installing: /home/saber/robox_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/moveit_ros_visualizationTargetsExport-release.cmake
+[488.462s] Invoked command in '/home/saber/robox_ws/build/moveit_ros_visualization' returned '0': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface/lib:/home/saber/robox_ws/install/moveit_ros_move_group/lib:/home/saber/robox_ws/install/moveit_ros_warehouse/lib:/home/saber/robox_ws/install/moveit_ros_robot_interaction/lib:/home/saber/robox_ws/install/moveit_kinematics/lib:/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_simple_controller_manager/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/saber/robox_ws/build/moveit_ros_visualization

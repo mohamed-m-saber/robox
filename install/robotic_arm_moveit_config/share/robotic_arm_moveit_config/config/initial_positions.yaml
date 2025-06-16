@@ -1,11 +1,1 @@
-
-initial_positions:
-  rotating_base_joint: 0
-  shoulder_joint: 0
-  elbow_joint: 0
-  forearm_joint: 0
-  wrist_joint: 0
-  gripper_right_joint: -0.2
- 
-
-
+/home/saber/robox_ws/src/robotic_arm_moveit_config/config/initial_positions.yaml

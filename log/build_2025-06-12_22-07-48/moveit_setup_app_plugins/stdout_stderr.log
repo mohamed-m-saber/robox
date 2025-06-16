@@ -1,0 +1,18 @@
+[  0%] Built target gtest_main_autogen_timestamp_deps
+[  0%] Built target moveit_setup_app_plugins_autogen_timestamp_deps
+[  0%] Built target gtest_autogen_timestamp_deps
+[  3%] Built target gtest_main_autogen
+[  7%] Built target gtest_autogen
+[ 11%] Built target moveit_setup_app_plugins_autogen
+[ 25%] Built target gtest_main
+[ 40%] Built target gtest
+[ 44%] [32mBuilding CXX object CMakeFiles/moveit_setup_app_plugins.dir/include/moveit_setup_app_plugins/moc_perception_widget.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/moveit_setup_app_plugins.dir/src/launches_widget.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/moveit_setup_app_plugins.dir/src/perception_widget.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/moveit_setup_app_plugins.dir/include/moveit_setup_app_plugins/moc_launches_widget.cpp.o[0m
+gmake[2]: *** [CMakeFiles/moveit_setup_app_plugins.dir/build.make:112: CMakeFiles/moveit_setup_app_plugins.dir/src/launches_widget.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_app_plugins.dir/build.make:196: CMakeFiles/moveit_setup_app_plugins.dir/include/moveit_setup_app_plugins/moc_perception_widget.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_app_plugins.dir/build.make:168: CMakeFiles/moveit_setup_app_plugins.dir/src/perception_widget.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_app_plugins.dir/build.make:182: CMakeFiles/moveit_setup_app_plugins.dir/include/moveit_setup_app_plugins/moc_launches_widget.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/moveit_setup_app_plugins.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

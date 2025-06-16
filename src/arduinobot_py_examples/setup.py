@@ -29,7 +29,10 @@ setup(
             'bridge = arduinobot_py_examples.bridge:main',
             'pose = arduinobot_py_examples.pose:main',
             'simple_moveit_interface = arduinobot_py_examples.simple_moveit_interface:main',
-            'ik_solver = arduinobot_py_examples.ik_solver:main'
+            'ik_solver = arduinobot_py_examples.ik_solver:main',
+            'reachability_map = arduinobot_py_examples.reach:main'
+
+
 
 
             

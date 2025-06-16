@@ -1,0 +1,3 @@
+/home/saber/robox_ws/install/moveit_setup_controllers/lib/libmoveit_setup_controllers.so
+/home/saber/robox_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/cmake/moveit_setup_controllersTargetsExport.cmake
+/home/saber/robox_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/cmake/moveit_setup_controllersTargetsExport-release.cmake

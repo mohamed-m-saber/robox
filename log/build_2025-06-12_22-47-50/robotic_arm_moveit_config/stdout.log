@@ -1,0 +1,73 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/saber/robox_ws/build/robotic_arm_moveit_config
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/robotic_arm_moveit_config
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/robotic_arm_moveit_config
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/ament_prefix_path.sh
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/path.sh
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/path.dsv
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.bash
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.sh
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.zsh
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.dsv
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/package.dsv
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/ament_index/resource_index/packages/robotic_arm_moveit_config
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/cmake/robotic_arm_moveit_configConfig.cmake
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/cmake/robotic_arm_moveit_configConfig-version.cmake
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/package.xml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/demo.launch.py
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/move_group.launch.py
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/moveit.launch.py
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/moveit_rviz.launch.py
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/rsp.launch.py
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/setup_assistant.launch.py
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/spawn_controllers.launch.py
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/static_virtual_joint_tfs.launch.py
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/test.launch.py
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/warehouse_db.launch.py
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/frames_2025-06-11_14.14.34.gv
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/frames_2025-06-11_14.14.34.pdf
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/initial_positions.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/joint_limits.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/kinematics.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit.rviz
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit_controllers.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit_cpp.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ompl.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/pilz_cartesian_limits.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_params.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_pipelines.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_scene_monitor.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/pose_goal.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.ros2_control.xacro
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.srdf
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.urdf.xacro
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ros2_control.xacro
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ros2_controllers.yaml
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/urdf/robotic_arm.urdf.xacro
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/frames_2025-06-11_14.14.34.gv
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/frames_2025-06-11_14.14.34.pdf
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/initial_positions.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/joint_limits.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/kinematics.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit.rviz
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit_controllers.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit_cpp.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ompl.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/pilz_cartesian_limits.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_params.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_pipelines.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_scene_monitor.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/pose_goal.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.ros2_control.xacro
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.srdf
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.urdf.xacro
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ros2_control.xacro
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ros2_controllers.yaml
+-- Up-to-date symlink: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/urdf/robotic_arm.urdf.xacro
+-- Symlinking: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/.setup_assistant

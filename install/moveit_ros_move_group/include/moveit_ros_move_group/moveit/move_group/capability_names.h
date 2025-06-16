@@ -1,0 +1,1 @@
+/home/saber/robox_ws/src/moveit2/moveit_ros/move_group/include/moveit/move_group/capability_names.h

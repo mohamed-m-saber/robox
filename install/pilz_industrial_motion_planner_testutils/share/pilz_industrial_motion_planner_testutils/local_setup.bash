@@ -1,0 +1,1 @@
+/home/saber/robox_ws/build/pilz_industrial_motion_planner_testutils/ament_cmake_environment_hooks/local_setup.bash

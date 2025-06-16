@@ -1,0 +1,5 @@
+[ 33%] Built target gtest
+[ 66%] Built target gtest_main
+[100%] Built target move_group_api_test
+-- Install configuration: "Release"
+-- Execute custom install script

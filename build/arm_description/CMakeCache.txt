@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -101,7 +101,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -564,26 +564,32 @@ lifecycle_msgs_DIR:PATH=/opt/ros/jazzy/share/lifecycle_msgs/cmake
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/jazzy/share/message_filters/cmake
 
+//The directory containing a CMake configuration file for moveit_configs_utils.
+moveit_configs_utils_DIR:PATH=moveit_configs_utils_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for moveit_core.
-moveit_core_DIR:PATH=/opt/ros/jazzy/share/moveit_core/cmake
+moveit_core_DIR:PATH=/home/saber/robox_ws/install/moveit_core/share/moveit_core/cmake
+
+//The directory containing a CMake configuration file for moveit_cpp.
+moveit_cpp_DIR:PATH=moveit_cpp_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for moveit_msgs.
 moveit_msgs_DIR:PATH=/opt/ros/jazzy/share/moveit_msgs/cmake
 
 //The directory containing a CMake configuration file for moveit_ros_move_group.
-moveit_ros_move_group_DIR:PATH=/opt/ros/jazzy/share/moveit_ros_move_group/cmake
+moveit_ros_move_group_DIR:PATH=/home/saber/robox_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake
 
 //The directory containing a CMake configuration file for moveit_ros_occupancy_map_monitor.
-moveit_ros_occupancy_map_monitor_DIR:PATH=/opt/ros/jazzy/share/moveit_ros_occupancy_map_monitor/cmake
+moveit_ros_occupancy_map_monitor_DIR:PATH=/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake
 
 //The directory containing a CMake configuration file for moveit_ros_planning.
-moveit_ros_planning_DIR:PATH=/opt/ros/jazzy/share/moveit_ros_planning/cmake
+moveit_ros_planning_DIR:PATH=/home/saber/robox_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake
 
 //The directory containing a CMake configuration file for moveit_ros_planning_interface.
-moveit_ros_planning_interface_DIR:PATH=/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake
+moveit_ros_planning_interface_DIR:PATH=/home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake
 
 //The directory containing a CMake configuration file for moveit_ros_warehouse.
-moveit_ros_warehouse_DIR:PATH=/opt/ros/jazzy/share/moveit_ros_warehouse/cmake
+moveit_ros_warehouse_DIR:PATH=/home/saber/robox_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake
 
 //The directory containing a CMake configuration file for object_recognition_msgs.
 object_recognition_msgs_DIR:PATH=/opt/ros/jazzy/share/object_recognition_msgs/cmake
@@ -959,7 +965,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1009,7 +1015,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boo
 //Details about finding Eigen3
 FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[1][v3.4.0()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][/usr/include/python3.12][/usr/lib/x86_64-linux-gnu/libpython3.12.so][/usr/lib/python3/dist-packages/numpy/core/include][cfound components: Interpreter Development NumPy Development.Module Development.Embed ][v3.12.3()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.12.3()]
 //Details about finding PythonExtra
 FIND_PACKAGE_MESSAGE_DETAILS_PythonExtra:INTERNAL=[/usr/bin/python3][/usr/bin/python3][v()]
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
@@ -1081,6 +1087,10 @@ _Python3_LIBRARY_RELEASE:INTERNAL=/usr/lib/x86_64-linux-gnu/libpython3.12.so
 _Python3_NUMPY_SIGNATURE:INTERNAL=d5ddeb909deee809c18fdfbea68bafbe
 //Path to a file.
 _Python3_NumPy_INCLUDE_DIR:INTERNAL=/usr/lib/python3/dist-packages/numpy/core/include
+//NumPy reason failure
+_Python3_NumPy_REASON_FAILURE:INTERNAL=
+//Index for unique symlink install targets
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=0
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: boost_atomic_DIR

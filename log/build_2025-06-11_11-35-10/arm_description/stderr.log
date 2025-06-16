@@ -1,7 +1,0 @@
-[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:[m[K In member function ‘[01m[Kvoid GoToPoseServiceNode::[01;32m[KGoToPose_callback[m[K(std::shared_ptr<arm_description::srv::GoToPose_Request_<std::allocator<void> > >, std::shared_ptr<arm_description::srv::GoToPose_Response_<std::allocator<void> > >)[m[K’:
-[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:91:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_pose[m[K’ was not declared in this scope
-   91 |         move_group_interface_->setPoseTarget([01;31m[Kbase_pose[m[K);
-      |                                              [01;31m[K^~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/robot_arm_ik_node.dir/build.make:79: CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:629: CMakeFiles/robot_arm_ik_node.dir/all] Error 2
-gmake: *** [Makefile:149: all] Error 2

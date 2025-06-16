@@ -1,0 +1,61 @@
+-- Found moveit_common: 2.12.3 (/home/saber/robox_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found tf2_eigen: 0.36.11 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+-- Found moveit_core: 2.12.3 (/home/saber/robox_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found moveit_ros_planning: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_warehouse: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem 
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/saber/robox_ws/build/moveit_ros_benchmarks
+[ 60%] Built target moveit_ros_benchmarks
+[100%] Built target moveit_run_benchmark
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/library_path.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/library_path.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/include/moveit_ros_benchmarks/moveit/benchmarks/BenchmarkExecutor.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/include/moveit_ros_benchmarks/moveit/benchmarks/BenchmarkExecutor.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/include/moveit_ros_benchmarks/moveit/benchmarks/BenchmarkOptions.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/include/moveit_ros_benchmarks/moveit/benchmarks/BenchmarkOptions.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_benchmark_statistics.py
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/ament_index/resource_index/package_run_dependencies/moveit_ros_benchmarks
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/ament_index/resource_index/parent_prefix_path/moveit_ros_benchmarks
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/path.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/path.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.bash
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.zsh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/package.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/ament_index/resource_index/packages/moveit_ros_benchmarks
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ConfigExtras.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksConfig.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksConfig-version.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/package.xml
+-- Up-to-date: /home/saber/robox_ws/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so.2.12.3
+-- Up-to-date: /home/saber/robox_ws/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so
+-- Up-to-date: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksTargetsExport.cmake
+-- Up-to-date: /home/saber/robox_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksTargetsExport-release.cmake

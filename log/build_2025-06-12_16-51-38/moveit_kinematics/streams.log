@@ -1,0 +1,183 @@
+[0.097s] Invoking command in '/home/saber/robox_ws/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/saber/robox_ws/src/moveit2/moveit_kinematics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/moveit_kinematics
+[0.184s] -- The CXX compiler identification is GNU 13.3.0
+[0.208s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.377s] -- Detecting CXX compile features
+[0.378s] -- Detecting CXX compile features - done
+[0.380s] -- Found moveit_common: 2.12.3 (/home/saber/robox_ws/install/moveit_common/share/moveit_common/cmake)
+[0.410s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.617s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.719s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.911s] [0mmoveit_kinematics: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.935s] -- Found class_loader: 2.7.0 (/opt/ros/jazzy/share/class_loader/cmake)
+[0.978s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[0.989s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.043s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.064s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.088s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.223s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.231s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.282s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.393s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.437s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[1.455s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.456s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.456s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.493s] -- Found moveit_core: 2.12.3 (/home/saber/robox_ws/install/moveit_core/share/moveit_core/cmake)
+[1.686s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.761s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[2.131s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.354s] -- Found moveit_ros_planning: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.359s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.405s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: program_options system 
+[2.521s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.528s] -- Found ros_testing: 0.6.0 (/opt/ros/jazzy/share/ros_testing/cmake)
+[2.533s] -- Found launch_testing_ament_cmake: 3.4.4 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[2.539s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.681s] -- Found PythonExtra: /usr/bin/python3  
+[2.687s] -- Found moveit_resources_fanuc_description: 3.1.0 (/opt/ros/jazzy/share/moveit_resources_fanuc_description/cmake)
+[2.722s] -- Found moveit_resources_fanuc_moveit_config: 3.1.0 (/opt/ros/jazzy/share/moveit_resources_fanuc_moveit_config/cmake)
+[2.728s] -- Found moveit_resources_panda_description: 3.1.0 (/opt/ros/jazzy/share/moveit_resources_panda_description/cmake)
+[2.733s] -- Found moveit_resources_panda_moveit_config: 3.1.0 (/opt/ros/jazzy/share/moveit_resources_panda_moveit_config/cmake)
+[2.739s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.823s] -- The C compiler identification is GNU 13.3.0
+[2.837s] -- Detecting C compiler ABI info
+[3.003s] -- Detecting C compiler ABI info - done
+[3.010s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.011s] -- Detecting C compile features
+[3.011s] -- Detecting C compile features - done
+[3.013s] -- Found Threads: TRUE  
+[3.034s] -- Configuring done (2.9s)
+[3.186s] -- Generating done (0.1s)
+[3.208s] -- Build files have been written to: /home/saber/robox_ws/build/moveit_kinematics
+[3.256s] Invoked command in '/home/saber/robox_ws/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/saber/robox_ws/src/moveit2/moveit_kinematics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/moveit_kinematics
+[3.257s] Invoking command in '/home/saber/robox_ws/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saber/robox_ws/build/moveit_kinematics -- -j16 -l16
+[3.368s] [  4%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/saber/robox_ws/build/moveit_kinematics/kdl_kinematics_plugin/include/moveit_kinematics/kdl_kinematics_parameters.hpp /home/saber/robox_ws/src/moveit2/moveit_kinematics/kdl_kinematics_plugin/src/kdl_kinematics_parameters.yaml `[0m
+[3.390s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.395s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.396s] [ 17%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/saber/robox_ws/build/moveit_kinematics/srv_kinematics_plugin/include/moveit_kinematics/srv_kinematics_parameters.hpp /home/saber/robox_ws/src/moveit2/moveit_kinematics/srv_kinematics_plugin/src/srv_kinematics_parameters.yaml `[0m
+[3.397s] [ 21%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/saber/robox_ws/build/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit_kinematics/cached_ik_kinematics_parameters.hpp /home/saber/robox_ws/src/moveit2/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_parameters.yaml `[0m
+[3.408s] [ 26%] [32mBuilding CXX object test/CMakeFiles/benchmark_ik.dir/benchmark_ik.cpp.o[0m
+[6.548s] [ 30%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.568s] [ 30%] Built target gtest_main
+[9.285s] [ 34%] [34m[1mCreating deprecated header file /home/saber/robox_ws/build/moveit_kinematics/srv_kinematics_plugin/include/srv_kinematics_parameters.hpp[0m
+[9.303s] [ 39%] [34m[1mCreating deprecated header file /home/saber/robox_ws/build/moveit_kinematics/cached_ik_kinematics_plugin/include/cached_ik_kinematics_parameters.hpp[0m
+[9.580s] [ 39%] Built target srv_kinematics_parameters
+[9.677s] [ 39%] Built target cached_ik_kinematics_parameters
+[9.732s] [ 43%] [32mBuilding CXX object srv_kinematics_plugin/CMakeFiles/moveit_srv_kinematics_plugin.dir/src/srv_kinematics_plugin.cpp.o[0m
+[10.786s] [ 47%] [34m[1mCreating deprecated header file /home/saber/robox_ws/build/moveit_kinematics/kdl_kinematics_plugin/include/kdl_kinematics_parameters.hpp[0m
+[11.879s] [ 47%] Built target kdl_kinematics_parameters
+[12.081s] [ 52%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/chainiksolver_vel_mimic_svd.cpp.o[0m
+[12.093s] [ 56%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o[0m
+[12.093s] [ 60%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_base.dir/src/ik_cache.cpp.o[0m
+[36.251s] [ 65%] [32m[1mLinking CXX shared library libmoveit_srv_kinematics_plugin.so[0m
+[37.133s] [ 65%] Built target moveit_srv_kinematics_plugin
+[39.614s] [ 69%] [32m[1mLinking CXX shared library libmoveit_kdl_kinematics_plugin.so[0m
+[39.808s] [ 69%] Built target moveit_kdl_kinematics_plugin
+[54.228s] [ 73%] [32m[1mLinking CXX executable benchmark_ik[0m
+[55.382s] [ 73%] Built target benchmark_ik
+[85.514s] [ 78%] [32m[1mLinking CXX static library libgtest.a[0m
+[85.881s] [ 78%] Built target gtest
+[143.650s] [ 82%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_base.so[0m
+[143.854s] [ 82%] Built target moveit_cached_ik_kinematics_base
+[143.887s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o[0m
+[161.449s] [ 91%] [32m[1mLinking CXX executable test_kinematics_plugin[0m
+[161.825s] [ 91%] Built target test_kinematics_plugin
+[161.855s] [ 95%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_plugin.dir/src/cached_ik_kinematics_plugin.cpp.o[0m
+[166.070s] In file included from [01m[K/opt/ros/jazzy/include/trac_ik/trac_ik_kinematics_plugin.hpp:34[m[K,
+[166.070s]                  from [01m[K/home/saber/robox_ws/src/moveit2/moveit_kinematics/cached_ik_kinematics_plugin/src/cached_ik_kinematics_plugin.cpp:51[m[K:
+[166.070s] [01m[K/home/saber/robox_ws/install/moveit_core/include/moveit_core/moveit/kinematics_base/kinematics_base.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[166.070s]    50 | h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[166.070s]       |                                                           [01;36m[K^[m[K
+[166.070s] 
+[166.070s] In file included from [01m[K/opt/ros/jazzy/include/trac_ik/trac_ik_kinematics_plugin.hpp:35[m[K:
+[166.070s] [01m[K/home/saber/robox_ws/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[166.070s]    51 | h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[166.070s]       |                                                           [01;36m[K^[m[K
+[166.070s] 
+[169.308s] [100%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_plugin.so[0m
+[169.788s] [100%] Built target moveit_cached_ik_kinematics_plugin
+[169.948s] Invoked command in '/home/saber/robox_ws/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saber/robox_ws/build/moveit_kinematics -- -j16 -l16
+[169.950s] Invoking command in '/home/saber/robox_ws/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/saber/robox_ws/build/moveit_kinematics
+[169.960s] -- Install configuration: "Release"
+[169.961s] -- Execute custom install script
+[169.961s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics//kdl_kinematics_plugin_description.xml
+[169.972s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics//srv_kinematics_plugin_description.xml
+[169.982s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics//cached_ik_kinematics_plugin_description.xml
+[169.992s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/cached_ik_kinematics_parameters.hpp
+[170.004s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_parameters.yaml
+[170.015s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
+[170.025s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.hpp
+[170.036s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
+[170.046s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.hpp
+[170.056s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
+[170.067s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.hpp
+[170.078s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
+[170.088s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.hpp
+[170.099s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.h
+[170.110s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.hpp
+[170.122s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/launch/measure_ik_call_cost.launch
+[170.133s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/lib/moveit_kinematics/auto_create_ikfast_moveit_plugin.sh
+[170.144s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/lib/moveit_kinematics/create_ikfast_moveit_plugin.py
+[170.155s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/lib/moveit_kinematics/round_collada_numbers.py
+[170.166s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt
+[170.177s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast.h
+[170.187s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast61_moveit_plugin_template.cpp
+[170.199s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast_kinematics_parameters.yaml
+[170.210s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/kdl_kinematics_parameters.hpp
+[170.221s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.h
+[170.232s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.hpp
+[170.242s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/joint_mimic.h
+[170.253s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/joint_mimic.hpp
+[170.263s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
+[170.273s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.hpp
+[170.284s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/srv_kinematics_parameters.hpp
+[170.295s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h
+[170.306s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/include/moveit_kinematics/moveit/srv_kinematics_plugin/srv_kinematics_plugin.hpp
+[170.319s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-singular-test.yaml
+[170.330s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-test.yaml
+[170.341s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-singular-test.yaml
+[170.350s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-test.yaml
+[170.361s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl-singular.test.py
+[170.371s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl.test.py
+[170.382s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl-singular.test.py
+[170.392s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl.test.py
+[170.404s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik
+[170.415s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin
+[170.425s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.sh
+[170.439s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.dsv
+[170.450s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit_kinematics
+[170.460s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit_kinematics
+[170.470s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.sh
+[170.481s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.dsv
+[170.491s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/environment/path.sh
+[170.503s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/environment/path.dsv
+[170.513s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.bash
+[170.524s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.sh
+[170.535s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.zsh
+[170.545s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.dsv
+[170.556s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/package.dsv
+[170.566s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/ament_index/resource_index/packages/moveit_kinematics
+[170.576s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_kinematics
+[170.586s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ConfigExtras.cmake
+[170.595s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+[170.605s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+[170.616s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig.cmake
+[170.626s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig-version.cmake
+[170.636s] -- Symlinking: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/package.xml
+[170.648s] -- Installing: /home/saber/robox_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.12.3
+[170.649s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.12.3" to ""
+[170.649s] -- Installing: /home/saber/robox_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so
+[170.649s] -- Installing: /home/saber/robox_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.12.3
+[170.649s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.12.3" to ""
+[170.650s] -- Installing: /home/saber/robox_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so
+[170.650s] -- Installing: /home/saber/robox_ws/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so
+[170.652s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so" to ""
+[170.652s] -- Installing: /home/saber/robox_ws/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.12.3
+[170.652s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.12.3" to ""
+[170.652s] -- Installing: /home/saber/robox_ws/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so
+[170.653s] -- Installing: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsTargetsExport.cmake
+[170.653s] -- Installing: /home/saber/robox_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsTargetsExport-release.cmake
+[170.655s] Invoked command in '/home/saber/robox_ws/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/arm_moveit:/home/saber/robox_ws/install/arm_description:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/saber/robox_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/saber/robox_ws/build/moveit_kinematics

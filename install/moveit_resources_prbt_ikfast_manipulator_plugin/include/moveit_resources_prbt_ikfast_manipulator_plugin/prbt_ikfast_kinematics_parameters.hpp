@@ -1,0 +1,1 @@
+/home/saber/robox_ws/build/moveit_resources_prbt_ikfast_manipulator_plugin/include/moveit_resources_prbt_ikfast_manipulator_plugin/prbt_ikfast_kinematics_parameters.hpp

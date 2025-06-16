@@ -1,0 +1,22 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/saber/robox_ws/build/moveit
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/environment/ament_prefix_path.sh
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/environment/path.sh
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/environment/path.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/local_setup.bash
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/local_setup.sh
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/local_setup.zsh
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/local_setup.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/package.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/ament_index/resource_index/packages/moveit
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/cmake/moveitConfig.cmake
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+-- Symlinking: /home/saber/robox_ws/install/moveit/share/moveit/package.xml

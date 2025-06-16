@@ -1,0 +1,52 @@
+[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:[m[K In constructor ‘[01m[KRobotArmIKNode::[01;32m[KRobotArmIKNode[m[K()[m[K’:
+[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:351:59:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kshared_from_this[m[K’ is ambiguous
+  351 |     moveit_cpp_ = std::make_shared<moveit_cpp::MoveItCpp>([01;31m[Kshared_from_this[m[K());
+      |                                                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:335[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:938:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() const [35m[K[with _Tp = RobotArmIKNode][m[K[m[K’
+  938 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:934:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() [35m[K[with _Tp = RobotArmIKNode][m[K[m[K’
+  934 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:938:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() const [35m[K[with _Tp = rclcpp::Node][m[K[m[K’
+  938 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:934:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() [35m[K[with _Tp = rclcpp::Node][m[K[m[K’
+  934 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:354:37:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const planning_scene_monitor::PlanningSceneMonitor, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst planning_scene_monitor::PlanningSceneMonitor[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  354 |     [01;31m[Kpsm->providePlanningSceneService()[m[K;        // no const object
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/saber/robox_ws/src/moveit2/moveit_ros/planning/moveit_cpp/include/moveit/moveit_cpp/moveit_cpp.hpp:44[m[K,
+                 from [01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:336[m[K:
+[01m[K/home/saber/robox_ws/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:348:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid planning_scene_monitor::PlanningSceneMonitor::[01;32m[KprovidePlanningSceneService[m[K(const std::string&)[m[K’
+  348 |   void [01;36m[KprovidePlanningSceneService[m[K(const std::string& service_name = DEFAULT_PLANNING_SCENE_SERVICE);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:355:27:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const planning_scene_monitor::PlanningSceneMonitor, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst planning_scene_monitor::PlanningSceneMonitor[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  355 |     [01;31m[Kpsm->startSceneMonitor()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/saber/robox_ws/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:330:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid planning_scene_monitor::PlanningSceneMonitor::[01;32m[KstartSceneMonitor[m[K(const std::string&)[m[K’
+  330 |   void [01;36m[KstartSceneMonitor[m[K(const std::string& scene_topic = DEFAULT_PLANNING_SCENE_TOPIC);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:356:35:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const planning_scene_monitor::PlanningSceneMonitor, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst planning_scene_monitor::PlanningSceneMonitor[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  356 |     [01;31m[Kpsm->startWorldGeometryMonitor()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/saber/robox_ws/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:361:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid planning_scene_monitor::PlanningSceneMonitor::[01;32m[KstartWorldGeometryMonitor[m[K(const std::string&, const std::string&, bool)[m[K’
+  361 |   void [01;36m[KstartWorldGeometryMonitor[m[K(const std::string& collision_objects_topic = DEFAULT_COLLISION_OBJECT_TOPIC,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:357:27:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const planning_scene_monitor::PlanningSceneMonitor, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst planning_scene_monitor::PlanningSceneMonitor[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  357 |     [01;31m[Kpsm->startStateMonitor()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/saber/robox_ws/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:295:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid planning_scene_monitor::PlanningSceneMonitor::[01;32m[KstartStateMonitor[m[K(const std::string&, const std::string&)[m[K’
+  295 |   void [01;36m[KstartStateMonitor[m[K(const std::string& joint_states_topic = DEFAULT_JOINT_STATES_TOPIC,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:[m[K In member function ‘[01m[Kvoid RobotArmIKNode::[01;32m[KplanToPose[m[K()[m[K’:
+[01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:381:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct planning_interface::MotionPlanResponse[m[K’ has no member named ‘[01m[Kvalue[m[K’
+  381 |       const auto& result = plan_solution.[01;31m[Kvalue[m[K();
+      |                                          [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_arm_ik_node.dir/build.make:79: CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:629: CMakeFiles/robot_arm_ik_node.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

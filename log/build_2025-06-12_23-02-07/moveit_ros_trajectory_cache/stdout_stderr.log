@@ -1,0 +1,88 @@
+-- Found moveit_common: 2.12.3 (/home/saber/robox_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found moveit_ros_planning_interface: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Found launch_testing_ament_cmake: 3.4.4 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found ros_testing: 0.6.0 (/opt/ros/jazzy/share/ros_testing/cmake)
+-- Found warehouse_ros_sqlite: 1.0.5 (/opt/ros/jazzy/share/warehouse_ros_sqlite/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (1.4s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/saber/robox_ws/build/moveit_ros_trajectory_cache
+[ 12%] Built target gtest
+[ 12%] Built target gtest_main
+[ 18%] Built target warehouse_fixture
+[ 28%] Built target move_group_fixture
+[ 31%] Built target moveit_ros_trajectory_cache_utils_lib
+[ 37%] Built target test_utils
+[ 50%] Built target test_constant_features_with_move_group
+[ 50%] Built target test_utils_with_move_group
+[ 59%] Built target moveit_ros_trajectory_cache_features_lib
+[ 65%] Built target test_motion_plan_request_features_with_move_group
+[ 75%] Built target test_get_cartesian_path_request_features_with_move_group
+[ 81%] Built target moveit_ros_trajectory_cache_cache_insert_policies_lib
+[ 90%] Built target test_best_seen_execution_time_policy_with_move_group
+[ 93%] Built target test_always_insert_never_prune_policy_with_move_group
+[100%] Built target moveit_ros_trajectory_cache_lib
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache/cache_insert_policies/always_insert_never_prune_policy.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache/cache_insert_policies/best_seen_execution_time_policy.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache/cache_insert_policies/cache_insert_policy_interface.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache/features/constant_features.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache/features/features_interface.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache/features/get_cartesian_path_request_features.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache/features/motion_plan_request_features.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache/trajectory_cache.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache/trajectory_cache.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache/utils/utils.hpp
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit_ros_trajectory_cache_utils_lib_export.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit_ros_trajectory_cache_features_lib_export.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit_ros_trajectory_cache_cache_insert_policies_lib_export.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit_ros_trajectory_cache_lib_export.h
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/library_path.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/library_path.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/ament_index/resource_index/package_run_dependencies/moveit_ros_trajectory_cache
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/ament_index/resource_index/parent_prefix_path/moveit_ros_trajectory_cache
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/path.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/path.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/local_setup.bash
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/local_setup.sh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/local_setup.zsh
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/local_setup.dsv
+-- Symlinking: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/package.dsv
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/ament_index/resource_index/packages/moveit_ros_trajectory_cache
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/moveit_ros_trajectory_cacheConfig.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/moveit_ros_trajectory_cacheConfig-version.cmake
+-- Up-to-date symlink: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/package.xml
+-- Up-to-date: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/lib/libmoveit_ros_trajectory_cache_utils_lib.so
+-- Up-to-date: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/lib/libmoveit_ros_trajectory_cache_features_lib.so
+-- Up-to-date: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/lib/libmoveit_ros_trajectory_cache_cache_insert_policies_lib.so
+-- Up-to-date: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/lib/libmoveit_ros_trajectory_cache_lib.so
+-- Up-to-date: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/moveit_ros_trajectory_cacheTargetsExport.cmake
+-- Up-to-date: /home/saber/robox_ws/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/moveit_ros_trajectory_cacheTargetsExport-release.cmake

@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/saber/robox_ws/build/robotic_arm_moveit_config/ament_cmake_environment_hooks/path.dsv

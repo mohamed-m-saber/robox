@@ -1,4 +1,1 @@
-geometry_msgs/Pose target_pose
----
-bool success
-string message
+/home/saber/robox_ws/src/arm_description/srv/GoToPose.srv

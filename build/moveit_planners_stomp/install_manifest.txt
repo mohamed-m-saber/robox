@@ -1,0 +1,3 @@
+/home/saber/robox_ws/install/moveit_planners_stomp/lib/libstomp_moveit_plugin.so
+/home/saber/robox_ws/install/moveit_planners_stomp/share/moveit_planners_stomp/cmake/moveit_planners_stompTargetsExport.cmake
+/home/saber/robox_ws/install/moveit_planners_stomp/share/moveit_planners_stomp/cmake/moveit_planners_stompTargetsExport-release.cmake

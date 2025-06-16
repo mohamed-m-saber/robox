@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.000526] (-) JobUnselected: {'identifier': 'arduinobot_py_examples'}
+[0.000700] (-) JobUnselected: {'identifier': 'arm_moveit'}
+[0.000793] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000857] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000871] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000882] (-) JobUnselected: {'identifier': 'moveit_config'}
+[0.000892] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000903] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000912] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000922] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000931] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000942] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000951] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000961] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.000970] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000980] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.000989] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000999] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.001009] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.001024] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.001035] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.001048] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.001060] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.001070] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.001079] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.001088] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.001098] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.001108] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001117] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.001126] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.001136] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.001145] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.001154] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.001163] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001173] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.001182] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.001192] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.001201] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.001210] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.001220] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.001229] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.001239] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001249] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001263] (arm_description) JobQueued: {'identifier': 'arm_description', 'dependencies': OrderedDict({'moveit_common': '/home/saber/robox_ws/install/moveit_common', 'moveit_configs_utils': '/home/saber/robox_ws/install/moveit_configs_utils', 'moveit_core': '/home/saber/robox_ws/install/moveit_core', 'moveit_ros_occupancy_map_monitor': '/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor', 'moveit_simple_controller_manager': '/home/saber/robox_ws/install/moveit_simple_controller_manager', 'moveit_ros_planning': '/home/saber/robox_ws/install/moveit_ros_planning', 'moveit_kinematics': '/home/saber/robox_ws/install/moveit_kinematics', 'moveit_ros_robot_interaction': '/home/saber/robox_ws/install/moveit_ros_robot_interaction', 'moveit_ros_warehouse': '/home/saber/robox_ws/install/moveit_ros_warehouse', 'moveit_ros_move_group': '/home/saber/robox_ws/install/moveit_ros_move_group', 'moveit_ros_planning_interface': '/home/saber/robox_ws/install/moveit_ros_planning_interface', 'moveit_ros_visualization': '/home/saber/robox_ws/install/moveit_ros_visualization'})}
+[0.001359] (arm_description) JobStarted: {'identifier': 'arm_description'}
+[0.046058] (arm_description) JobProgress: {'identifier': 'arm_description', 'progress': 'cmake'}
+[0.046664] (arm_description) JobProgress: {'identifier': 'arm_description', 'progress': 'build'}
+[0.047242] (arm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saber/robox_ws/build/arm_description', '--', '-j16', '-l16'], 'cwd': '/home/saber/robox_ws/build/arm_description', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2600-3-Dell_TIME10580351', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'saber', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saber/robox_ws/install/moveit_ros_visualization/lib:/home/saber/robox_ws/install/moveit_ros_planning_interface/lib:/home/saber/robox_ws/install/moveit_ros_move_group/lib:/home/saber/robox_ws/install/moveit_ros_warehouse/lib:/home/saber/robox_ws/install/moveit_ros_robot_interaction/lib:/home/saber/robox_ws/install/moveit_kinematics/lib:/home/saber/robox_ws/install/moveit_ros_planning/lib:/home/saber/robox_ws/install/moveit_simple_controller_manager/lib:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/saber/robox_ws/install/moveit_core/lib:/home/saber/robox_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/saber/robox_ws/install/pilz_industrial_motion_planner/lib:/home/saber/robox_ws/install/moveit_ros_control_interface/lib:/home/saber/robox_ws/install/moveit_setup_assistant/lib:/home/saber/robox_ws/install/moveit_setup_srdf_plugins/lib:/home/saber/robox_ws/install/moveit_setup_core_plugins/lib:/home/saber/robox_ws/install/moveit_setup_controllers/lib:/home/saber/robox_ws/install/moveit_setup_app_plugins/lib:/home/saber/robox_ws/install/moveit_setup_framework/lib:/home/saber/robox_ws/install/moveit_servo/lib:/home/saber/robox_ws/install/moveit_ros_trajectory_cache/lib:/home/saber/robox_ws/install/arm_description/lib:/home/saber/robox_ws/install/moveit_py/lib:/home/saber/robox_ws/install/moveit_hybrid_planning/lib:/home/saber/robox_ws/install/moveit_ros_benchmarks/lib:/home/saber/robox_ws/install/moveit_ros_perception/lib:/home/saber/robox_ws/install/moveit_planners_ompl/lib:/home/saber/robox_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/saber/robox_ws/install/moveit_planners_stomp/lib:/home/saber/robox_ws/install/moveit_planners_chomp/lib:/home/saber/robox_ws/install/chomp_motion_planner/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/saber', 'OLDPWD': '/home/saber', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '2313', 'SYSTEMD_EXEC_PID': '2600', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '59924', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saber/robox_ws/install:/home/saber/arduinobot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'saber', 'JOURNAL_STREAM': '8:24683', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saber', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/saber/robox_ws/install/moveit_core/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/saber/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Dell:@/tmp/.ICE-unix/2546,unix/Dell:/tmp/.ICE-unix/2546', 'INVOCATION_ID': 'ba6992da3002470a98e7cefa608525fb', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HC8N72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/robox_ws/install/moveit_config:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/pilz_industrial_motion_planner_testutils:/home/saber/robox_ws/install/moveit_runtime:/home/saber/robox_ws/install/moveit:/home/saber/robox_ws/install/moveit_planners:/home/saber/robox_ws/install/pilz_industrial_motion_planner:/home/saber/robox_ws/install/moveit_ros_control_interface:/home/saber/robox_ws/install/moveit_plugins:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_setup_assistant:/home/saber/robox_ws/install/moveit_setup_srdf_plugins:/home/saber/robox_ws/install/moveit_setup_core_plugins:/home/saber/robox_ws/install/moveit_setup_controllers:/home/saber/robox_ws/install/moveit_setup_app_plugins:/home/saber/robox_ws/install/moveit_setup_framework:/home/saber/robox_ws/install/moveit_servo:/home/saber/robox_ws/install/moveit_ros_trajectory_cache:/home/saber/robox_ws/install/moveit_ros:/home/saber/robox_ws/install/arm_description:/home/saber/robox_ws/install/moveit_ros_visualization:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/moveit_hybrid_planning:/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_benchmarks:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_ros_perception:/home/saber/robox_ws/install/moveit_resources_prbt_pg70_support:/home/saber/robox_ws/install/moveit_resources_prbt_moveit_config:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_planners_ompl:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_resources_prbt_support:/home/saber/robox_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/saber/robox_ws/install/moveit_planners_stomp:/home/saber/robox_ws/install/moveit_planners_chomp:/home/saber/robox_ws/install/chomp_motion_planner:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/arm_moveit:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:d4f02758-9c15-4005-83f9-e75add9dcc18', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saber/robox_ws/build/arm_description', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:/home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:/home/saber/robox_ws/install/arm_description/lib/python3.12/site-packages:/home/saber/robox_ws/install/moveit_py/lib/python3.12/site-packages:/home/saber/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/saber/robox_ws/install/moveit_ros_visualization:/home/saber/robox_ws/install/moveit_ros_planning_interface:/home/saber/robox_ws/install/moveit_ros_move_group:/home/saber/robox_ws/install/moveit_ros_warehouse:/home/saber/robox_ws/install/moveit_ros_robot_interaction:/home/saber/robox_ws/install/moveit_kinematics:/home/saber/robox_ws/install/moveit_ros_planning:/home/saber/robox_ws/install/moveit_simple_controller_manager:/home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor:/home/saber/robox_ws/install/moveit_core:/home/saber/robox_ws/install/moveit_common:/home/saber/robox_ws/install/moveit_config:/home/saber/robox_ws/install/robotic_arm_moveit_config:/home/saber/robox_ws/install/pilz_industrial_motion_planner_testutils:/home/saber/robox_ws/install/moveit_runtime:/home/saber/robox_ws/install/moveit:/home/saber/robox_ws/install/moveit_planners:/home/saber/robox_ws/install/pilz_industrial_motion_planner:/home/saber/robox_ws/install/moveit_ros_control_interface:/home/saber/robox_ws/install/moveit_plugins:/home/saber/robox_ws/install/moveit_setup_assistant:/home/saber/robox_ws/install/moveit_setup_srdf_plugins:/home/saber/robox_ws/install/moveit_setup_core_plugins:/home/saber/robox_ws/install/moveit_setup_controllers:/home/saber/robox_ws/install/moveit_setup_app_plugins:/home/saber/robox_ws/install/moveit_setup_framework:/home/saber/robox_ws/install/moveit_servo:/home/saber/robox_ws/install/moveit_ros_trajectory_cache:/home/saber/robox_ws/install/moveit_ros:/home/saber/robox_ws/install/arm_description:/home/saber/robox_ws/install/moveit_py:/home/saber/robox_ws/install/moveit_hybrid_planning:/home/saber/robox_ws/install/moveit_ros_benchmarks:/home/saber/robox_ws/install/moveit_ros_perception:/home/saber/robox_ws/install/moveit_resources_prbt_pg70_support:/home/saber/robox_ws/install/moveit_resources_prbt_moveit_config:/home/saber/robox_ws/install/moveit_planners_ompl:/home/saber/robox_ws/install/moveit_resources_prbt_support:/home/saber/robox_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/saber/robox_ws/install/moveit_planners_stomp:/home/saber/robox_ws/install/moveit_planners_chomp:/home/saber/robox_ws/install/chomp_motion_planner:/home/saber/robox_ws/install/arm_moveit:/home/saber/arduinobot_ws/install/controller:/home/saber/arduinobot_ws/install/arm_description:/home/saber/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy'}), 'shell': False}
+[0.065339] (arm_description) StdoutLine: {'line': b'/usr/bin/cmake -S/home/saber/robox_ws/src/arm_description -B/home/saber/robox_ws/build/arm_description --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.086269] (arm_description) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/saber/robox_ws/build/arm_description/CMakeFiles /home/saber/robox_ws/build/arm_description//CMakeFiles/progress.marks\n'}
+[0.098822] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[0.099733] (-) TimerEvent: {}
+[0.100602] (arm_description) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.100695] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_type_description.dir/build.make CMakeFiles/arm_description__rosidl_generator_type_description.dir/depend\n'}
+[0.100805] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_symlink_arm_description.dir/build.make CMakeFiles/ament_cmake_python_symlink_arm_description.dir/depend\n'}
+[0.102186] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.102300] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_generator_type_description.dir/DependInfo.cmake "--color="\n'}
+[0.102391] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.102447] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/ament_cmake_python_symlink_arm_description.dir/DependInfo.cmake "--color="\n'}
+[0.115795] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.115995] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.116071] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_type_description.dir/build.make CMakeFiles/arm_description__rosidl_generator_type_description.dir/build\n'}
+[0.116192] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_symlink_arm_description.dir/build.make CMakeFiles/ament_cmake_python_symlink_arm_description.dir/build\n'}
+[0.117588] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.117661] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_generator_type_description.dir/build'.\n"}
+[0.117720] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.117813] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.117870] (arm_description) StdoutLine: {'line': b'/usr/bin/cmake -E create_symlink /home/saber/robox_ws/build/arm_description/rosidl_generator_py/arm_description /home/saber/robox_ws/build/arm_description/ament_cmake_python/arm_description/arm_description\n'}
+[0.128984] (arm_description) StdoutLine: {'line': b'[  2%] Built target arm_description__rosidl_generator_type_description\n'}
+[0.129990] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.130108] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__cpp.dir/build.make CMakeFiles/arm_description__cpp.dir/depend\n'}
+[0.130470] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_c.dir/build.make CMakeFiles/arm_description__rosidl_generator_c.dir/depend\n'}
+[0.131897] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.131998] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__cpp.dir/DependInfo.cmake "--color="\n'}
+[0.132478] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.132585] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_generator_c.dir/DependInfo.cmake "--color="\n'}
+[0.142258] (arm_description) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_arm_description\n'}
+[0.143381] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_arm_description_egg.dir/build.make CMakeFiles/ament_cmake_python_build_arm_description_egg.dir/depend\n'}
+[0.143622] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.143855] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__cpp.dir/build.make CMakeFiles/arm_description__cpp.dir/build\n'}
+[0.144102] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.144241] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_c.dir/build.make CMakeFiles/arm_description__rosidl_generator_c.dir/build\n'}
+[0.145151] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.145255] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/ament_cmake_python_build_arm_description_egg.dir/DependInfo.cmake "--color="\n'}
+[0.145615] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.145689] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__cpp.dir/build'.\n"}
+[0.145744] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.146485] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.146565] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_generator_c.dir/build'.\n"}
+[0.146620] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.157252] (arm_description) StdoutLine: {'line': b'[ 11%] Built target arm_description__cpp\n'}
+[0.157463] (arm_description) StdoutLine: {'line': b'[ 19%] Built target arm_description__rosidl_generator_c\n'}
+[0.158291] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/depend\n'}
+[0.158394] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.158568] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_arm_description_egg.dir/build.make CMakeFiles/ament_cmake_python_build_arm_description_egg.dir/build\n'}
+[0.158733] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/depend\n'}
+[0.158896] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/depend\n'}
+[0.159082] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/depend\n'}
+[0.159253] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_c.dir/depend\n'}
+[0.159436] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/depend\n'}
+[0.159873] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.159985] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description/ament_cmake_python/arm_description && /usr/bin/python3 setup.py egg_info\n'}
+[0.160922] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.161025] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/DependInfo.cmake "--color="\n'}
+[0.161133] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.161212] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color="\n'}
+[0.161322] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.161389] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_c.dir/DependInfo.cmake "--color="\n'}
+[0.161519] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.161636] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake "--color="\n'}
+[0.161726] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.161810] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color="\n'}
+[0.162444] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.162589] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake "--color="\n'}
+[0.176537] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.176867] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.177166] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.177347] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.177443] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.177592] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.177686] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/build\n'}
+[0.177773] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/build\n'}
+[0.177864] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/build\n'}
+[0.177971] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/build\n'}
+[0.178116] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_c.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_c.dir/build\n'}
+[0.178219] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/build\n'}
+[0.179909] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.180080] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_c.dir/build'.\n"}
+[0.180191] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.180291] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.180414] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_cpp.dir/build'.\n"}
+[0.180611] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.180716] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.180804] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_introspection_c.dir/build'.\n"}
+[0.180893] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.180980] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.181068] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.181156] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_fastrtps_c.dir/build'.\n"}
+[0.181255] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_fastrtps_cpp.dir/build'.\n"}
+[0.181398] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.181463] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.181540] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.181611] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_typesupport_introspection_cpp.dir/build'.\n"}
+[0.181667] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.193943] (arm_description) StdoutLine: {'line': b'[ 52%] Built target arm_description__rosidl_typesupport_fastrtps_cpp\n'}
+[0.194289] (arm_description) StdoutLine: {'line': b'[ 55%] Built target arm_description__rosidl_typesupport_fastrtps_c\n'}
+[0.194416] (arm_description) StdoutLine: {'line': b'[ 55%] Built target arm_description__rosidl_typesupport_c\n'}
+[0.194548] (arm_description) StdoutLine: {'line': b'[ 55%] Built target arm_description__rosidl_typesupport_introspection_cpp\n'}
+[0.194644] (arm_description) StdoutLine: {'line': b'[ 61%] Built target arm_description__rosidl_typesupport_introspection_c\n'}
+[0.194725] (arm_description) StdoutLine: {'line': b'[ 69%] Built target arm_description__rosidl_typesupport_cpp\n'}
+[0.195468] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description.dir/build.make CMakeFiles/arm_description.dir/depend\n'}
+[0.197208] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.197304] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description.dir/DependInfo.cmake "--color="\n'}
+[0.199803] (-) TimerEvent: {}
+[0.211057] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.211269] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description.dir/build.make CMakeFiles/arm_description.dir/build\n'}
+[0.212887] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.213032] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description.dir/build'.\n"}
+[0.213110] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.225356] (arm_description) StdoutLine: {'line': b'[ 69%] Built target arm_description\n'}
+[0.226648] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f /home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/build.make /home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/depend\n'}
+[0.226991] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/robot_arm_ik_node.dir/build.make CMakeFiles/robot_arm_ik_node.dir/depend\n'}
+[0.228469] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.228599] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description/arm_description__py /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/arm_description__py /home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/DependInfo.cmake "--color="\n'}
+[0.233273] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.233390] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/robot_arm_ik_node.dir/DependInfo.cmake "--color="\n'}
+[0.243474] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.243760] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f /home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/build.make /home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/build\n'}
+[0.245719] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.245882] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for '/home/saber/robox_ws/build/arm_description/arm_description__py/CMakeFiles/arm_description__py.dir/build'.\n"}
+[0.245966] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.260054] (arm_description) StdoutLine: {'line': b'[ 72%] Built target arm_description__py\n'}
+[0.260567] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.260791] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/robot_arm_ik_node.dir/build.make CMakeFiles/robot_arm_ik_node.dir/build\n'}
+[0.261082] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_py.dir/build.make CMakeFiles/arm_description__rosidl_generator_py.dir/depend\n'}
+[0.263067] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.263255] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description__rosidl_generator_py.dir/DependInfo.cmake "--color="\n'}
+[0.271245] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.277433] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.277795] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description__rosidl_generator_py.dir/build.make CMakeFiles/arm_description__rosidl_generator_py.dir/build\n'}
+[0.280855] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.281032] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description__rosidl_generator_py.dir/build'.\n"}
+[0.281122] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.285092] (arm_description) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o\x1b[0m\n'}
+[0.286412] (arm_description) StdoutLine: {'line': b'/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_IOSTREAMS_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SERIALIZATION_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -DFMT_SHARED -DROS_PACKAGE_NAME=\\"arm_description\\" -DTINYXML2_IMPORT -D_FILE_OFFSET_BITS=64 -I/home/saber/robox_ws/build/arm_description/rosidl_generator_c -I/home/saber/robox_ws/build/arm_description/rosidl_generator_cpp -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/tf2 -isystem /opt/ros/jazzy/include/tf2_ros -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/rclcpp_components -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/message_filters -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/rclcpp_action -isystem /opt/ros/jazzy/include/tf2_msgs -isystem /opt/ros/jazzy/include/tf2_geometry_msgs -isystem /usr/include/eigen3 -isystem /home/saber/robox_ws/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface -isystem /home/saber/robox_ws/install/moveit_core/include/moveit_core -isystem /opt/ros/jazzy/include/moveit_msgs -isystem /opt/ros/jazzy/include/controller_manager_msgs -isystem /usr/include/bullet -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/std_msgs -isystem /home/saber/robox_ws/install/moveit_ros_planning/include -isystem /opt/ros/jazzy/include/parameter_traits -isystem /opt/ros/jazzy/include/rsl -isystem /opt/ros/jazzy/include -isystem /opt/ros/jazzy/include/rclcpp_lifecycle -isystem /opt/ros/jazzy/include/lifecycle_msgs -isystem /opt/ros/jazzy/include/rcl_lifecycle -isystem /home/saber/robox_ws/install/moveit_ros_planning/include/moveit_ros_planning -isystem /opt/ros/jazzy/include/eigen_stl_containers -isystem /opt/ros/jazzy/include/pluginlib -isystem /opt/ros/jazzy/include/ament_index_cpp -isystem /opt/ros/jazzy/include/class_loader -isystem /opt/ros/jazzy/include/urdf -isystem /opt/ros/jazzy/include/urdfdom -isystem /opt/ros/jazzy/include/urdfdom_headers -isystem /opt/ros/jazzy/include/srdfdom -isystem /opt/ros/jazzy/include/visualization_msgs -isystem /opt/ros/jazzy/include/sensor_msgs -isystem /opt/ros/jazzy/include/tf2_eigen -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -isystem /opt/ros/jazzy/include/rcl_action -isystem /opt/ros/jazzy/include/geometric_shapes -isystem /opt/ros/jazzy/include/resource_retriever -isystem /opt/ros/jazzy/include/shape_msgs -isystem /opt/ros/jazzy/include/angles -isystem /opt/ros/jazzy/include/object_recognition_msgs -isystem /opt/ros/jazzy/include/octomap_msgs -isystem /opt/ros/jazzy/include/trajectory_msgs -isystem /opt/ros/jazzy/include/kdl_parser -isystem /home/saber/robox_ws/install/moveit_ros_occupancy_map_monitor/include/moveit_ros_occupancy_map_monitor -isystem /opt/ros/jazzy/include/composition_interfaces -isystem /home/saber/robox_ws/install/moveit_ros_move_group/include/moveit_ros_move_group -isystem /opt/ros/jazzy/include/std_srvs -isystem /home/saber/robox_ws/install/moveit_ros_warehouse/include/moveit_ros_warehouse -O3 -DNDEBUG -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o -MF CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o.d -o CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o -c /home/saber/robox_ws/src/arm_description/src/pose.cpp\n'}
+[0.296589] (arm_description) StdoutLine: {'line': b'[ 80%] Built target arm_description__rosidl_generator_py\n'}
+[0.298032] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/depend\n'}
+[0.298318] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/depend\n'}
+[0.298527] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/depend\n'}
+[0.299869] (-) TimerEvent: {}
+[0.300281] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.300368] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color="\n'}
+[0.300622] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.300763] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color="\n'}
+[0.300835] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.300896] (arm_description) StdoutLine: {'line': b'cd /home/saber/robox_ws/build/arm_description && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/src/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description /home/saber/robox_ws/build/arm_description/CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/DependInfo.cmake "--color="\n'}
+[0.314993] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.315170] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.315242] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.315337] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/build\n'}
+[0.315435] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/build\n'}
+[0.315538] (arm_description) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/build.make CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/build\n'}
+[0.317886] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.318183] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description_s__rosidl_typesupport_fastrtps_c.dir/build'.\n"}
+[0.318319] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.318401] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.318477] (arm_description) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.318621] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description_s__rosidl_typesupport_c.dir/build'.\n"}
+[0.318705] (arm_description) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/arm_description_s__rosidl_typesupport_introspection_c.dir/build'.\n"}
+[0.318775] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.318840] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.331538] (arm_description) StdoutLine: {'line': b'[ 97%] Built target arm_description_s__rosidl_typesupport_introspection_c\n'}
+[0.331709] (arm_description) StdoutLine: {'line': b'[ 97%] Built target arm_description_s__rosidl_typesupport_c\n'}
+[0.331778] (arm_description) StdoutLine: {'line': b'[ 97%] Built target arm_description_s__rosidl_typesupport_fastrtps_c\n'}
+[0.363151] (arm_description) StdoutLine: {'line': b'running egg_info\n'}
+[0.383362] (arm_description) StdoutLine: {'line': b'writing arm_description.egg-info/PKG-INFO\n'}
+[0.383583] (arm_description) StdoutLine: {'line': b'writing dependency_links to arm_description.egg-info/dependency_links.txt\n'}
+[0.383745] (arm_description) StdoutLine: {'line': b'writing top-level names to arm_description.egg-info/top_level.txt\n'}
+[0.399964] (-) TimerEvent: {}
+[0.444092] (arm_description) StdoutLine: {'line': b"reading manifest file 'arm_description.egg-info/SOURCES.txt'\n"}
+[0.444889] (arm_description) StdoutLine: {'line': b"writing manifest file 'arm_description.egg-info/SOURCES.txt'\n"}
+[0.480066] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[0.494605] (arm_description) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_arm_description_egg\n'}
+[0.500055] (-) TimerEvent: {}
+[0.600326] (-) TimerEvent: {}
+[0.700745] (-) TimerEvent: {}
+[0.801120] (-) TimerEvent: {}
+[0.901371] (-) TimerEvent: {}
+[1.001664] (-) TimerEvent: {}
+[1.101938] (-) TimerEvent: {}
+[1.202264] (-) TimerEvent: {}
+[1.302552] (-) TimerEvent: {}
+[1.402839] (-) TimerEvent: {}
+[1.503151] (-) TimerEvent: {}
+[1.603433] (-) TimerEvent: {}
+[1.703722] (-) TimerEvent: {}
+[1.804030] (-) TimerEvent: {}
+[1.904307] (-) TimerEvent: {}
+[2.004583] (-) TimerEvent: {}
+[2.104867] (-) TimerEvent: {}
+[2.205146] (-) TimerEvent: {}
+[2.305403] (-) TimerEvent: {}
+[2.405704] (-) TimerEvent: {}
+[2.505975] (-) TimerEvent: {}
+[2.606241] (-) TimerEvent: {}
+[2.706517] (-) TimerEvent: {}
+[2.806795] (-) TimerEvent: {}
+[2.907107] (-) TimerEvent: {}
+[3.007405] (-) TimerEvent: {}
+[3.107733] (-) TimerEvent: {}
+[3.208016] (-) TimerEvent: {}
+[3.308280] (-) TimerEvent: {}
+[3.408559] (-) TimerEvent: {}
+[3.508833] (-) TimerEvent: {}
+[3.609108] (-) TimerEvent: {}
+[3.709388] (-) TimerEvent: {}
+[3.809697] (-) TimerEvent: {}
+[3.909955] (-) TimerEvent: {}
+[4.010224] (-) TimerEvent: {}
+[4.110505] (-) TimerEvent: {}
+[4.210774] (-) TimerEvent: {}
+[4.311037] (-) TimerEvent: {}
+[4.411310] (-) TimerEvent: {}
+[4.425394] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.425643] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:287:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_state\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.425733] (arm_description) StderrLine: {'line': b'  287 |         \x1b[01;31m\x1b[Krobot_state\x1b[m\x1b[K::RobotState test_state(*current_state);\n'}
+[4.425810] (arm_description) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.427705] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:288:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_model\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.427812] (arm_description) StderrLine: {'line': b'  288 |         const \x1b[01;31m\x1b[Krobot_model\x1b[m\x1b[K::JointModelGroup* joint_model_group = test_state.getJointModelGroup("arm");\n'}
+[4.427884] (arm_description) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.433169] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:291:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktest_state\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksetstate\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.433288] (arm_description) StderrLine: {'line': b'  291 |         bool ik_result = \x1b[01;31m\x1b[Ktest_state\x1b[m\x1b[K.setFromIK(joint_model_group, current_pose, 10, 0.1);\n'}
+[4.433362] (arm_description) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.433433] (arm_description) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Ksetstate\x1b[m\x1b[K\n'}
+[4.439851] (arm_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:291:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_model_group\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.439986] (arm_description) StderrLine: {'line': b'  291 |         bool ik_result = test_state.setFromIK(\x1b[01;31m\x1b[Kjoint_model_group\x1b[m\x1b[K, current_pose, 10, 0.1);\n'}
+[4.440062] (arm_description) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.511407] (-) TimerEvent: {}
+[4.611676] (-) TimerEvent: {}
+[4.711952] (-) TimerEvent: {}
+[4.812245] (-) TimerEvent: {}
+[4.912546] (-) TimerEvent: {}
+[5.012845] (-) TimerEvent: {}
+[5.113147] (-) TimerEvent: {}
+[5.213412] (-) TimerEvent: {}
+[5.314092] (-) TimerEvent: {}
+[5.414362] (-) TimerEvent: {}
+[5.514674] (-) TimerEvent: {}
+[5.614968] (-) TimerEvent: {}
+[5.715232] (-) TimerEvent: {}
+[5.815509] (-) TimerEvent: {}
+[5.915823] (-) TimerEvent: {}
+[6.016112] (-) TimerEvent: {}
+[6.116385] (-) TimerEvent: {}
+[6.216776] (-) TimerEvent: {}
+[6.282945] (arm_description) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_arm_ik_node.dir/build.make:79: CMakeFiles/robot_arm_ik_node.dir/src/pose.cpp.o] Error 1\n'}
+[6.283259] (arm_description) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[6.283370] (arm_description) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:629: CMakeFiles/robot_arm_ik_node.dir/all] Error 2\n'}
+[6.283466] (arm_description) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/saber/robox_ws/build/arm_description'\n"}
+[6.283586] (arm_description) StderrLine: {'line': b'gmake: *** [Makefile:149: all] Error 2\n'}
+[6.286979] (arm_description) CommandEnded: {'returncode': 2}
+[6.301041] (arm_description) JobEnded: {'identifier': 'arm_description', 'rc': 2}
+[6.311757] (-) EventReactorShutdown: {}

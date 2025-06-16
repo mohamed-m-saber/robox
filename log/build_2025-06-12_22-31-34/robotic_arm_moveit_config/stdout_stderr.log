@@ -1,0 +1,89 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/saber/robox_ws/build/robotic_arm_moveit_config
+-- Install configuration: "Release"
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/robotic_arm_moveit_config
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/robotic_arm_moveit_config
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/path.sh
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/path.dsv
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.bash
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.sh
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.zsh
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.dsv
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/package.dsv
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/ament_index/resource_index/packages/robotic_arm_moveit_config
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/cmake/robotic_arm_moveit_configConfig.cmake
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/cmake/robotic_arm_moveit_configConfig-version.cmake
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/package.xml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/moveit_rviz.launch.py
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/moveit.launch.py
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/warehouse_db.launch.py
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/move_group.launch.py
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/test.launch.py
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/rsp.launch.py
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/demo.launch.py
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/setup_assistant.launch.py
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/spawn_controllers.launch.py
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ros2_controllers.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.srdf
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_pipelines.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/pilz_cartesian_limits.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/frames_2025-06-11_14.14.34.pdf
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/joint_limits.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_params.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ros2_control.xacro
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.ros2_control.xacro
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit_cpp.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ompl.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/pose_goal.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit.rviz
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/urdf
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/urdf/robotic_arm.urdf.xacro
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/frames_2025-06-11_14.14.34.gv
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.urdf.xacro
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_scene_monitor.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit_controllers.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/initial_positions.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/kinematics.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ros2_controllers.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.srdf
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_pipelines.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/frames_2025-06-11_14.14.34.pdf
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/joint_limits.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_params.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ros2_control.xacro
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.ros2_control.xacro
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit_cpp.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/ompl.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/pose_goal.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit.rviz
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/urdf
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/urdf/robotic_arm.urdf.xacro
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/frames_2025-06-11_14.14.34.gv
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.urdf.xacro
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/planning_scene_monitor.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit_controllers.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/initial_positions.yaml
+-- Up-to-date: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/kinematics.yaml
+-- Installing: /home/saber/robox_ws/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/.setup_assistant

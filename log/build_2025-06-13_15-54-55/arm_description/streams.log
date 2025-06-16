@@ -1,0 +1,90 @@
+[0.021s] Invoking command in '/home/saber/robox_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/arm_description -- -j16 -l16
+[0.035s] /usr/bin/cmake -S/home/saber/robox_ws/src/arm_description -B/home/saber/robox_ws/build/arm_description --check-build-system CMakeFiles/Makefile.cmake 0
+[0.062s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.089s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.173s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.189s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.234s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.244s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.343s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.348s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.381s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.449s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.483s] -- Found moveit_ros_planning_interface: 2.12.3 (/home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[0.483s] [31mCMake Error at /home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include):
+[0.483s]   include could not find requested file:
+[0.483s] 
+[0.484s]     /home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake
+[0.484s] Call Stack (most recent call first):
+[0.484s]   CMakeLists.txt:15 (find_package)
+[0.484s] 
+[0.484s] [0m
+[0.719s] [31mCMake Error at /home/saber/robox_ws/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include):
+[0.719s]   include could not find requested file:
+[0.719s] 
+[0.719s]     /home/saber/robox_ws/install/moveit_core/share/moveit_core/cmake/ConfigExtras.cmake
+[0.719s] Call Stack (most recent call first):
+[0.719s]   /home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.719s]   /home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[0.719s]   CMakeLists.txt:15 (find_package)
+[0.719s] 
+[0.720s] [0m
+[0.764s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[0.772s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.809s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[0.861s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.874s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.996s] [31mCMake Error at /home/saber/robox_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include):
+[0.997s]   include could not find requested file:
+[0.997s] 
+[0.997s]     /home/saber/robox_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ConfigExtras.cmake
+[0.997s] Call Stack (most recent call first):
+[0.997s]   /home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.997s]   /home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[0.997s]   CMakeLists.txt:15 (find_package)
+[0.997s] 
+[0.997s] [0m
+[1.038s] [31mCMake Error at /home/saber/robox_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake:41 (include):
+[1.039s]   include could not find requested file:
+[1.039s] 
+[1.039s]     /home/saber/robox_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+[1.039s] Call Stack (most recent call first):
+[1.039s]   /home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.039s]   /home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[1.039s]   CMakeLists.txt:15 (find_package)
+[1.039s] 
+[1.039s] [0m
+[1.068s] [31mCMake Error at /home/saber/robox_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake:41 (include):
+[1.068s]   include could not find requested file:
+[1.068s] 
+[1.068s]     /home/saber/robox_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ConfigExtras.cmake
+[1.068s] Call Stack (most recent call first):
+[1.068s]   /home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.068s]   /home/saber/robox_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[1.068s]   CMakeLists.txt:15 (find_package)
+[1.068s] 
+[1.068s] [0m
+[1.107s] -- Found controller_manager_msgs: 4.29.0 (/opt/ros/jazzy/share/controller_manager_msgs/cmake)
+[1.141s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.159s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.426s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.807s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.044s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.102s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.119s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.120s] -- Configured cppcheck include dirs: 
+[2.120s] -- Configured cppcheck exclude dirs and/or files: 
+[2.121s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.121s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.121s] -- Added test 'lint_cmake' to check CMake code style
+[2.122s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.123s] -- Added test 'uncrustify' to check C / C++ code style
+[2.123s] -- Configured uncrustify additional arguments: 
+[2.124s] -- Added test 'xmllint' to check XML markup files
+[2.126s] -- Configuring incomplete, errors occurred!
+[2.140s] gmake: *** [Makefile:859: cmake_check_build_system] Error 1
+[2.142s] Invoked command in '/home/saber/robox_ws/build/arm_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/home/saber/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/arm_description -- -j16 -l16

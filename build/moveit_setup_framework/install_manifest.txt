@@ -1,0 +1,3 @@
+/home/saber/robox_ws/install/moveit_setup_framework/lib/libmoveit_setup_framework.so
+/home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/cmake/moveit_setup_frameworkTargetsExport.cmake
+/home/saber/robox_ws/install/moveit_setup_framework/share/moveit_setup_framework/cmake/moveit_setup_frameworkTargetsExport-release.cmake

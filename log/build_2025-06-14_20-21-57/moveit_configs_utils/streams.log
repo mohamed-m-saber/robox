@@ -1,0 +1,19 @@
+[0.935s] Invoking command in '/home/saber/robox_ws/src/moveit2/moveit_configs_utils': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/saber/robox_ws/build/moveit_configs_utils/build install --record /home/saber/robox_ws/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
+[1.196s] running egg_info
+[1.227s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[1.228s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[1.228s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[1.229s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[1.248s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[1.258s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[1.258s] running build
+[1.258s] running build_py
+[1.258s] running install
+[1.263s] running install_lib
+[1.284s] running install_data
+[1.284s] running install_egg_info
+[1.305s] removing '/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils-2.12.3-py3.12.egg-info' (and everything under it)
+[1.306s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils-2.12.3-py3.12.egg-info
+[1.306s] running install_scripts
+[1.439s] writing list of installed files to '/home/saber/robox_ws/build/moveit_configs_utils/install.log'
+[1.461s] Invoked command in '/home/saber/robox_ws/src/moveit2/moveit_configs_utils' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/saber/robox_ws/build/moveit_configs_utils/build install --record /home/saber/robox_ws/build/moveit_configs_utils/install.log --single-version-externally-managed install_data

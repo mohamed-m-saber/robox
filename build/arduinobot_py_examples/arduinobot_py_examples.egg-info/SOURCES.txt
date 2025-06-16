@@ -14,6 +14,7 @@ arduinobot_py_examples/ik_solver.py
 arduinobot_py_examples/joystick_handler.py
 arduinobot_py_examples/pose.py
 arduinobot_py_examples/publisher.py
+arduinobot_py_examples/reachability_map.py
 arduinobot_py_examples/serial.py
 arduinobot_py_examples/simple_moveit_interface.py
 arduinobot_py_examples/simple_parameter.py

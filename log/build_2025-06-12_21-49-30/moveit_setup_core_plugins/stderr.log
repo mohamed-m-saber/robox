@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/moveit_setup_core_plugins.dir/build.make:144: CMakeFiles/moveit_setup_core_plugins.dir/src/configuration_files_widget.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/moveit_setup_core_plugins.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

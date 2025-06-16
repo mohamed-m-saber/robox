@@ -1,0 +1,10 @@
+[ 10%] Built target moveit_servo_lib_parameters
+[ 13%] Built target gtest
+[ 20%] Built target gtest_main
+[ 27%] Built target servo_node
+[ 34%] Built target servo_keyboard_input
+[ 41%] Built target moveit_servo_ros_integration_test
+[ 44%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/utils/command.cpp.o[0m
+gmake[2]: *** [CMakeFiles/moveit_servo_lib_cpp.dir/build.make:118: CMakeFiles/moveit_servo_lib_cpp.dir/src/utils/command.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/moveit_servo_lib_cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/saber/robox_ws/build/moveit_py/test_moveit/core.cpython-312-x86_64-linux-gnu.so" "TARGETS" "core" "DESTINATION" "lib/python3.12/site-packages/moveit")

@@ -1,0 +1,19 @@
+[ 12%] Built target gtest_main
+[ 12%] Built target gtest
+[ 18%] Built target warehouse_fixture
+[ 28%] Built target moveit_ros_trajectory_cache_utils_lib
+[ 31%] Built target move_group_fixture
+[ 37%] Built target test_utils_with_move_group
+[ 43%] Built target test_constant_features_with_move_group
+[ 50%] Built target test_utils
+[ 59%] Built target moveit_ros_trajectory_cache_features_lib
+[ 75%] Built target moveit_ros_trajectory_cache_cache_insert_policies_lib
+[ 75%] Built target test_get_cartesian_path_request_features_with_move_group
+[ 81%] Built target test_motion_plan_request_features_with_move_group
+[ 84%] [32mBuilding CXX object test/CMakeFiles/test_always_insert_never_prune_policy_with_move_group.dir/cache_insert_policies/test_always_insert_never_prune_policy_with_move_group.cpp.o[0m
+[ 87%] [32mBuilding CXX object test/CMakeFiles/test_best_seen_execution_time_policy_with_move_group.dir/cache_insert_policies/test_best_seen_execution_time_policy_with_move_group.cpp.o[0m
+[ 93%] Built target moveit_ros_trajectory_cache_lib
+gmake[2]: *** [test/CMakeFiles/test_best_seen_execution_time_policy_with_move_group.dir/build.make:76: test/CMakeFiles/test_best_seen_execution_time_policy_with_move_group.dir/cache_insert_policies/test_best_seen_execution_time_policy_with_move_group.cpp.o] Interrupt
+gmake[2]: *** [test/CMakeFiles/test_always_insert_never_prune_policy_with_move_group.dir/build.make:76: test/CMakeFiles/test_always_insert_never_prune_policy_with_move_group.dir/cache_insert_policies/test_always_insert_never_prune_policy_with_move_group.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:536: test/CMakeFiles/test_best_seen_execution_time_policy_with_move_group.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

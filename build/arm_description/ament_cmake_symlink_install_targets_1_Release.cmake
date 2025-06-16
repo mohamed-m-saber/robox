@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/saber/robox_ws/build/arm_description/rosidl_generator_py/arm_description/arm_description_s__rosidl_typesupport_introspection_c.so" "TARGETS" "arm_description_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/arm_description")
