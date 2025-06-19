@@ -1,1 +1,0 @@
-/home/saber/robox_ws/build/moveit_resources_prbt_pg70_support/ament_cmake_environment_hooks/local_setup.zsh

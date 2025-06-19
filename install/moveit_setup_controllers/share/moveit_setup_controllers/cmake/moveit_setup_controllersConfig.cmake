@@ -1,1 +1,0 @@
-/home/saber/robox_ws/build/moveit_setup_controllers/ament_cmake_core/moveit_setup_controllersConfig.cmake

@@ -1,0 +1,53 @@
+[0.225s] Invoking command in '/home/saber/robox_ws/build/robox_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saber/robox_ws/src/robox_arm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/robox_arm
+[0.341s] -- The C compiler identification is GNU 13.3.0
+[0.429s] -- The CXX compiler identification is GNU 13.3.0
+[0.455s] -- Detecting C compiler ABI info
+[0.557s] -- Detecting C compiler ABI info - done
+[0.565s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.565s] -- Detecting C compile features
+[0.566s] -- Detecting C compile features - done
+[0.576s] -- Detecting CXX compiler ABI info
+[0.679s] -- Detecting CXX compiler ABI info - done
+[0.686s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.687s] -- Detecting CXX compile features
+[0.687s] -- Detecting CXX compile features - done
+[0.698s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.885s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.951s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.102s] -- Configuring done (0.9s)
+[1.105s] -- Generating done (0.0s)
+[1.107s] -- Build files have been written to: /home/saber/robox_ws/build/robox_arm
+[1.112s] Invoked command in '/home/saber/robox_ws/build/robox_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saber/robox_ws/src/robox_arm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/robox_arm
+[1.113s] Invoking command in '/home/saber/robox_ws/build/robox_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/robox_arm -- -j16 -l16
+[1.158s] Invoked command in '/home/saber/robox_ws/build/robox_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/robox_arm -- -j16 -l16
+[1.168s] Invoking command in '/home/saber/robox_ws/build/robox_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saber/robox_ws/build/robox_arm
+[1.176s] -- Install configuration: ""
+[1.176s] -- Execute custom install script
+[1.177s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/meshes/base_link.STL
+[1.186s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/meshes/link_five.STL
+[1.196s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/meshes/link_four.STL
+[1.206s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/meshes/link_one.STL
+[1.216s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/meshes/link_seven.STL
+[1.225s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/meshes/link_six.STL
+[1.235s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/meshes/link_three.STL
+[1.245s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/meshes/link_two.STL
+[1.255s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/urdf/robox_arm.csv
+[1.265s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/urdf/robox_arm.urdf
+[1.274s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/launch/display.launch.py
+[1.284s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/launch/gazebo.launch
+[1.294s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/ament_index/resource_index/package_run_dependencies/robox_arm
+[1.304s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/ament_index/resource_index/parent_prefix_path/robox_arm
+[1.314s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/environment/ament_prefix_path.sh
+[1.324s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/environment/ament_prefix_path.dsv
+[1.333s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/environment/path.sh
+[1.343s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/environment/path.dsv
+[1.353s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/local_setup.bash
+[1.363s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/local_setup.sh
+[1.373s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/local_setup.zsh
+[1.383s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/local_setup.dsv
+[1.392s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/package.dsv
+[1.403s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/ament_index/resource_index/packages/robox_arm
+[1.414s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/cmake/robox_armConfig.cmake
+[1.423s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/cmake/robox_armConfig-version.cmake
+[1.433s] -- Symlinking: /home/saber/robox_ws/install/robox_arm/share/robox_arm/package.xml
+[1.444s] Invoked command in '/home/saber/robox_ws/build/robox_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/arduinobot_py_examples:/home/saber/robox_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saber/robox_ws/build/robox_arm

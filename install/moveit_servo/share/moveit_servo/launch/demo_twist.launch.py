@@ -1,1 +1,0 @@
-/home/saber/robox_ws/src/moveit2/moveit_ros/moveit_servo/launch/demo_twist.launch.py

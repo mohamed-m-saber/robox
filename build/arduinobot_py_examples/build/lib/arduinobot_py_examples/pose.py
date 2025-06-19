@@ -329,7 +329,6 @@
 
 
 
-
 #!/usr/bin/env python3
 
 import rclpy
@@ -375,13 +374,14 @@ class MotionPlanningClient(Node):
             self.get_logger().info('IK service not available, waiting...')
 
     def joint_state_callback(self, msg):
-        # Ensure joint state matches expected joints
         expected_joints = ['rotating_base_joint', 'shoulder_joint', 'elbow_joint', 'forearm_joint', 'wrist_joint']
         if all(j in msg.name for j in expected_joints):
-            self.current_joint_state = msg
-            self.get_logger().info(f'Received valid joint state: {msg.position}')
+            self.current_joint_state = JointState()
+            self.current_joint_state.name = expected_joints
+            self.current_joint_state.position = [msg.position[msg.name.index(j)] for j in expected_joints]
+            self.get_logger().info(f'Received valid joint state: {self.current_joint_state.position}')
         else:
-            self.get_logger().warn('Received joint state with unexpected joint names')
+            self.get_logger().warn(f'Received joint state with unexpected joint names: {msg.name}')
 
     def check_controllers(self):
         if not self.controller_client.wait_for_service(timeout_sec=2.0):
@@ -403,7 +403,7 @@ class MotionPlanningClient(Node):
             self.get_logger().info(f'Found arm controller: {arm_controllers[0].name}')
         return True
 
-    def validate_pose(self, target_pose):
+    def validate_pose(self, target_pose, avoid_collisions=True):
         request = GetPositionIK.Request()
         request.ik_request.group_name = 'arm'
         joint_state = JointState()
@@ -418,7 +418,9 @@ class MotionPlanningClient(Node):
             [-1.48580983648533, 0.08469186593787745, -1.3653615677389317,
              -0.39685258923023947, -1.0637781573360787],
             [0.0, 0.0, 0.0, 0.0, 0.0],  # Neutral position
-            [-1.0, 0.3, -1.0, 0.0, 0.0]  # Alternative configuration
+            [-1.0, 0.3, -1.0, 0.0, 0.0],  # Alternative configuration
+            [-1.48580983648533, 0.08469186593787745, -1.3653615677389317,
+             -0.39685258923023947, -1.0637781573360787]  # Original start state
         ]
         
         for seed in seed_states:
@@ -426,7 +428,7 @@ class MotionPlanningClient(Node):
             request.ik_request.robot_state = RobotState(joint_state=joint_state)
             request.ik_request.pose_stamped.header.frame_id = 'base_link'
             request.ik_request.pose_stamped.pose = target_pose
-            request.ik_request.avoid_collisions = True
+            request.ik_request.avoid_collisions = avoid_collisions
             future = self.ik_client.call_async(request)
             rclpy.spin_until_future_complete(self, future)
             if future.result() and future.result().error_code.val == 1:
@@ -615,9 +617,13 @@ class MotionPlanningClient(Node):
 
     def plan_and_execute(self, target_pose=None, target_joints=None):
         self.check_controllers()
-        if target_pose and not self.validate_pose(target_pose):
-            self.get_logger().error('Aborting due to infeasible target pose')
-            return False
+        if target_pose:
+            # Try with collisions first
+            if not self.validate_pose(target_pose, avoid_collisions=True):
+                self.get_logger().warn('Retrying IK without collision checking...')
+                if not self.validate_pose(target_pose, avoid_collisions=False):
+                    self.get_logger().error('Aborting due to infeasible target pose')
+                    return False
         plan_future = self.plan_motion(target_pose, target_joints)
         rclpy.spin_until_future_complete(self, plan_future)
         if plan_future.result() is None:
@@ -638,7 +644,7 @@ def main():
     try:
         # Test with a new, likely reachable pose
         new_pose = Pose()
-        new_pose.position = Point(x=0.15, y=0.0, z=0.15)
+        new_pose.position = Point(x=-0.15, y=0.0, z=0.15)  # Adjusted to negative x
         new_pose.orientation = Quaternion(x=0.0, y=0.0, z=0.0, w=1.0)
         # Alternatively, test with a joint goal
         # target_joints = [0.0, 0.3, -0.5, 0.0, 0.0]
@@ -656,8 +662,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
 
 
 

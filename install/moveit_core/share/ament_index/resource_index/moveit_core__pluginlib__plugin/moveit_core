@@ -1,1 +1,5 @@
-/home/saber/robox_ws/build/moveit_core/ament_cmake_index/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_core
+share/moveit_core/collision_detector_fcl_description.xml
+share/moveit_core/collision_detector_bullet_description.xml
+share/moveit_core/filter_plugin_acceleration.xml
+share/moveit_core/filter_plugin_butterworth.xml
+share/moveit_core/filter_plugin_ruckig.xml

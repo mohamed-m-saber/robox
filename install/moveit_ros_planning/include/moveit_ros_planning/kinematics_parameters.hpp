@@ -1,1 +1,0 @@
-/home/saber/robox_ws/build/moveit_ros_planning/kinematics_plugin_loader/include/moveit_ros_planning/kinematics_parameters.hpp

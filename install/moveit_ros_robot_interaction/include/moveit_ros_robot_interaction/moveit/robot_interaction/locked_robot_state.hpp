@@ -1,1 +1,0 @@
-/home/saber/robox_ws/src/moveit2/moveit_ros/robot_interaction/include/moveit/robot_interaction/locked_robot_state.hpp

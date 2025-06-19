@@ -1,1 +1,0 @@
-/home/saber/robox_ws/build/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/cartesian_limits_parameters.hpp

@@ -1,0 +1,4 @@
+[0mmoveit_ros_planning: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+gmake[2]: *** [trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/build.make:76: trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/src/trajectory_execution_manager.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1476: trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -42,3 +42,35 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/saber/robox_ws/build/moveit_core/online_signal_smoothing/include/moveit_core")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/saber/robox_ws/build/moveit_core/online_signal_smoothing/include/moveit_core")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/saber/robox_ws/build/moveit_core/online_signal_smoothing/include/moveit_core")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/moveit_core" TYPE DIRECTORY FILES "/home/saber/robox_ws/src/moveit2/moveit_core/online_signal_smoothing/include/")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/moveit_core" TYPE FILE FILES "/home/saber/robox_ws/build/moveit_core/online_signal_smoothing/moveit_smoothing_base_export.h")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/moveit_core" TYPE FILE FILES "/home/saber/robox_ws/build/moveit_core/online_signal_smoothing/moveit_acceleration_filter_export.h")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/moveit_core" TYPE FILE FILES "/home/saber/robox_ws/build/moveit_core/online_signal_smoothing/moveit_butterworth_filter_export.h")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/moveit_core" TYPE FILE FILES "/home/saber/robox_ws/build/moveit_core/online_signal_smoothing/moveit_ruckig_filter_export.h")
+endif()
+

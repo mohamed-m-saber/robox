@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000303] (-) JobUnselected: {'identifier': 'arduinobot_py_examples'}
-[0.000348] (-) JobUnselected: {'identifier': 'arm_description'}
-[0.000365] (-) JobUnselected: {'identifier': 'moveit_config'}
-[0.000523] (-) EventReactorShutdown: {}

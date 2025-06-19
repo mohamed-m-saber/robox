@@ -1,1 +1,0 @@
-/home/saber/robox_ws/build/moveit_py/ament_cmake_core/moveit_pyConfig.cmake

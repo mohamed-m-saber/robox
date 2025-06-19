@@ -1,0 +1,22 @@
+[0mmoveit_core: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+gmake[2]: *** [robot_model/CMakeFiles/moveit_robot_model.dir/build.make:146: robot_model/CMakeFiles/moveit_robot_model.dir/src/link_model.cpp.o] Interrupt
+gmake[2]: *** [robot_model/CMakeFiles/moveit_robot_model.dir/build.make:76: robot_model/CMakeFiles/moveit_robot_model.dir/src/aabb.cpp.o] Interrupt
+gmake[2]: *** [robot_model/CMakeFiles/moveit_robot_model.dir/build.make:160: robot_model/CMakeFiles/moveit_robot_model.dir/src/planar_joint_model.cpp.o] Interrupt
+gmake[2]: *** [robot_model/CMakeFiles/moveit_robot_model.dir/build.make:132: robot_model/CMakeFiles/moveit_robot_model.dir/src/joint_model_group.cpp.o] Interrupt
+gmake[2]: *** [robot_model/CMakeFiles/moveit_robot_model.dir/build.make:118: robot_model/CMakeFiles/moveit_robot_model.dir/src/joint_model.cpp.o] Interrupt
+gmake[2]: *** [distance_field/CMakeFiles/moveit_distance_field.dir/build.make:76: distance_field/CMakeFiles/moveit_distance_field.dir/src/distance_field.cpp.o] Interrupt
+gmake[2]: *** [robot_model/CMakeFiles/moveit_robot_model.dir/build.make:202: robot_model/CMakeFiles/moveit_robot_model.dir/src/robot_model.cpp.o] Interrupt
+gmake[2]: *** [robot_model/CMakeFiles/moveit_robot_model.dir/build.make:188: robot_model/CMakeFiles/moveit_robot_model.dir/src/revolute_joint_model.cpp.o] Interrupt
+gmake[2]: *** [distance_field/CMakeFiles/moveit_distance_field.dir/build.make:104: distance_field/CMakeFiles/moveit_distance_field.dir/src/propagation_distance_field.cpp.o] Interrupt
+gmake[2]: *** [robot_model/CMakeFiles/moveit_robot_model.dir/build.make:104: robot_model/CMakeFiles/moveit_robot_model.dir/src/floating_joint_model.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1432: distance_field/CMakeFiles/moveit_distance_field.dir/all] Interrupt
+gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+gmake[2]: *** [transforms/CMakeFiles/moveit_transforms.dir/build.make:76: transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o] Interrupt
+gmake[2]: *** [gmock/CMakeFiles/gmock.dir/build.make:76: gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:860: gtest/CMakeFiles/gtest.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:2663: transforms/CMakeFiles/moveit_transforms.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:2203: robot_model/CMakeFiles/moveit_robot_model.dir/all] Interrupt
+gmake[2]: *** [utils/test/CMakeFiles/logger_dut.dir/build.make:76: utils/test/CMakeFiles/logger_dut.dir/logger_dut.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1380: gmock/CMakeFiles/gmock.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:2773: utils/test/CMakeFiles/logger_dut.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

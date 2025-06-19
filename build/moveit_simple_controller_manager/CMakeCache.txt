@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -96,7 +96,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -459,7 +459,7 @@ moveit_common_DIR:PATH=/home/saber/robox_ws/install/moveit_common/share/moveit_c
 moveit_core_DIR:PATH=/home/saber/robox_ws/install/moveit_core/share/moveit_core/cmake
 
 //The directory containing a CMake configuration file for moveit_msgs.
-moveit_msgs_DIR:PATH=/opt/ros/jazzy/share/moveit_msgs/cmake
+moveit_msgs_DIR:PATH=/home/saber/ws_moveit/install/moveit_msgs/share/moveit_msgs/cmake
 
 //Value Computed by CMake
 moveit_simple_controller_manager_BINARY_DIR:STATIC=/home/saber/robox_ws/build/moveit_simple_controller_manager
@@ -859,8 +859,6 @@ _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;32;;cpython-312-x86_64
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=4c8bfa8951e99fa32e4000a94f8c04a2
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=0
 //ADVANCED property for variable: boost_atomic_DIR
 boost_atomic_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_chrono_DIR

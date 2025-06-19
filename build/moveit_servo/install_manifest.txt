@@ -1,6 +1,0 @@
-/home/saber/robox_ws/install/moveit_servo/lib/libmoveit_servo_lib_cpp.so.2.12.3
-/home/saber/robox_ws/install/moveit_servo/lib/libmoveit_servo_lib_cpp.so
-/home/saber/robox_ws/install/moveit_servo/lib/libmoveit_servo_lib_ros.so.2.12.3
-/home/saber/robox_ws/install/moveit_servo/lib/libmoveit_servo_lib_ros.so
-/home/saber/robox_ws/install/moveit_servo/share/moveit_servo/cmake/moveit_servoTargetsExport.cmake
-/home/saber/robox_ws/install/moveit_servo/share/moveit_servo/cmake/moveit_servoTargetsExport-release.cmake

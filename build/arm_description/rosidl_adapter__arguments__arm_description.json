@@ -1,6 +1,0 @@
-{
-  "package_name": "arm_description",
-  "non_idl_tuples": [
-    "/home/saber/robox_ws/src/arm_description:srv/GoToPose.srv"
-  ]
-}

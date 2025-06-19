@@ -1,1 +1,0 @@
-/home/saber/robox_ws/src/moveit2/moveit_planners/pilz_industrial_motion_planner/include/joint_limits_copy/joint_limits.h

@@ -1,1 +1,0 @@
-/home/saber/robox_ws/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/robot_poses.h

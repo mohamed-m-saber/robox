@@ -1,6 +1,7 @@
 [console_scripts]
 bridge = arduinobot_py_examples.bridge:main
 ik_solver = arduinobot_py_examples.ik_solver:main
+ik_to_trajectory_client = arduinobot_py_examples.ik_to_trajectory_client:main
 joystick_handler = arduinobot_py_examples.joystick_handler:main
 pose = arduinobot_py_examples.pose:main
 publisher = arduinobot_py_examples.publisher:main

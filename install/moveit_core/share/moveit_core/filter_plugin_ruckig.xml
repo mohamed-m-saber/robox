@@ -1,1 +1,8 @@
-/home/saber/robox_ws/src/moveit2/moveit_core/filter_plugin_ruckig.xml
+<library path="moveit_ruckig_filter">
+    <class type="online_signal_smoothing::RuckigFilterPlugin"
+           base_class_type="online_signal_smoothing::SmoothingBaseClass">
+        <description>
+            Jerk/acceleration/velocity-limited command smoothing.
+        </description>
+    </class>
+</library>

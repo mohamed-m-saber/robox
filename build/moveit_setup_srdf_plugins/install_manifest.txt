@@ -1,3 +1,0 @@
-/home/saber/robox_ws/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so
-/home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsTargetsExport.cmake
-/home/saber/robox_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsTargetsExport-release.cmake

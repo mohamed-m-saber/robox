@@ -1,0 +1,86 @@
+# This file contains joint limits for the robox_arm robot
+/**:
+  ros__parameters:
+    # Default joint limits (override robot description)
+    default_velocity_scaling_factor: 0.1
+    default_acceleration_scaling_factor: 0.1
+    
+    # Joint limits for each joint
+    joint_limits:
+      joint_one:
+        has_velocity_limits: true
+        max_velocity: 1.0
+        has_acceleration_limits: true
+        max_acceleration: 1.0
+        has_jerk_limits: false
+        max_jerk: 0.0
+        has_position_limits: true
+        min_position: -1.57
+        max_position: 1.57
+      
+      joint_two:
+        has_velocity_limits: true
+        max_velocity: 1.0
+        has_acceleration_limits: true
+        max_acceleration: 1.0
+        has_jerk_limits: false
+        max_jerk: 0.0
+        has_position_limits: true
+        min_position: -1.57
+        max_position: 0.69
+      
+      joint_three:
+        has_velocity_limits: true
+        max_velocity: 1.0
+        has_acceleration_limits: true
+        max_acceleration: 1.0
+        has_jerk_limits: false
+        max_jerk: 0.0
+        has_position_limits: true
+        min_position: -1.57
+        max_position: 1.57
+      
+      joint_four:
+        has_velocity_limits: true
+        max_velocity: 1.0
+        has_acceleration_limits: true
+        max_acceleration: 1.0
+        has_jerk_limits: false
+        max_jerk: 0.0
+        has_position_limits: true
+        min_position: -1.57
+        max_position: 1.57
+      
+      joint_five:
+        has_velocity_limits: true
+        max_velocity: 1.0
+        has_acceleration_limits: true
+        max_acceleration: 1.0
+        has_jerk_limits: false
+        max_jerk: 0.0
+        has_position_limits: true
+        min_position: -1.57
+        max_position: 1.57
+      
+      # Gripper joints
+      joint_six:
+        has_velocity_limits: true
+        max_velocity: 1.0
+        has_acceleration_limits: true
+        max_acceleration: 0.5
+        has_jerk_limits: false
+        max_jerk: 0.0
+        has_position_limits: true
+        min_position: -0.03
+        max_position: 0.0
+      
+      joint_seven:
+        has_velocity_limits: true
+        max_velocity: 1.0
+        has_acceleration_limits: true
+        max_acceleration: 0.5
+        has_jerk_limits: false
+        max_jerk: 0.0
+        has_position_limits: true
+        min_position: -0.03
+        max_position: 0.0

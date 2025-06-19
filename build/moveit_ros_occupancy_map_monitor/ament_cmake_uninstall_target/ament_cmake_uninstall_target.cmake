@@ -55,6 +55,3 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
-
-# uninstall files installed using the symlink install functions
-include("/home/saber/robox_ws/build/moveit_ros_occupancy_map_monitor/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

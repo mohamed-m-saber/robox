@@ -1,4 +1,0 @@
-/home/saber/robox_ws/install/moveit_py/share/moveit_py/cmake/moveit_py_utilsTargetsExport.cmake
-/home/saber/robox_ws/install/moveit_py/share/moveit_py/cmake/moveit_py_utilsTargetsExport-release.cmake
-/home/saber/robox_ws/install/moveit_py/lib/libmoveit_py_utils.so.
-/home/saber/robox_ws/install/moveit_py/lib/libmoveit_py_utils.so

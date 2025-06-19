@@ -1,1 +1,0 @@
-/home/saber/robox_ws/build/robotic_arm_moveit_config/ament_cmake_core/robotic_arm_moveit_configConfig.cmake

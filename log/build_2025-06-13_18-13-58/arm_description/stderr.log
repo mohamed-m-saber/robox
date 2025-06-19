@@ -1,8 +1,0 @@
-In file included from [01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:147[m[K:
-[01m[K/home/saber/robox_ws/src/moveit2/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
-   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
-      |                                                                             [01;36m[K^[m[K
-In file included from [01m[K/home/saber/robox_ws/src/arm_description/src/pose.cpp:148[m[K:
-[01m[K/home/saber/robox_ws/src/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:48:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
-   48 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
-      |                                                                             [01;36m[K^[m[K

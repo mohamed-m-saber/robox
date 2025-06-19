@@ -1,6 +1,7 @@
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/serial.py
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__init__.py
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/pose.py
+/home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/ik_to_trajectory_client.py
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/bridge.py
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/subscriber.py
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_parameter.py
@@ -12,6 +13,7 @@
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/serial.cpython-312.pyc
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/__init__.cpython-312.pyc
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/pose.cpython-312.pyc
+/home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/ik_to_trajectory_client.cpython-312.pyc
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/bridge.cpython-312.pyc
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/subscriber.cpython-312.pyc
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/simple_parameter.cpython-312.pyc
@@ -31,6 +33,7 @@
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.1-py3.12.egg-info/zip-safe
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/bridge
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/ik_solver
+/home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/ik_to_trajectory_client
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/joystick_handler
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/pose
 /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/publisher

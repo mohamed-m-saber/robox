@@ -1,1 +1,0 @@
-/home/saber/robox_ws/src/moveit2/moveit_setup_assistant/moveit_setup_controllers/launch/control.launch.py

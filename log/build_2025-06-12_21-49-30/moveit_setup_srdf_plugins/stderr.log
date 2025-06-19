@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:162: CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/moveit_setup_srdf_plugins.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

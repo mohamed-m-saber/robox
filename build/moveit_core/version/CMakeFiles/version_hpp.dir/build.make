@@ -71,7 +71,7 @@ version/CMakeFiles/version_hpp: version/always_rebuild
 
 include/moveit/version.hpp:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/saber/robox_ws/build/moveit_core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generate version header"
-	cd /home/saber/robox_ws/src/moveit2/moveit_core/version && /usr/bin/cmake -DVERSION_FILE_PATH="/home/saber/robox_ws/build/moveit_core/include" -DMOVEIT_VERSION="2.12.3" -DMOVEIT_VERSION_EXTRA="devel" -P /home/saber/robox_ws/src/moveit2/moveit_core/version/version.cmake
+	cd /home/saber/robox_ws/src/moveit2/moveit_core/version && /usr/bin/cmake -DVERSION_FILE_PATH="/home/saber/robox_ws/build/moveit_core/include" -DMOVEIT_VERSION="2.14.0" -DMOVEIT_VERSION_EXTRA="devel" -P /home/saber/robox_ws/src/moveit2/moveit_core/version/version.cmake
 
 version/always_rebuild: include/moveit/version.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate version/always_rebuild

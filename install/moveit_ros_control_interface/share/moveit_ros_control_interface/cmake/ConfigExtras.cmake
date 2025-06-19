@@ -1,1 +1,3 @@
-/home/saber/robox_ws/src/moveit2/moveit_plugins/moveit_ros_control_interface/ConfigExtras.cmake
+# Extras module needed for dependencies to find boost components
+
+find_package(Boost REQUIRED COMPONENTS system thread)

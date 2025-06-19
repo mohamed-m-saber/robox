@@ -1,1 +1,0 @@
-/home/saber/robox_ws/src/moveit2/moveit_ros/hybrid_planning/local_planner/local_planner_component/include/moveit/local_planner/trajectory_operator_interface.h

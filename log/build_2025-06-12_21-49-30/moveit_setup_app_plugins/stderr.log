@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/moveit_setup_app_plugins.dir/build.make:196: CMakeFiles/moveit_setup_app_plugins.dir/include/moveit_setup_app_plugins/moc_perception_widget.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/moveit_setup_app_plugins.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

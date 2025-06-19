@@ -1,1 +1,0 @@
-/home/saber/robox_ws/src/robotic_arm_moveit_config/launch/demo.launch.py

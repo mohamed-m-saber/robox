@@ -1,1 +1,0 @@
-/home/saber/robox_ws/build/moveit_kinematics/kdl_kinematics_plugin/include/moveit_kinematics/kdl_kinematics_parameters.hpp

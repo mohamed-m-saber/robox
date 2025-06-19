@@ -1,1 +1,0 @@
-/home/saber/robox_ws/build/arm_description/rosidl_typesupport_fastrtps_cpp/arm_description/srv/detail/go_to_pose__rosidl_typesupport_fastrtps_cpp.hpp

@@ -11,6 +11,7 @@ setup.py
 arduinobot_py_examples/__init__.py
 arduinobot_py_examples/bridge.py
 arduinobot_py_examples/ik_solver.py
+arduinobot_py_examples/ik_to_trajectory_client.py
 arduinobot_py_examples/joystick_handler.py
 arduinobot_py_examples/pose.py
 arduinobot_py_examples/publisher.py

@@ -1,5 +1,0 @@
-  File "/home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/pose.py", line 242
-    !/usr/bin/env python3
-    ^
-SyntaxError: invalid syntax
-

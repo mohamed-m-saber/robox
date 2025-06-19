@@ -1,1 +1,0 @@
-/home/saber/robox_ws/build/arm_description/rosidl_typesupport_introspection_c/arm_description/msg/rosidl_typesupport_introspection_c__visibility_control.h

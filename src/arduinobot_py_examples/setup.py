@@ -30,7 +30,9 @@ setup(
             'pose = arduinobot_py_examples.pose:main',
             'simple_moveit_interface = arduinobot_py_examples.simple_moveit_interface:main',
             'ik_solver = arduinobot_py_examples.ik_solver:main',
-            'reachability_map = arduinobot_py_examples.reach:main'
+            'reachability_map = arduinobot_py_examples.reach:main',
+            'ik_to_trajectory_client = arduinobot_py_examples.ik_to_trajectory_client:main',
+
 
 
 
