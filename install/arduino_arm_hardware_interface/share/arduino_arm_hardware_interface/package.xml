@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>arduino_arm_hardware_interface</name>
+  <version>0.0.1</version>
+  <description>Simple ROS 2 Control hardware interface for Arduino Arm using LibSerial</description>
+
+  <maintainer email="you@todo.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>hardware_interface</depend>
+  <depend>pluginlib</depend>
+
+  <exec_depend>libserial-dev</exec_depend>
+</package>

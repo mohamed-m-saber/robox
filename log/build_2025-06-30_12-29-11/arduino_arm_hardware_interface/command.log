@@ -1,0 +1,4 @@
+Invoking command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/arduino_arm_hardware_interface -- -j16 -l16
+Invoked command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/arduino_arm_hardware_interface -- -j16 -l16
+Invoking command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saber/robox_ws/build/arduino_arm_hardware_interface
+Invoked command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saber/robox_ws/build/arduino_arm_hardware_interface

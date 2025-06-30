@@ -10,6 +10,8 @@ setup.py
 ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/zip-safe
 arduinobot_py_examples/__init__.py
 arduinobot_py_examples/bridge.py
+arduinobot_py_examples/cube_pose_publisher.py
+arduinobot_py_examples/cube_pose_trajectory.py
 arduinobot_py_examples/ik_solver.py
 arduinobot_py_examples/ik_to_trajectory_client.py
 arduinobot_py_examples/joystick_handler.py

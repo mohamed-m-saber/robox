@@ -1,0 +1,1 @@
+control_msgs:geometry_msgs:joint_state_publisher_gui:moveit_msgs:moveit_py:moveit_ros_move_group:moveit_ros_planning_interface:python3-numpy:python3-scipy:rcl_interfaces:rclpy:robot_state_publisher:robotic_arm_moveit_config:ros_gz_bridge:ros_gz_sim:rviz2:sensor_msgs:std_msgs:trajectory_msgs

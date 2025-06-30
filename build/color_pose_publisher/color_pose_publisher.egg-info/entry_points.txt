@@ -1,0 +1,2 @@
+[console_scripts]
+color_pose_publisher_node = color_pose_publisher.color_pose_publisher_node:main

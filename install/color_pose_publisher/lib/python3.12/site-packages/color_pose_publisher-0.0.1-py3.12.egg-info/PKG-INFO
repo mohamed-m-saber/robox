@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: color-pose-publisher
+Version: 0.0.1
+Summary: ROS 2 Python package for detecting colored cubes and publishing pose + color
+Maintainer: Saber
+Maintainer-email: saber@example.com
+License: MIT

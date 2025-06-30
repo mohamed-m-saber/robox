@@ -1,0 +1,81 @@
+[1.095s] Invoking command in '/home/saber/robox_ws/src/arduinobot_py_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/src/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /home/saber/robox_ws/src/build/arduinobot_py_examples/build install --record /home/saber/robox_ws/src/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[1.417s] running egg_info
+[1.417s] creating ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info
+[1.443s] writing ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[1.444s] writing dependency_links to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[1.444s] writing entry points to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[1.444s] writing requirements to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[1.444s] writing top-level names to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[1.444s] writing manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.497s] reading manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.498s] writing manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.498s] running build
+[1.498s] running build_py
+[1.498s] creating /home/saber/robox_ws/src/build/arduinobot_py_examples/build
+[1.498s] creating /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib
+[1.498s] creating /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.499s] copying arduinobot_py_examples/serial.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.499s] copying arduinobot_py_examples/__init__.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.499s] copying arduinobot_py_examples/pose.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.499s] copying arduinobot_py_examples/ik_to_trajectory_client.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.499s] copying arduinobot_py_examples/cube_pose_publisher.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.499s] copying arduinobot_py_examples/bridge.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.499s] copying arduinobot_py_examples/subscriber.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.500s] copying arduinobot_py_examples/simple_parameter.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.500s] copying arduinobot_py_examples/ik_solver.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.500s] copying arduinobot_py_examples/joystick_handler.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.500s] copying arduinobot_py_examples/publisher.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.500s] copying arduinobot_py_examples/reachability_map.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.500s] copying arduinobot_py_examples/simple_moveit_interface.py -> /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.500s] running install
+[1.506s] running install_lib
+[1.532s] creating /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.533s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/serial.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.533s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/__init__.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.533s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/pose.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.533s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/ik_to_trajectory_client.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.533s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/cube_pose_publisher.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.533s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/bridge.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.533s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/subscriber.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.533s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_parameter.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.534s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/ik_solver.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.534s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/joystick_handler.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.534s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/publisher.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.534s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/reachability_map.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.534s] copying /home/saber/robox_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_moveit_interface.py -> /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.535s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/serial.py to serial.cpython-312.pyc
+[1.536s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__init__.py to __init__.cpython-312.pyc
+[1.536s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/pose.py to pose.cpython-312.pyc
+[1.536s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/ik_to_trajectory_client.py to ik_to_trajectory_client.cpython-312.pyc
+[1.538s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/cube_pose_publisher.py to cube_pose_publisher.cpython-312.pyc
+[1.538s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/bridge.py to bridge.cpython-312.pyc
+[1.539s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/subscriber.py to subscriber.cpython-312.pyc
+[1.539s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_parameter.py to simple_parameter.cpython-312.pyc
+[1.540s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/ik_solver.py to ik_solver.cpython-312.pyc
+[1.540s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/joystick_handler.py to joystick_handler.cpython-312.pyc
+[1.541s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/publisher.py to publisher.cpython-312.pyc
+[1.542s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/reachability_map.py to reachability_map.cpython-312.pyc
+[1.543s] byte-compiling /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_moveit_interface.py to simple_moveit_interface.cpython-312.pyc
+[1.543s] running install_data
+[1.543s] creating /home/saber/robox_ws/src/install/arduinobot_py_examples/share/ament_index
+[1.544s] creating /home/saber/robox_ws/src/install/arduinobot_py_examples/share/ament_index/resource_index
+[1.544s] creating /home/saber/robox_ws/src/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.544s] copying resource/arduinobot_py_examples -> /home/saber/robox_ws/src/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.544s] copying package.xml -> /home/saber/robox_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples
+[1.544s] running install_egg_info
+[1.572s] Copying ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.1-py3.12.egg-info
+[1.573s] running install_scripts
+[1.744s] Installing bridge script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.744s] Installing cube_pose_publisher script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.744s] Installing ik_solver script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.744s] Installing ik_to_trajectory_client script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.744s] Installing joystick_handler script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.744s] Installing pose script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.744s] Installing publisher script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.744s] Installing reachability_map script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.744s] Installing serial script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.744s] Installing simple_moveit_interface script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.744s] Installing simple_parameter script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.745s] Installing subscriber script to /home/saber/robox_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.745s] writing list of installed files to '/home/saber/robox_ws/src/build/arduinobot_py_examples/install.log'
+[1.773s] Invoked command in '/home/saber/robox_ws/src/arduinobot_py_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/src/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /home/saber/robox_ws/src/build/arduinobot_py_examples/build install --record /home/saber/robox_ws/src/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data

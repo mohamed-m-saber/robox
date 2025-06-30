@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cube_msgs__py",
+		"source" : "/home/saber/robox_ws/build/cube_msgs/cube_msgs__py"
+	}
+}

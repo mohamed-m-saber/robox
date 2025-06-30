@@ -1,0 +1,45 @@
+In file included from [01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:1[m[K:
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/include/arduino_arm_hardware_interface/arduino_arm_system.hpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ does not name a type
+   33 |   [01;31m[Kserial[m[K::Serial arduino_;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn arduino_arm_hardware_interface::ArduinoArmSystem::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:17:3:[m[K [01;31m[Kerror: [m[K‘[01m[Karduino_[m[K’ was not declared in this scope
+   17 |   [01;31m[Karduino_[m[K.setPort("/dev/ttyACM0");
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:19:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ has not been declared
+   19 |   arduino_.setTimeout([01;31m[Kserial[m[K::Timeout::simpleTimeout(500));
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn arduino_arm_hardware_interface::ArduinoArmSystem::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Karduino_[m[K’ was not declared in this scope
+   45 |     [01;31m[Karduino_[m[K.open();
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:46:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ does not name a type
+   46 |   } catch ([01;31m[Kserial[m[K::IOException & e) {
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:46:32:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   46 |   } catch (serial::IOException [01;31m[K&[m[K e) {
+      |                                [01;31m[K^[m[K
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:46:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   46 |   } catch [34m[K([m[Kserial::IOException[01;31m[K [m[K[32m[K&[m[K e) {
+      |           [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                               [32m[K)[m[K
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:46:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K&[m[K’ token
+   46 |   } catch (serial::IOException [01;31m[K&[m[K e) {
+      |                                [01;31m[K^[m[K
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:46:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+   46 |   } catch (serial::IOException & [01;31m[Ke[m[K) {
+      |                                  [01;31m[K^[m[K
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn arduino_arm_hardware_interface::ArduinoArmSystem::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:57:7:[m[K [01;31m[Kerror: [m[K‘[01m[Karduino_[m[K’ was not declared in this scope
+   57 |   if ([01;31m[Karduino_[m[K.isOpen()) arduino_.close();
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduino_arm_hardware_interface::ArduinoArmSystem::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:69:8:[m[K [01;31m[Kerror: [m[K‘[01m[Karduino_[m[K’ was not declared in this scope
+   69 |   if (![01;31m[Karduino_[m[K.isOpen()) return hardware_interface::return_type::ERROR;
+      |        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:77:3:[m[K [01;31m[Kerror: [m[K‘[01m[Karduino_[m[K’ was not declared in this scope
+   77 |   [01;31m[Karduino_[m[K.write(msg);
+      |   [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/arduino_arm_system.dir/build.make:76: CMakeFiles/arduino_arm_system.dir/src/arduino_arm_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arduino_arm_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

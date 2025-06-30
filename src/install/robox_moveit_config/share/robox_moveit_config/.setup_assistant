@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: robox_arm
+    relative_path: urdf/robox_arm.urdf
+  srdf:
+    relative_path: config/robox_arm.srdf
+  package_settings:
+    author_name: Mohamed M.Saber
+    author_email: mohamed.m.sabir@gmail.com
+    generated_timestamp: 1750244267
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

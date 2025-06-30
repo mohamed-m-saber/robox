@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="robox_arm">
+
+
+  <!-- Add this after link_five -->
+<link name="ik_frame">
+  <!-- This can be empty or have minimal inertial properties -->
+  <inertial>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <mass value="0.001" />
+    <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+  </inertial>
+</link>
+
+<joint name="link_five_to_ik_frame" type="fixed">
+  <origin xyz="-0.015 0.0 0.1" rpy="0 0 0" />
+  <parent link="link_five" />
+  <child link="ik_frame" />
+</joint>
+
+
+
+  <link name="world" />
+  <joint name="world_to_base" type="fixed">
+    <parent link="world" />
+    <child link="base_link" />
+    <origin xyz=" -0.09191  0.125 -0.015" rpy="0 0 0" />
+  </joint>
+  <link name="base_link">
+    <inertial>
+      <origin xyz="-0.0334185417734068 0.000387038994720544 0.0314489504139099" rpy="0 0 0" />
+      <mass value="0.446165792554974" />
+      <inertia ixx="0.000377604195091325" ixy="1.5002286725277E-07" ixz="3.39719956827626E-08" iyy="0.000575990291491252" iyz="-4.62907243003046E-07" izz="0.000932227302367943" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/base_link.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.0 0.0 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_one">
+    <inertial>
+      <origin xyz="-6.03622970718007E-06 -0.00521662588863068 0.0257879622486223" rpy="0 0 0" />
+      <mass value="0.0668932541241872" />
+      <inertia ixx="1.48670587538434E-05" ixy="-1.64856890592254E-07" ixz="-2.11950827848722E-11" iyy="1.80390144856992E-05" iyz="4.60310653530523E-07" izz="2.74670730418135E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_one.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.0 0.0 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_one.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_one" type="revolute">
+    <origin xyz="0 0 0.0466" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="link_one" />
+    <axis xyz="0 0 -1" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="1.0" />
+  </joint>
+  <link name="link_two">
+    <inertial>
+      <origin xyz="-0.00395375026056333 -0.0261174627773937 0.050000000000004" rpy="0 0 0" />
+      <mass value="0.0422835365975947" />
+      <inertia ixx="5.89921114741114E-05" ixy="6.97908192319894E-08" ixz="2.03660766696015E-19" iyy="3.9772332084034E-05" iyz="-3.28467652830113E-20" izz="2.5539223828081E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_two.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.0 0.0 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_two.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_two" type="revolute">
+    <origin xyz="0.00949999999999964 0.0247000000000005 0.03197" rpy="0 0 0" />
+    <parent link="link_one" />
+    <child link="link_two" />
+    <axis xyz="0 -1 0" />
+    <limit lower="-1.307" upper="0.617" effort="100" velocity="1.0" />
+  </joint>
+  <link name="link_three">
+    <inertial>
+      <origin xyz="-0.00130547761778302 -0.0296809745011252 0.0450025336216375" rpy="0 0 0" />
+      <mass value="0.13493320864261" />
+      <inertia ixx="0.000101277084289936" ixy="1.06896096466094E-06" ixz="1.9122530405454E-09" iyy="8.18401383142468E-05" iyz="-1.20327532021426E-09" izz="3.06279251273651E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_three.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0 0 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_three.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_three" type="revolute">
+    <origin xyz="0 0.000700000000000298 0.100000000000001" rpy="0 0 0" />
+    <parent link="link_two" />
+    <child link="link_three" />
+    <axis xyz="0 -1 0" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="1.0" />
+  </joint>
+  <link name="link_four">
+    <inertial>
+      <origin xyz="0.000231063846424276 -0.0264803282154438 0.0477744454869917" rpy="0 0 0" />
+      <mass value="0.0447180488708645" />
+      <inertia ixx="1.67748714277602E-05" ixy="2.1197715357756E-11" ixz="-3.39708625518307E-08" iyy="1.67225833712195E-05" iyz="-1.14245221974723E-07" izz="1.41082751627853E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_four.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.0 0.0 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_four.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_four" type="revolute">
+    <origin xyz="0 0 0.0900000000000024" rpy="0 0 0" />
+    <parent link="link_three" />
+    <child link="link_four" />
+    <axis xyz="0 -1 0" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="1.0" />
+  </joint>
+  <link name="link_five">
+    <inertial>
+      <origin xyz="-0.0053487746024533 0.000816136547311788 0.031618982814421" rpy="0 0 0" />
+      <mass value="0.067532070571742" />
+      <inertia ixx="2.03298597613589E-05" ixy="-1.0267674972768E-09" ixz="9.64129370372415E-07" iyy="1.07589999406465E-05" iyz="-2.00951540427755E-07" izz="1.25282391022449E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_five.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.737 0.776 0.800 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_five.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_five" type="revolute">
+    <origin xyz="0.00975000000002091 -0.0263999999999991 0.0726000000000027" rpy="0 0 0" />
+    <parent link="link_four" />
+    <child link="link_five" />
+    <axis xyz="0 0 -1" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="1.0" />
+  </joint>
+  
+
+  
+  <link name="link_six">
+    <inertial>
+      <origin xyz="-7.04166355173369E-09 0.00538295031234353 -0.0219879956622193" rpy="0 0 0" />
+      <mass value="0.0100926857205057" />
+      <inertia ixx="3.69526754574355E-06" ixy="-1.11193490795298E-13" ixz="-6.64808079689313E-13" iyy="3.84164503737558E-06" iyz="-1.94557811545775E-07" izz="3.61559746771212E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_six.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.737 0.776 0.800 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_six.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_six" type="prismatic">
+    <origin xyz="-0.0125000000000004 0.0320459025242005 0.120525308883549" rpy="0 0 0" />
+    <parent link="link_five" />
+    <child link="link_six" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.221" upper="0.097" effort="1" velocity="1.0" />
+  </joint>
+  <link name="link_seven">
+    <inertial>
+      <origin xyz="7.04161882969512E-09 -0.00538295031233112 -0.0219879956622221" rpy="0 0 0" />
+      <mass value="0.0100926857205057" />
+      <inertia ixx="3.69526754574355E-06" ixy="-1.1119349082246E-13" ixz="6.64808080442258E-13" iyy="3.84164503737538E-06" iyz="1.94557811547591E-07" izz="3.61559746771416E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_seven.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.737 0.776 0.800 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robox_arm/meshes/link_seven.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_seven" type="prismatic">
+    <origin xyz="-0.0124999999999996 -0.0322959025242393 0.120525308883539" rpy="0 0 0" />
+    <parent link="link_five" />
+    <child link="link_seven" />
+    <axis xyz="0 -1 0" />
+    <limit lower="-1.221" upper="0.097" effort="1" velocity="1.0" />
+  </joint>
+</robot>

@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/arduino_arm_hardware_interface -- -j16 -l16
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_arm_system.dir/src/arduino_arm_system.cpp.o[0m
+[2.246s] [01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn arduino_arm_hardware_interface::ArduinoArmSystem::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[2.246s] [01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:26:40:[m[K [01;31m[Kerror: [m[K‘[01m[KBAUD_57600[m[K’ is not a member of ‘[01m[KLibSerial::SerialStreamBuf[m[K’
+[2.246s]    26 |   serial_.SetBaudRate(SerialStreamBuf::[01;31m[KBAUD_57600[m[K);
+[2.247s]       |                                        [01;31m[K^~~~~~~~~~[m[K
+[2.253s] [01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduino_arm_hardware_interface::ArduinoArmSystem::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.253s] [01m[K/home/saber/robox_ws/src/arduino_arm_hardware_interface/src/arduino_arm_system.cpp:65:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LibSerial::SerialStream[m[K’ has no member named ‘[01m[KFlush[m[K’; did you mean ‘[01m[Kflush[m[K’?
+[2.253s]    65 |   serial_.[01;31m[KFlush[m[K();
+[2.253s]       |           [01;31m[K^~~~~[m[K
+[2.253s]       |           [32m[Kflush[m[K
+[3.124s] gmake[2]: *** [CMakeFiles/arduino_arm_system.dir/build.make:76: CMakeFiles/arduino_arm_system.dir/src/arduino_arm_system.cpp.o] Error 1
+[3.124s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arduino_arm_system.dir/all] Error 2
+[3.124s] gmake: *** [Makefile:146: all] Error 2
+[3.127s] Invoked command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saber/robox_ws/build/arduino_arm_hardware_interface -- -j16 -l16
