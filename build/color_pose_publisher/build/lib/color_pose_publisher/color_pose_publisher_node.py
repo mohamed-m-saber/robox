@@ -70,7 +70,7 @@ class ColorPosePublisher(Node):
         msg.header.stamp = self.get_clock().now().to_msg()
         msg.header.frame_id = "world"
       
-        msg.pose.position.x = round((y_mm) / 1000.0 ,5) # convert mm to meters
+        msg.pose.position.x = round((y_mm) / 1000.0 ,5) # convert mm to meters,    x,y of the robot are reversed 
         msg.pose.position.y = round((x_mm) / 1000.0,5)
         msg.pose.position.z = 0.0
         msg.pose.orientation.x = 0.0

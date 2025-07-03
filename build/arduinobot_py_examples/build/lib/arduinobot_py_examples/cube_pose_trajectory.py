@@ -543,7 +543,7 @@ class MotionPlannerPickAndPlace(Node):
         self.plan_and_send(bin_x, bin_y, self.approach_z, 0, self.on_retract_place_done)
 
     def on_retract_place_done(self):
-        self.plan_and_send(0.0, 0.0, self.approach_z, self.home_wrist_angle)
+        self.plan_and_send(0.0, 0.0, self.approach_z, self.home_wrist_angle, self.feedback)
 
     def plan_and_send(self, x, y, z, wrist_angle, done_callback=None):
         self.last_pose = (x, y, z, wrist_angle)

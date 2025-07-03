@@ -70,8 +70,11 @@ include /home/saber/robox_ws/build/cube_msgs/cube_msgs__py/CMakeFiles/cube_msgs_
 /home/saber/robox_ws/build/cube_msgs/cube_msgs__py/CMakeFiles/cube_msgs__py: rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_introspection_c.c
 /home/saber/robox_ws/build/cube_msgs/cube_msgs__py/CMakeFiles/cube_msgs__py: rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_c.c
 /home/saber/robox_ws/build/cube_msgs/cube_msgs__py/CMakeFiles/cube_msgs__py: rosidl_generator_py/cube_msgs/msg/_color_pose_stamped.py
+/home/saber/robox_ws/build/cube_msgs/cube_msgs__py/CMakeFiles/cube_msgs__py: rosidl_generator_py/cube_msgs/action/_pick_and_place.py
 /home/saber/robox_ws/build/cube_msgs/cube_msgs__py/CMakeFiles/cube_msgs__py: rosidl_generator_py/cube_msgs/msg/__init__.py
+/home/saber/robox_ws/build/cube_msgs/cube_msgs__py/CMakeFiles/cube_msgs__py: rosidl_generator_py/cube_msgs/action/__init__.py
 /home/saber/robox_ws/build/cube_msgs/cube_msgs__py/CMakeFiles/cube_msgs__py: rosidl_generator_py/cube_msgs/msg/_color_pose_stamped_s.c
+/home/saber/robox_ws/build/cube_msgs/cube_msgs__py/CMakeFiles/cube_msgs__py: rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c
 
 rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,7 @@ rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /
 rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/cube_msgs/msg/ColorPoseStamped.idl
+rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/cube_msgs/action/PickAndPlace.idl
 rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -151,6 +155,12 @@ rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /
 rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
+rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/saber/robox_ws/build/cube_msgs/cube_msgs__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/saber/robox_ws/build/cube_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -163,16 +173,28 @@ rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_c.c: rosidl_gen
 rosidl_generator_py/cube_msgs/msg/_color_pose_stamped.py: rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/cube_msgs/msg/_color_pose_stamped.py
 
+rosidl_generator_py/cube_msgs/action/_pick_and_place.py: rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/cube_msgs/action/_pick_and_place.py
+
 rosidl_generator_py/cube_msgs/msg/__init__.py: rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/cube_msgs/msg/__init__.py
 
+rosidl_generator_py/cube_msgs/action/__init__.py: rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/cube_msgs/action/__init__.py
+
 rosidl_generator_py/cube_msgs/msg/_color_pose_stamped_s.c: rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/cube_msgs/msg/_color_pose_stamped_s.c
+
+rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c: rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c
 
 cube_msgs__py: /home/saber/robox_ws/build/cube_msgs/cube_msgs__py/CMakeFiles/cube_msgs__py
 cube_msgs__py: rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_c.c
 cube_msgs__py: rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 cube_msgs__py: rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_introspection_c.c
+cube_msgs__py: rosidl_generator_py/cube_msgs/action/__init__.py
+cube_msgs__py: rosidl_generator_py/cube_msgs/action/_pick_and_place.py
+cube_msgs__py: rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c
 cube_msgs__py: rosidl_generator_py/cube_msgs/msg/__init__.py
 cube_msgs__py: rosidl_generator_py/cube_msgs/msg/_color_pose_stamped.py
 cube_msgs__py: rosidl_generator_py/cube_msgs/msg/_color_pose_stamped_s.c

@@ -78,6 +78,7 @@ rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_ty
 rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
 rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/cube_msgs/msg/ColorPoseStamped.idl
+rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/cube_msgs/action/PickAndPlace.idl
 rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -142,11 +143,23 @@ rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_ty
 rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
+rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/saber/robox_ws/build/cube_msgs/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp: rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp: rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp
 
 CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp.o: CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp
@@ -162,31 +175,53 @@ CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastr
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saber/robox_ws/build/cube_msgs/rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp -o CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp.s
 
+CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.o: CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp
+CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.o: CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.o -MF CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.o.d -o CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.o -c /home/saber/robox_ws/build/cube_msgs/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp
+
+CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/saber/robox_ws/build/cube_msgs/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp > CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.i
+
+CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saber/robox_ws/build/cube_msgs/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp -o CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.s
+
 # Object files for target cube_msgs__rosidl_typesupport_fastrtps_c
 cube_msgs__rosidl_typesupport_fastrtps_c_OBJECTS = \
-"CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp.o"
+"CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp.o" \
+"CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.o"
 
 # External object files for target cube_msgs__rosidl_typesupport_fastrtps_c
 cube_msgs__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp.o
+libcube_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.o
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/build.make
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: libcube_msgs__rosidl_generator_c.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
+libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
+libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librmw.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libfastcdr.so.2.2.5
-libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
-libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
+libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_c.so
+libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librcutils.so
 libcube_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libcube_msgs__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcube_msgs__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -197,6 +232,8 @@ CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/clean
 
+CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp
 CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp
 	cd /home/saber/robox_ws/build/cube_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saber/robox_ws/src/cube_msgs /home/saber/robox_ws/src/cube_msgs /home/saber/robox_ws/build/cube_msgs /home/saber/robox_ws/build/cube_msgs /home/saber/robox_ws/build/cube_msgs/CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color=$(COLOR)"

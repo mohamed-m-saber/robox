@@ -1,8 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cube_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cube_msgs/action/pick_and_place__type_support.cpp.o"
+  "CMakeFiles/cube_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cube_msgs/action/pick_and_place__type_support.cpp.o.d"
   "CMakeFiles/cube_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cube_msgs/msg/color_pose_stamped__type_support.cpp.o"
   "CMakeFiles/cube_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cube_msgs/msg/color_pose_stamped__type_support.cpp.o.d"
   "libcube_msgs__rosidl_typesupport_c.pdb"
   "libcube_msgs__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/cube_msgs/action/pick_and_place__type_support.cpp"
   "rosidl_typesupport_c/cube_msgs/msg/color_pose_stamped__type_support.cpp"
 )
 

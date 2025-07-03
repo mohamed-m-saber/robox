@@ -89,6 +89,7 @@ rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/rosi
 rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
 rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: rosidl_adapter/cube_msgs/msg/ColorPoseStamped.idl
+rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: rosidl_adapter/cube_msgs/action/PickAndPlace.idl
 rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -153,6 +154,12 @@ rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/geom
 rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
+rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c__arguments.json
 
@@ -165,6 +172,18 @@ rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__struct.h: rosidl_gen
 rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__type_support.h: rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__type_support.h
 
+rosidl_generator_c/cube_msgs/action/pick_and_place.h: rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/cube_msgs/action/pick_and_place.h
+
+rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.h: rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.h
+
+rosidl_generator_c/cube_msgs/action/detail/pick_and_place__struct.h: rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/cube_msgs/action/detail/pick_and_place__struct.h
+
+rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.h: rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.h
+
 rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__description.c: rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__description.c
 
@@ -173,6 +192,15 @@ rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__functions.c: rosidl_
 
 rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__type_support.c: rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__type_support.c
+
+rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c: rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c
+
+rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c: rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c
+
+rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c: rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c
 
 CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__description.c.o: CMakeFiles/cube_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__description.c.o: rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__description.c
@@ -216,11 +244,56 @@ CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/de
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__type_support.c -o CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__type_support.c.s
 
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.o: CMakeFiles/cube_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.o: rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.o: CMakeFiles/cube_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.o -MF CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.o.d -o CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.o -c /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c
+
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c > CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.i
+
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c -o CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.s
+
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.o: CMakeFiles/cube_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.o: rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.o: CMakeFiles/cube_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.o -MF CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.o.d -o CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.o -c /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c
+
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c > CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.i
+
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c -o CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.s
+
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.o: CMakeFiles/cube_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.o: rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.o: CMakeFiles/cube_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.o -MF CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.o.d -o CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.o -c /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c
+
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c > CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.i
+
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c -o CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.s
+
 # Object files for target cube_msgs__rosidl_generator_c
 cube_msgs__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__description.c.o" \
 "CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__functions.c.o" \
-"CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__type_support.c.o"
+"CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__type_support.c.o" \
+"CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.o" \
+"CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.o" \
+"CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.o"
 
 # External object files for target cube_msgs__rosidl_generator_c
 cube_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -228,14 +301,20 @@ cube_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
 libcube_msgs__rosidl_generator_c.so: CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__description.c.o
 libcube_msgs__rosidl_generator_c.so: CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__functions.c.o
 libcube_msgs__rosidl_generator_c.so: CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__type_support.c.o
+libcube_msgs__rosidl_generator_c.so: CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.o
+libcube_msgs__rosidl_generator_c.so: CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.o
+libcube_msgs__rosidl_generator_c.so: CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.o
 libcube_msgs__rosidl_generator_c.so: CMakeFiles/cube_msgs__rosidl_generator_c.dir/build.make
 libcube_msgs__rosidl_generator_c.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
+libcube_msgs__rosidl_generator_c.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_c.so
+libcube_msgs__rosidl_generator_c.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libcube_msgs__rosidl_generator_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
+libcube_msgs__rosidl_generator_c.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 libcube_msgs__rosidl_generator_c.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libcube_msgs__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libcube_msgs__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 libcube_msgs__rosidl_generator_c.so: CMakeFiles/cube_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libcube_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libcube_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cube_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -246,6 +325,13 @@ CMakeFiles/cube_msgs__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/cube_msgs__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/cube_msgs__rosidl_generator_c.dir/clean
 
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.h
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/cube_msgs/action/detail/pick_and_place__struct.h
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.h
+CMakeFiles/cube_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/cube_msgs/action/pick_and_place.h
 CMakeFiles/cube_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/cube_msgs/msg/color_pose_stamped.h
 CMakeFiles/cube_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__description.c
 CMakeFiles/cube_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__functions.c

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "cube_msgs/action/PickAndPlace_Feedback",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "cube_msgs/action/PickAndPlace_Feedback",
+      "hash_string": "RIHS01_4797b4f21dc578313ed2b1e24870a2fe0308d9fdd0ee86be3cb6a29350f3e163"
+    }
+  ]
+}

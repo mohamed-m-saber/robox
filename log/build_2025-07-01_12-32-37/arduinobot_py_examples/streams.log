@@ -1,0 +1,34 @@
+[2.336s] Invoking command in '/home/saber/robox_ws/src/arduinobot_py_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/saber/robox_ws/build/arduinobot_py_examples/build install --record /home/saber/robox_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[2.947s] running egg_info
+[2.999s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[2.999s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[3.000s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[3.000s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[3.000s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[3.106s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[3.107s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[3.107s] running build
+[3.108s] running build_py
+[3.109s] running install
+[3.119s] running install_lib
+[3.174s] running install_data
+[3.174s] running install_egg_info
+[3.229s] removing '/home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.1-py3.12.egg-info' (and everything under it)
+[3.230s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.1-py3.12.egg-info
+[3.232s] running install_scripts
+[3.550s] Installing bridge script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.551s] Installing cube_pose_publisher script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.551s] Installing cube_pose_trajectory script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.551s] Installing ik_solver script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.551s] Installing ik_to_trajectory_client script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.552s] Installing joystick_handler script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.552s] Installing pose script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.552s] Installing ppc_action_server script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.552s] Installing publisher script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.552s] Installing reachability_map script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.553s] Installing serial script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.553s] Installing simple_moveit_interface script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.553s] Installing simple_parameter script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.553s] Installing subscriber script to /home/saber/robox_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.554s] writing list of installed files to '/home/saber/robox_ws/build/arduinobot_py_examples/install.log'
+[3.596s] Invoked command in '/home/saber/robox_ws/src/arduinobot_py_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/saber/robox_ws/build/arduinobot_py_examples/build install --record /home/saber/robox_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data

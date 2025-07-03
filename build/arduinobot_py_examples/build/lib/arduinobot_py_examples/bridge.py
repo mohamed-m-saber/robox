@@ -158,7 +158,7 @@ class ArmSerialBridge(Node):
 
     def setup_serial(self):
         try:
-            self.arduino = serial.Serial('/dev/ttyACM0', 57600, timeout=1)
+            self.arduino = serial.Serial('/dev/ttyACM1', 57600, timeout=1)
             time.sleep(3)
             self.arduino.write(b'DeskMod\n')
             time.sleep(0.1)

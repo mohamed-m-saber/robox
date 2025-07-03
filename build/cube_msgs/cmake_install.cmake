@@ -51,6 +51,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cube_msgs/action" TYPE FILE FILES "/home/saber/robox_ws/build/cube_msgs/rosidl_generator_type_description/cube_msgs/action/PickAndPlace.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cube_msgs/cube_msgs" TYPE DIRECTORY FILES "/home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -367,7 +371,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cube_msgs/action" TYPE FILE FILES "/home/saber/robox_ws/build/cube_msgs/rosidl_adapter/cube_msgs/action/PickAndPlace.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cube_msgs/msg" TYPE FILE FILES "/home/saber/robox_ws/src/cube_msgs/msg/ColorPoseStamped.msg")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cube_msgs/action" TYPE FILE FILES "/home/saber/robox_ws/src/cube_msgs/action/PickAndPlace.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

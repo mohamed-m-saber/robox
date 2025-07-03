@@ -3,7 +3,8 @@
   "output_dir": "/home/saber/robox_ws/build/cube_msgs/rosidl_typesupport_fastrtps_cpp/cube_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/saber/robox_ws/build/cube_msgs/rosidl_adapter/cube_msgs:msg/ColorPoseStamped.idl"
+    "/home/saber/robox_ws/build/cube_msgs/rosidl_adapter/cube_msgs:msg/ColorPoseStamped.idl",
+    "/home/saber/robox_ws/build/cube_msgs/rosidl_adapter/cube_msgs:action/PickAndPlace.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -69,7 +70,13 @@
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Vector3Stamped.idl",
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl",
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl",
-    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl"
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
@@ -81,6 +88,7 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
     "/home/saber/robox_ws/build/cube_msgs/rosidl_adapter/cube_msgs/msg/ColorPoseStamped.idl",
+    "/home/saber/robox_ws/build/cube_msgs/rosidl_adapter/cube_msgs/action/PickAndPlace.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl",
@@ -144,6 +152,12 @@
     "/opt/ros/jazzy/share/geometry_msgs/msg/Vector3Stamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl",
-    "/opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl"
+    "/opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
   ]
 }

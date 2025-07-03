@@ -67,14 +67,20 @@ include CMakeFiles/cube_msgs__rosidl_generator_type_description.dir/compiler_dep
 include CMakeFiles/cube_msgs__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/cube_msgs__rosidl_generator_type_description: rosidl_generator_type_description/cube_msgs/msg/ColorPoseStamped.json
+CMakeFiles/cube_msgs__rosidl_generator_type_description: rosidl_generator_type_description/cube_msgs/action/PickAndPlace.json
 
 rosidl_generator_type_description/cube_msgs/msg/ColorPoseStamped.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/cube_msgs/msg/ColorPoseStamped.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/cube_msgs/msg/ColorPoseStamped.json: rosidl_adapter/cube_msgs/msg/ColorPoseStamped.idl
+rosidl_generator_type_description/cube_msgs/msg/ColorPoseStamped.json: rosidl_adapter/cube_msgs/action/PickAndPlace.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/saber/robox_ws/build/cube_msgs/rosidl_generator_type_description__arguments.json
 
+rosidl_generator_type_description/cube_msgs/action/PickAndPlace.json: rosidl_generator_type_description/cube_msgs/msg/ColorPoseStamped.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/cube_msgs/action/PickAndPlace.json
+
 cube_msgs__rosidl_generator_type_description: CMakeFiles/cube_msgs__rosidl_generator_type_description
+cube_msgs__rosidl_generator_type_description: rosidl_generator_type_description/cube_msgs/action/PickAndPlace.json
 cube_msgs__rosidl_generator_type_description: rosidl_generator_type_description/cube_msgs/msg/ColorPoseStamped.json
 cube_msgs__rosidl_generator_type_description: CMakeFiles/cube_msgs__rosidl_generator_type_description.dir/build.make
 .PHONY : cube_msgs__rosidl_generator_type_description

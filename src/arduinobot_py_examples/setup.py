@@ -34,11 +34,11 @@ setup(
             'ik_to_trajectory_client = arduinobot_py_examples.ik_to_trajectory_client:main',
             'cube_pose_publisher = arduinobot_py_examples.cube_pose_publisher:main',
             'cube_pose_trajectory = arduinobot_py_examples.cube_pose_trajectory:main',
+            'ppc_action_server = arduinobot_py_examples.ppc_action_server:main',
 
 
 
 
-            
             
         ],
     },

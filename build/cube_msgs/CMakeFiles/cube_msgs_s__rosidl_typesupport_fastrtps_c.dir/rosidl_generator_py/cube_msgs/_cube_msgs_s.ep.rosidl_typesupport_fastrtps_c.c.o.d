@@ -237,4 +237,9 @@ CMakeFiles/cube_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/cu
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
- /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__functions.h
+ /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__functions.h \
+ /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.h \
+ /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__struct.h \
+ /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+ /home/saber/robox_ws/build/cube_msgs/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.h

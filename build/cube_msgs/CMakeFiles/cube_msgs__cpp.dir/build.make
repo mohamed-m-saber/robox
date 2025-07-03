@@ -71,6 +71,11 @@ CMakeFiles/cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/msg/detail/color_pose_
 CMakeFiles/cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/msg/detail/color_pose_stamped__struct.hpp
 CMakeFiles/cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/msg/detail/color_pose_stamped__traits.hpp
 CMakeFiles/cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/msg/detail/color_pose_stamped__type_support.hpp
+CMakeFiles/cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/action/pick_and_place.hpp
+CMakeFiles/cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__builder.hpp
+CMakeFiles/cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__struct.hpp
+CMakeFiles/cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__traits.hpp
+CMakeFiles/cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__type_support.hpp
 CMakeFiles/cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -93,6 +98,7 @@ rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/
 rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: rosidl_adapter/cube_msgs/msg/ColorPoseStamped.idl
+rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: rosidl_adapter/cube_msgs/action/PickAndPlace.idl
 rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -157,6 +163,12 @@ rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/
 rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
+rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/saber/robox_ws/build/cube_msgs/rosidl_generator_cpp__arguments.json
 
@@ -172,10 +184,30 @@ rosidl_generator_cpp/cube_msgs/msg/detail/color_pose_stamped__traits.hpp: rosidl
 rosidl_generator_cpp/cube_msgs/msg/detail/color_pose_stamped__type_support.hpp: rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/cube_msgs/msg/detail/color_pose_stamped__type_support.hpp
 
+rosidl_generator_cpp/cube_msgs/action/pick_and_place.hpp: rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/cube_msgs/action/pick_and_place.hpp
+
+rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__builder.hpp: rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__builder.hpp
+
+rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__struct.hpp: rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__struct.hpp
+
+rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__traits.hpp: rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__traits.hpp
+
+rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__type_support.hpp: rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__type_support.hpp
+
 rosidl_generator_cpp/cube_msgs/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/cube_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 cube_msgs__cpp: CMakeFiles/cube_msgs__cpp
+cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__builder.hpp
+cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__struct.hpp
+cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__traits.hpp
+cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/action/detail/pick_and_place__type_support.hpp
+cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/action/pick_and_place.hpp
 cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/msg/color_pose_stamped.hpp
 cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/msg/detail/color_pose_stamped__builder.hpp
 cube_msgs__cpp: rosidl_generator_cpp/cube_msgs/msg/detail/color_pose_stamped__struct.hpp

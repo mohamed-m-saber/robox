@@ -396,12 +396,12 @@
 
 const byte NUM_JOINTS = 6;
 const byte servoPins[NUM_JOINTS] = {4, 5, 6, 7, 8, 9};
-const byte zeroPos[NUM_JOINTS]  = {90, 90, 90, 90, 90, 30};
+const byte zeroPos[NUM_JOINTS]  = {95.555454545, 94.6390909, 84.272727, 89.77090909, 90, 30};
 const byte minAngle[NUM_JOINTS] = {0, 15, 0, 0, 0, 30};
 const byte maxAngle[NUM_JOINTS] = {180, 125, 180, 180, 180, 95};
 
 Servo servos[NUM_JOINTS];
-byte currentPos[NUM_JOINTS] = {90, 90, 90, 90, 90, 30};
+byte currentPos[NUM_JOINTS] = {95.555454545, 94.6390909, 84.272727, 89.77090909, 90, 30};
 byte targetPos[NUM_JOINTS];
 unsigned long lastMoveTime[NUM_JOINTS];
 unsigned long servoStepDelays[NUM_JOINTS];   // per-joint speed
@@ -426,11 +426,11 @@ void setup() {
   }
 
   // ✳️ Set speed (lower = faster)
-  servoStepDelays[0] = 8;   // joint 1
+  servoStepDelays[0] = 10;   // joint 1
   servoStepDelays[1] = 10;  // joint 2
-  servoStepDelays[2] = 12;  // joint 3
+  servoStepDelays[2] = 10;  // joint 3
   servoStepDelays[3] = 10;  // joint 4
-  servoStepDelays[4] = 8;   // joint 5
+  servoStepDelays[4] = 10;   // joint 5
   servoStepDelays[5] = 10;  // joint 6
 }
 
@@ -507,7 +507,27 @@ void serial() {
 
     if (success) {
       for (byte i = 0; i < NUM_JOINTS; i++) {
-        byte mappedAngle = map(receivedValues[i], 0, 100, minAngle[i], maxAngle[i]);
+        float mappedAngle = map(receivedValues[i], 0, 100, minAngle[i], maxAngle[i]);
+        if (i==0)
+        {
+          //mappedAngle+=2.2;
+          mappedAngle+=((5.0*mappedAngle/216.0)+(1/6.0));
+        }
+
+        else if (i==1)
+        {
+          mappedAngle+=4.639;
+        }
+
+        else if (i==2)
+        {
+          mappedAngle-=5.6363;
+        }
+
+        else if (i==3)
+        {
+          mappedAngle-=0.3;
+        }
         moveToTarget(i, mappedAngle);
       }
     }

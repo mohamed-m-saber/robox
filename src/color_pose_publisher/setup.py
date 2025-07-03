@@ -28,7 +28,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'color_pose_publisher_node = color_pose_publisher.color_pose_publisher_node:main'
+            'color_pose_publisher_node = color_pose_publisher.color_pose_publisher_node:main',
+            'ppc_action_client = color_pose_publisher.ppc_action_client:main',
+
         ],
     },
 )

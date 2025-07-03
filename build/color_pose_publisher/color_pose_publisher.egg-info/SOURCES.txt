@@ -13,6 +13,7 @@ color_pose_publisher/calibration_utils.py
 color_pose_publisher/color_detection.py
 color_pose_publisher/color_pose_publisher_node.py
 color_pose_publisher/pose_estimation.py
+color_pose_publisher/ppc_action_client.py
 color_pose_publisher/vision_utils.py
 color_pose_publisher/assets/camera_calibration_data.npz
 color_pose_publisher/assets/test.jpg

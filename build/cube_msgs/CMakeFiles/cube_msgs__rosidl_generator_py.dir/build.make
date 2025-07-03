@@ -83,14 +83,30 @@ CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/msg/_color_pose_stamped_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/saber/robox_ws/build/cube_msgs/rosidl_generator_py/cube_msgs/msg/_color_pose_stamped_s.c -o CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/msg/_color_pose_stamped_s.c.s
 
+CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.o: CMakeFiles/cube_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.o: rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c
+CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.o: CMakeFiles/cube_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.o -MF CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.o.d -o CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.o -c /home/saber/robox_ws/build/cube_msgs/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c
+
+CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/saber/robox_ws/build/cube_msgs/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c > CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.i
+
+CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/saber/robox_ws/build/cube_msgs/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c -o CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.s
+
 # Object files for target cube_msgs__rosidl_generator_py
 cube_msgs__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/msg/_color_pose_stamped_s.c.o"
+"CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/msg/_color_pose_stamped_s.c.o" \
+"CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.o"
 
 # External object files for target cube_msgs__rosidl_generator_py
 cube_msgs__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 libcube_msgs__rosidl_generator_py.so: CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/msg/_color_pose_stamped_s.c.o
+libcube_msgs__rosidl_generator_py.so: CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.o
 libcube_msgs__rosidl_generator_py.so: CMakeFiles/cube_msgs__rosidl_generator_py.dir/build.make
 libcube_msgs__rosidl_generator_py.so: libcube_msgs__rosidl_typesupport_c.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
@@ -99,6 +115,18 @@ libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosid
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_py.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_py.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_py.so
 libcube_msgs__rosidl_generator_py.so: libcube_msgs__rosidl_generator_c.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -106,30 +134,42 @@ libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typ
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_py.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
-libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libfastcdr.so.2.2.5
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librmw.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
-libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
-libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
 libcube_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.12.so
-libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
-libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
-libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
-libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libcube_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librcutils.so
 libcube_msgs__rosidl_generator_py.so: CMakeFiles/cube_msgs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library libcube_msgs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/saber/robox_ws/build/cube_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libcube_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cube_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

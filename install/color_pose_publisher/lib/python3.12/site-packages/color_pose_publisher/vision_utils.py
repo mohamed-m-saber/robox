@@ -30,5 +30,5 @@ def find_workspace(frame, debug=False, real_width_mm=250, real_height_mm=210):
         px_per_mm = (px_per_mm_width + px_per_mm_height) / 2
         return (x, y, w_pixels, h_pixels, px_per_mm)
     else:
-        print(f"⚠️ Contour shape has {len(approx)} sides (expected 4).")
+        #print(f"⚠️ Contour shape has {len(approx)} sides (expected 4).")
         return None

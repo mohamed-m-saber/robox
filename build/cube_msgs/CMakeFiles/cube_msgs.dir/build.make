@@ -67,6 +67,7 @@ include CMakeFiles/cube_msgs.dir/compiler_depend.make
 include CMakeFiles/cube_msgs.dir/progress.make
 
 CMakeFiles/cube_msgs: /home/saber/robox_ws/src/cube_msgs/msg/ColorPoseStamped.msg
+CMakeFiles/cube_msgs: /home/saber/robox_ws/src/cube_msgs/action/PickAndPlace.action
 CMakeFiles/cube_msgs: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 CMakeFiles/cube_msgs: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 CMakeFiles/cube_msgs: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -129,6 +130,11 @@ CMakeFiles/cube_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Vector3Stamped.idl
 CMakeFiles/cube_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl
 CMakeFiles/cube_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/cube_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
+CMakeFiles/cube_msgs: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+CMakeFiles/cube_msgs: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/cube_msgs: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/cube_msgs: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/cube_msgs: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 
 cube_msgs: CMakeFiles/cube_msgs
 cube_msgs: CMakeFiles/cube_msgs.dir/build.make
