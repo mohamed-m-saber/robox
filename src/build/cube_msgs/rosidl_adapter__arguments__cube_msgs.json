@@ -1,0 +1,7 @@
+{
+  "package_name": "cube_msgs",
+  "non_idl_tuples": [
+    "/home/saber/robox_ws/src/cube_msgs:msg/ColorPoseStamped.msg",
+    "/home/saber/robox_ws/src/cube_msgs:action/PickAndPlace.action"
+  ]
+}

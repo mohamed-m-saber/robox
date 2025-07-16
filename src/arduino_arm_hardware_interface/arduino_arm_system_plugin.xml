@@ -1,9 +1,0 @@
-<library path="arduino_arm_system">
-  <class name="arduino_arm_hardware_interface/ArduinoArmSystem"
-         type="arduino_arm_hardware_interface::ArduinoArmSystem"
-         base_class_type="hardware_interface::SystemInterface">
-    <description>
-      Simple Arduino-controlled robot arm hardware interface.
-    </description>
-  </class>
-</library>

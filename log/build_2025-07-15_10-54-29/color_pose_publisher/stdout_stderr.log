@@ -1,0 +1,50 @@
+running develop
+Removing /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color-pose-publisher.egg-link (link to .)
+running egg_info
+writing ../../build/color_pose_publisher/color_pose_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/color_pose_publisher/color_pose_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/color_pose_publisher/color_pose_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/color_pose_publisher/color_pose_publisher.egg-info/requires.txt
+writing top-level names to ../../build/color_pose_publisher/color_pose_publisher.egg-info/top_level.txt
+reading manifest file '../../build/color_pose_publisher/color_pose_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/color_pose_publisher/color_pose_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+copying color_pose_publisher/ppc_action_client.py -> /home/saber/robox_ws/build/color_pose_publisher/build/lib/color_pose_publisher
+running install
+running install_lib
+creating /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher
+copying /home/saber/robox_ws/build/color_pose_publisher/build/lib/color_pose_publisher/__init__.py -> /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher
+copying /home/saber/robox_ws/build/color_pose_publisher/build/lib/color_pose_publisher/color_tracking_pub.py -> /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher
+copying /home/saber/robox_ws/build/color_pose_publisher/build/lib/color_pose_publisher/color_detection.py -> /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher
+copying /home/saber/robox_ws/build/color_pose_publisher/build/lib/color_pose_publisher/calibration_utils.py -> /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher
+copying /home/saber/robox_ws/build/color_pose_publisher/build/lib/color_pose_publisher/color_pose_publisher_node.py -> /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher
+copying /home/saber/robox_ws/build/color_pose_publisher/build/lib/color_pose_publisher/ppc_action_client.py -> /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher
+copying /home/saber/robox_ws/build/color_pose_publisher/build/lib/color_pose_publisher/QR_code_detection.py -> /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher
+copying /home/saber/robox_ws/build/color_pose_publisher/build/lib/color_pose_publisher/pose_estimation.py -> /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher
+copying /home/saber/robox_ws/build/color_pose_publisher/build/lib/color_pose_publisher/qr_action_client.py -> /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher
+copying /home/saber/robox_ws/build/color_pose_publisher/build/lib/color_pose_publisher/vision_utils.py -> /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher
+byte-compiling /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/color_tracking_pub.py to color_tracking_pub.cpython-312.pyc
+byte-compiling /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/color_detection.py to color_detection.cpython-312.pyc
+byte-compiling /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/calibration_utils.py to calibration_utils.cpython-312.pyc
+byte-compiling /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/color_pose_publisher_node.py to color_pose_publisher_node.cpython-312.pyc
+byte-compiling /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/ppc_action_client.py to ppc_action_client.cpython-312.pyc
+byte-compiling /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/QR_code_detection.py to QR_code_detection.cpython-312.pyc
+byte-compiling /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/pose_estimation.py to pose_estimation.cpython-312.pyc
+byte-compiling /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/qr_action_client.py to qr_action_client.cpython-312.pyc
+byte-compiling /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/vision_utils.py to vision_utils.cpython-312.pyc
+running install_data
+copying resource/color_pose_publisher -> /home/saber/robox_ws/install/color_pose_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/saber/robox_ws/install/color_pose_publisher/share/color_pose_publisher
+copying color_pose_publisher/assets/camera_calibration_data.npz -> /home/saber/robox_ws/install/color_pose_publisher/share/color_pose_publisher/assets
+copying color_pose_publisher/assets/test.jpg -> /home/saber/robox_ws/install/color_pose_publisher/share/color_pose_publisher/assets
+copying color_pose_publisher/assets/workspace.png -> /home/saber/robox_ws/install/color_pose_publisher/share/color_pose_publisher/assets
+running install_egg_info
+Copying ../../build/color_pose_publisher/color_pose_publisher.egg-info to /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher-0.0.1-py3.12.egg-info
+running install_scripts
+Installing color_pose_publisher_node script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+Installing color_tracking_pub script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+Installing ppc_action_client script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+Installing qr_action_client script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+writing list of installed files to '/home/saber/robox_ws/build/color_pose_publisher/install.log'

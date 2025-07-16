@@ -1,0 +1,31 @@
+[1.561s] Invoking command in '/home/saber/robox_ws/build/color_pose_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/saber/robox_ws/build/color_pose_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/saber/robox_ws/build/color_pose_publisher/build --no-deps symlink_data
+[2.054s] running develop
+[2.411s] running egg_info
+[2.411s] creating color_pose_publisher.egg-info
+[2.450s] writing color_pose_publisher.egg-info/PKG-INFO
+[2.450s] writing dependency_links to color_pose_publisher.egg-info/dependency_links.txt
+[2.450s] writing entry points to color_pose_publisher.egg-info/entry_points.txt
+[2.450s] writing requirements to color_pose_publisher.egg-info/requires.txt
+[2.450s] writing top-level names to color_pose_publisher.egg-info/top_level.txt
+[2.451s] writing manifest file 'color_pose_publisher.egg-info/SOURCES.txt'
+[2.517s] reading manifest file 'color_pose_publisher.egg-info/SOURCES.txt'
+[2.518s] writing manifest file 'color_pose_publisher.egg-info/SOURCES.txt'
+[2.639s] running build_ext
+[2.640s] Creating /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color-pose-publisher.egg-link (link to .)
+[2.640s] Installing color_pose_publisher_node script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+[2.641s] Installing color_tracking_pub script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+[2.641s] Installing ppc_action_client script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+[2.641s] Installing qr_action_client script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+[2.641s] 
+[2.641s] Installed /home/saber/robox_ws/build/color_pose_publisher
+[2.642s] running symlink_data
+[2.642s] creating /home/saber/robox_ws/install/color_pose_publisher/share/ament_index
+[2.642s] creating /home/saber/robox_ws/install/color_pose_publisher/share/ament_index/resource_index
+[2.642s] creating /home/saber/robox_ws/install/color_pose_publisher/share/ament_index/resource_index/packages
+[2.642s] symbolically linking /home/saber/robox_ws/build/color_pose_publisher/resource/color_pose_publisher -> /home/saber/robox_ws/install/color_pose_publisher/share/ament_index/resource_index/packages
+[2.642s] symbolically linking /home/saber/robox_ws/build/color_pose_publisher/package.xml -> /home/saber/robox_ws/install/color_pose_publisher/share/color_pose_publisher
+[2.642s] creating /home/saber/robox_ws/install/color_pose_publisher/share/color_pose_publisher/assets
+[2.642s] symbolically linking /home/saber/robox_ws/build/color_pose_publisher/color_pose_publisher/assets/camera_calibration_data.npz -> /home/saber/robox_ws/install/color_pose_publisher/share/color_pose_publisher/assets
+[2.643s] symbolically linking /home/saber/robox_ws/build/color_pose_publisher/color_pose_publisher/assets/test.jpg -> /home/saber/robox_ws/install/color_pose_publisher/share/color_pose_publisher/assets
+[2.643s] symbolically linking /home/saber/robox_ws/build/color_pose_publisher/color_pose_publisher/assets/workspace.png -> /home/saber/robox_ws/install/color_pose_publisher/share/color_pose_publisher/assets
+[2.861s] Invoked command in '/home/saber/robox_ws/build/color_pose_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/saber/robox_ws/build/color_pose_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/saber/robox_ws/build/color_pose_publisher/build --no-deps symlink_data

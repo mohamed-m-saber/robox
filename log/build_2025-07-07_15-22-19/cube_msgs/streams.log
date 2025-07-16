@@ -1,0 +1,232 @@
+[0.544s] Invoking command in '/home/saber/robox_ws/build/cube_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/color_pose_publisher:/home/saber/robox_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/saber/robox_ws/src/cube_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/cube_msgs
+[0.625s] -- The C compiler identification is GNU 13.3.0
+[0.712s] -- The CXX compiler identification is GNU 13.3.0
+[0.745s] -- Detecting C compiler ABI info
+[0.873s] -- Detecting C compiler ABI info - done
+[0.883s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.883s] -- Detecting C compile features
+[0.884s] -- Detecting C compile features - done
+[0.896s] -- Detecting CXX compiler ABI info
+[1.024s] -- Detecting CXX compiler ABI info - done
+[1.033s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.033s] -- Detecting CXX compile features
+[1.033s] -- Detecting CXX compile features - done
+[1.039s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.255s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.354s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.425s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.437s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.602s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.609s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.657s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.652s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.447s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.324s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.331s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.498s] -- Found PythonExtra: /usr/bin/python3  
+[5.195s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.270s] -- Configuring done (4.7s)
+[5.313s] -- Generating done (0.0s)
+[5.324s] -- Build files have been written to: /home/saber/robox_ws/build/cube_msgs
+[5.338s] Invoked command in '/home/saber/robox_ws/build/cube_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/color_pose_publisher:/home/saber/robox_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/saber/robox_ws/src/cube_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/cube_msgs
+[5.339s] Invoking command in '/home/saber/robox_ws/build/cube_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/color_pose_publisher:/home/saber/robox_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/saber/robox_ws/build/cube_msgs -- -j16 -l16
+[5.413s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.423s] [  2%] Built target ament_cmake_python_symlink_cube_msgs
+[5.678s] [  2%] Built target cube_msgs__rosidl_generator_type_description
+[5.688s] running egg_info
+[5.689s] creating cube_msgs.egg-info
+[5.690s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.706s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.718s] writing cube_msgs.egg-info/PKG-INFO
+[5.718s] writing dependency_links to cube_msgs.egg-info/dependency_links.txt
+[5.718s] writing top-level names to cube_msgs.egg-info/top_level.txt
+[5.718s] writing manifest file 'cube_msgs.egg-info/SOURCES.txt'
+[5.804s] reading manifest file 'cube_msgs.egg-info/SOURCES.txt'
+[5.805s] writing manifest file 'cube_msgs.egg-info/SOURCES.txt'
+[5.846s] [  6%] Built target ament_cmake_python_build_cube_msgs_egg
+[6.190s] [  6%] Built target cube_msgs__cpp
+[6.217s] [ 13%] [32mBuilding C object CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__description.c.o[0m
+[6.217s] [ 18%] [32mBuilding C object CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__functions.c.o[0m
+[6.217s] [ 13%] [32mBuilding C object CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__description.c.o[0m
+[6.217s] [ 20%] [32mBuilding C object CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/msg/detail/color_pose_stamped__type_support.c.o[0m
+[6.218s] [ 20%] [32mBuilding C object CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__type_support.c.o[0m
+[6.218s] [ 20%] [32mBuilding C object CMakeFiles/cube_msgs__rosidl_generator_c.dir/rosidl_generator_c/cube_msgs/action/detail/pick_and_place__functions.c.o[0m
+[6.369s] [ 22%] [32m[1mLinking C shared library libcube_msgs__rosidl_generator_c.so[0m
+[6.419s] [ 22%] Built target cube_msgs__rosidl_generator_c
+[6.434s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.434s] [ 36%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.435s] [ 36%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.435s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.435s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.435s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.871s] [ 40%] [32mBuilding CXX object CMakeFiles/cube_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cube_msgs/msg/color_pose_stamped__type_support.cpp.o[0m
+[6.871s] [ 40%] [32mBuilding CXX object CMakeFiles/cube_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cube_msgs/msg/color_pose_stamped__type_support.cpp.o[0m
+[6.871s] [ 43%] [32mBuilding CXX object CMakeFiles/cube_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cube_msgs/action/pick_and_place__type_support.cpp.o[0m
+[6.872s] [ 45%] [32mBuilding CXX object CMakeFiles/cube_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cube_msgs/action/pick_and_place__type_support.cpp.o[0m
+[6.909s] [ 47%] [32mBuilding CXX object CMakeFiles/cube_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cube_msgs/msg/detail/color_pose_stamped__type_support.cpp.o[0m
+[6.914s] [ 50%] [32mBuilding CXX object CMakeFiles/cube_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cube_msgs/action/detail/pick_and_place__type_support.cpp.o[0m
+[6.972s] [ 52%] [32m[1mLinking CXX shared library libcube_msgs__rosidl_typesupport_c.so[0m
+[6.974s] [ 56%] [32mBuilding C object CMakeFiles/cube_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cube_msgs/action/detail/pick_and_place__type_support.c.o[0m
+[6.974s] [ 56%] [32mBuilding C object CMakeFiles/cube_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cube_msgs/msg/detail/color_pose_stamped__type_support.c.o[0m
+[7.079s] [ 56%] Built target cube_msgs__rosidl_typesupport_c
+[7.104s] [ 59%] [32m[1mLinking C shared library libcube_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.124s] [ 61%] [32mBuilding CXX object CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cube_msgs/msg/detail/dds_fastrtps/color_pose_stamped__type_support.cpp.o[0m
+[7.124s] [ 63%] [32mBuilding CXX object CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cube_msgs/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.o[0m
+[7.185s] [ 63%] Built target cube_msgs__rosidl_typesupport_introspection_c
+[7.207s] [ 68%] [32mBuilding CXX object CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/action/detail/pick_and_place__type_support_c.cpp.o[0m
+[7.208s] [ 68%] [32mBuilding CXX object CMakeFiles/cube_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cube_msgs/msg/detail/color_pose_stamped__type_support_c.cpp.o[0m
+[7.810s] [ 70%] [32m[1mLinking CXX shared library libcube_msgs__rosidl_typesupport_cpp.so[0m
+[7.894s] [ 72%] [32m[1mLinking CXX shared library libcube_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.921s] [ 75%] [32m[1mLinking CXX shared library libcube_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.935s] [ 75%] Built target cube_msgs__rosidl_typesupport_cpp
+[8.028s] [ 75%] Built target cube_msgs__rosidl_typesupport_introspection_cpp
+[8.054s] [ 75%] Built target cube_msgs__rosidl_typesupport_fastrtps_c
+[8.268s] [ 77%] [32m[1mLinking CXX shared library libcube_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.362s] [ 77%] Built target cube_msgs__rosidl_typesupport_fastrtps_cpp
+[8.388s] [ 77%] Built target cube_msgs
+[8.413s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.264s] [ 79%] Built target cube_msgs__py
+[9.300s] [ 84%] [32mBuilding C object CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/msg/_color_pose_stamped_s.c.o[0m
+[9.300s] [ 84%] [32mBuilding C object CMakeFiles/cube_msgs__rosidl_generator_py.dir/rosidl_generator_py/cube_msgs/action/_pick_and_place_s.c.o[0m
+[9.533s] [ 86%] [32m[1mLinking C shared library libcube_msgs__rosidl_generator_py.so[0m
+[9.588s] [ 86%] Built target cube_msgs__rosidl_generator_py
+[9.615s] [ 93%] [32mBuilding C object CMakeFiles/cube_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.615s] [ 93%] [32mBuilding C object CMakeFiles/cube_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.615s] [ 93%] [32mBuilding C object CMakeFiles/cube_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.744s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/cube_msgs/cube_msgs_s__rosidl_typesupport_c.so[0m
+[9.749s] [100%] [32m[1mLinking C shared module rosidl_generator_py/cube_msgs/cube_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[9.749s] [100%] [32m[1mLinking C shared module rosidl_generator_py/cube_msgs/cube_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.785s] [100%] Built target cube_msgs_s__rosidl_typesupport_c
+[9.788s] [100%] Built target cube_msgs_s__rosidl_typesupport_introspection_c
+[9.788s] [100%] Built target cube_msgs_s__rosidl_typesupport_fastrtps_c
+[9.805s] Invoked command in '/home/saber/robox_ws/build/cube_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/color_pose_publisher:/home/saber/robox_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/saber/robox_ws/build/cube_msgs -- -j16 -l16
+[9.806s] Invoking command in '/home/saber/robox_ws/build/cube_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/color_pose_publisher:/home/saber/robox_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/saber/robox_ws/build/cube_msgs
+[9.819s] -- Install configuration: ""
+[9.820s] -- Execute custom install script
+[9.820s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/ament_index/resource_index/rosidl_interfaces/cube_msgs
+[9.835s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/msg/ColorPoseStamped.json
+[9.846s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/action/PickAndPlace.json
+[9.858s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/detail/pick_and_place__functions.h
+[9.867s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/detail/pick_and_place__struct.h
+[9.877s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/detail/pick_and_place__type_support.h
+[9.888s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/pick_and_place.h
+[9.898s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/color_pose_stamped.h
+[9.908s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/detail/color_pose_stamped__functions.h
+[9.918s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/detail/color_pose_stamped__struct.h
+[9.929s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/detail/color_pose_stamped__type_support.h
+[9.938s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.948s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/environment/library_path.sh
+[9.959s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/environment/library_path.dsv
+[9.969s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/detail/pick_and_place__rosidl_typesupport_fastrtps_c.h
+[9.979s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_c.h
+[9.990s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.000s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/detail/pick_and_place__rosidl_typesupport_introspection_c.h
+[10.010s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_introspection_c.h
+[10.021s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.032s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/detail/pick_and_place__builder.hpp
+[10.041s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/detail/pick_and_place__struct.hpp
+[10.052s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/detail/pick_and_place__traits.hpp
+[10.063s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/detail/pick_and_place__type_support.hpp
+[10.073s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/pick_and_place.hpp
+[10.084s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/color_pose_stamped.hpp
+[10.093s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/detail/color_pose_stamped__builder.hpp
+[10.103s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/detail/color_pose_stamped__struct.hpp
+[10.114s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/detail/color_pose_stamped__traits.hpp
+[10.124s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/detail/color_pose_stamped__type_support.hpp
+[10.134s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.146s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/detail/pick_and_place__rosidl_typesupport_fastrtps_cpp.hpp
+[10.156s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[10.165s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.177s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/action/detail/pick_and_place__rosidl_typesupport_introspection_cpp.hpp
+[10.187s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/include/cube_msgs/cube_msgs/msg/detail/color_pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+[10.196s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/environment/pythonpath.sh
+[10.208s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/environment/pythonpath.dsv
+[10.218s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[10.228s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.237s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.248s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[10.260s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/__init__.py
+[10.271s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_c.c
+[10.282s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.292s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/_cube_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.303s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/action/__init__.py
+[10.314s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/action/_pick_and_place.py
+[10.324s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/action/_pick_and_place_s.c
+[10.335s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/cube_msgs_s__rosidl_typesupport_c.so
+[10.346s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/cube_msgs_s__rosidl_typesupport_fastrtps_c.so
+[10.356s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/cube_msgs_s__rosidl_typesupport_introspection_c.so
+[10.370s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/msg/__init__.py
+[10.382s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/msg/_color_pose_stamped.py
+[10.392s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/msg/_color_pose_stamped_s.c
+[10.404s] -- Up-to-date symlink: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/cube_msgs_s__rosidl_typesupport_fastrtps_c.so
+[10.404s] -- Up-to-date symlink: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/cube_msgs_s__rosidl_typesupport_introspection_c.so
+[10.405s] -- Up-to-date symlink: /home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/cube_msgs_s__rosidl_typesupport_c.so
+[10.405s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/msg/ColorPoseStamped.idl
+[10.415s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/action/PickAndPlace.idl
+[10.426s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/msg/ColorPoseStamped.msg
+[10.437s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/action/PickAndPlace.action
+[10.447s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/ament_index/resource_index/package_run_dependencies/cube_msgs
+[10.457s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/ament_index/resource_index/parent_prefix_path/cube_msgs
+[10.469s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/environment/ament_prefix_path.sh
+[10.479s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/environment/ament_prefix_path.dsv
+[10.489s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/environment/path.sh
+[10.500s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/environment/path.dsv
+[10.510s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/local_setup.bash
+[10.520s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/local_setup.sh
+[10.532s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/local_setup.zsh
+[10.542s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/local_setup.dsv
+[10.552s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/package.dsv
+[10.564s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/ament_index/resource_index/packages/cube_msgs
+[10.575s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/rosidl_cmake-extras.cmake
+[10.585s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.596s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.606s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.616s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.628s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.638s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.648s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/cube_msgsConfig.cmake
+[10.659s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/cube_msgsConfig-version.cmake
+[10.669s] -- Symlinking: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/package.xml
+[10.679s] -- Installing: /home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_generator_c.so
+[10.679s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_generator_c.so" to ""
+[10.680s] -- Installing: /home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_fastrtps_c.so
+[10.680s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.680s] -- Installing: /home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_introspection_c.so
+[10.680s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.681s] -- Installing: /home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_c.so
+[10.681s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_c.so" to ""
+[10.681s] -- Installing: /home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.682s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.682s] -- Installing: /home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_introspection_cpp.so
+[10.682s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.682s] -- Installing: /home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_cpp.so
+[10.683s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_typesupport_cpp.so" to ""
+[10.732s] Listing '/home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs'...
+[10.732s] Compiling '/home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/__init__.py'...
+[10.732s] Listing '/home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/action'...
+[10.732s] Compiling '/home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/action/__init__.py'...
+[10.732s] Compiling '/home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/action/_pick_and_place.py'...
+[10.732s] Listing '/home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/msg'...
+[10.732s] Compiling '/home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/msg/__init__.py'...
+[10.732s] Compiling '/home/saber/robox_ws/install/cube_msgs/lib/python3.12/site-packages/cube_msgs/msg/_color_pose_stamped.py'...
+[10.737s] -- Installing: /home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_generator_py.so
+[10.738s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/cube_msgs/lib/libcube_msgs__rosidl_generator_py.so" to ""
+[10.738s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/export_cube_msgs__rosidl_generator_cExport.cmake
+[10.738s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/export_cube_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.738s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/export_cube_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.738s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/export_cube_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.739s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/cube_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.739s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/cube_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.739s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/cube_msgs__rosidl_typesupport_cExport.cmake
+[10.739s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/cube_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.739s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/export_cube_msgs__rosidl_generator_cppExport.cmake
+[10.739s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/export_cube_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.739s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/export_cube_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.740s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/cube_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.740s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/cube_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.740s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/cube_msgs__rosidl_typesupport_cppExport.cmake
+[10.740s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/cube_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.740s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/export_cube_msgs__rosidl_generator_pyExport.cmake
+[10.740s] -- Installing: /home/saber/robox_ws/install/cube_msgs/share/cube_msgs/cmake/export_cube_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.743s] Invoked command in '/home/saber/robox_ws/build/cube_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saber/robox_ws/install/color_pose_publisher:/home/saber/robox_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/saber/robox_ws/build/cube_msgs

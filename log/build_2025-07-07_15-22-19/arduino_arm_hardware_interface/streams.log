@@ -1,0 +1,69 @@
+[0.027s] Invoking command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/saber/robox_ws/src/arduino_arm_hardware_interface -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/arduino_arm_hardware_interface
+[0.559s] -- The C compiler identification is GNU 13.3.0
+[0.559s] -- The CXX compiler identification is GNU 13.3.0
+[0.559s] -- Detecting C compiler ABI info
+[0.559s] -- Detecting C compiler ABI info - done
+[0.559s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.559s] -- Detecting C compile features
+[0.559s] -- Detecting C compile features - done
+[0.559s] -- Detecting CXX compiler ABI info
+[0.559s] -- Detecting CXX compiler ABI info - done
+[0.559s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.559s] -- Detecting CXX compile features
+[0.560s] -- Detecting CXX compile features - done
+[0.564s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.799s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.985s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.063s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.093s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.309s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.316s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.383s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.484s] -- Found hardware_interface: 4.29.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.814s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.121s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[2.121s] -- Checking for module 'libserial'
+[2.154s] --   Found libserial, version 1.0.0
+[2.370s] -- Configuring done (2.3s)
+[2.409s] -- Generating done (0.0s)
+[2.411s] [33mCMake Warning:
+[2.411s]   Manually-specified variables were not used by the project:
+[2.411s] 
+[2.411s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.411s]     CATKIN_SYMLINK_INSTALL
+[2.411s] 
+[2.411s] [0m
+[2.416s] -- Build files have been written to: /home/saber/robox_ws/build/arduino_arm_hardware_interface
+[2.447s] Invoked command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/saber/robox_ws/src/arduino_arm_hardware_interface -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/saber/robox_ws/install/arduino_arm_hardware_interface
+[2.449s] Invoking command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/saber/robox_ws/build/arduino_arm_hardware_interface -- -j16 -l16
+[2.535s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_arm_system.dir/src/arduino_arm_system.cpp.o[0m
+[8.802s] [100%] [32m[1mLinking CXX shared library libarduino_arm_system.so[0m
+[9.133s] [100%] Built target arduino_arm_system
+[9.158s] Invoked command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/saber/robox_ws/build/arduino_arm_hardware_interface -- -j16 -l16
+[9.159s] Invoking command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/saber/robox_ws/build/arduino_arm_hardware_interface
+[9.176s] -- Install configuration: ""
+[9.176s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/arduino_arm_system_plugin.xml
+[9.176s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/include/
+[9.177s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/include//arduino_arm_hardware_interface
+[9.177s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/include//arduino_arm_hardware_interface/arduino_arm_system.hpp
+[9.177s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/lib/libarduino_arm_system.so
+[9.180s] -- Set non-toolchain portion of runtime path of "/home/saber/robox_ws/install/arduino_arm_hardware_interface/lib/libarduino_arm_system.so" to ""
+[9.180s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/ament_index/resource_index/package_run_dependencies/arduino_arm_hardware_interface
+[9.180s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/ament_index/resource_index/parent_prefix_path/arduino_arm_hardware_interface
+[9.181s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/environment/ament_prefix_path.sh
+[9.181s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/environment/ament_prefix_path.dsv
+[9.181s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/environment/path.sh
+[9.182s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/environment/path.dsv
+[9.182s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/local_setup.bash
+[9.182s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/local_setup.sh
+[9.182s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/local_setup.zsh
+[9.183s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/local_setup.dsv
+[9.183s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/package.dsv
+[9.183s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/ament_index/resource_index/packages/arduino_arm_hardware_interface
+[9.183s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arduino_arm_hardware_interface
+[9.183s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/cmake/arduino_arm_hardware_interfaceConfig.cmake
+[9.184s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/cmake/arduino_arm_hardware_interfaceConfig-version.cmake
+[9.184s] -- Installing: /home/saber/robox_ws/install/arduino_arm_hardware_interface/share/arduino_arm_hardware_interface/package.xml
+[9.186s] Invoked command in '/home/saber/robox_ws/build/arduino_arm_hardware_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/saber/robox_ws/build/arduino_arm_hardware_interface

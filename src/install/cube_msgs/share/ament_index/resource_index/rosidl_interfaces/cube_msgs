@@ -1,0 +1,4 @@
+action/PickAndPlace.action
+action/PickAndPlace.idl
+msg/ColorPoseStamped.idl
+msg/ColorPoseStamped.msg

@@ -1,12 +1,1 @@
-# Goal definition
-geometry_msgs/Pose target_pose     # Where to pick the cube
-string color                       # Color of the cube
-
----
-# Result definition
-bool success                       # True if pick-and-place succeeded
-string message                     # Optional message (e.g., "Cube placed", "Grasp failed")
-
----
-# Feedback definition
-string status                      # Progress feedback (e.g., "Moving to pick", "Picking", etc.)
+/home/saber/robox_ws/src/cube_msgs/action/PickAndPlace.action

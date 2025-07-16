@@ -274,7 +274,7 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
     # Set ROS_DOMAIN_ID for DDS isolation
-    set_domain_id = SetEnvironmentVariable('ROS_DOMAIN_ID', '3')
+    set_domain_id = SetEnvironmentVariable('ROS_DOMAIN_ID', '12')
 
     # Robot description (URDF)
     robot_description_content = Command([
@@ -428,17 +428,33 @@ def generate_launch_description():
     # )
 
     # Move group node
+    # move_group_node = Node(
+    #     package="moveit_ros_move_group",
+    #     executable="move_group",
+    #     output="screen",
+    #     parameters=[
+    #         {'robot_description': robot_description_content},
+    #         moveit_config.to_dict(),
+    #         planning_params,
+    #         moveit_controllers_yaml
+    #     ]
+    # )
+
+
     move_group_node = Node(
-        package="moveit_ros_move_group",
-        executable="move_group",
-        output="screen",
-        parameters=[
-            {'robot_description': robot_description_content},
-            moveit_config.to_dict(),
-            planning_params,
-            moveit_controllers_yaml
-        ]
-    )
+    package="moveit_ros_move_group",
+    executable="move_group",
+    output="screen",
+    parameters=[
+        {'robot_description': robot_description_content},
+        moveit_config.to_dict(),
+        planning_params,
+        moveit_controllers_yaml,
+        {
+            "moveit_controller_manager": "moveit_ros_control_interface/Ros2ControlManager"
+        }
+    ]
+)
 
     # RViz config file
     rviz_config_file = PathJoinSubstitution([

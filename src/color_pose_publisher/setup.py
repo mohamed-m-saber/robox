@@ -30,7 +30,15 @@ setup(
         'console_scripts': [
             'color_pose_publisher_node = color_pose_publisher.color_pose_publisher_node:main',
             'ppc_action_client = color_pose_publisher.ppc_action_client:main',
+            'color_tracking_pub = color_pose_publisher.color_tracking_pub:main',
+            'qr_action_client = color_pose_publisher.qr_action_client:main',
+
+
 
         ],
     },
 )
+
+
+
+

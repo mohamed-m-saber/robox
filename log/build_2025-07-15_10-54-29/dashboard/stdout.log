@@ -1,0 +1,28 @@
+running develop
+Removing /home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages/dashboard.egg-link (link to .)
+running egg_info
+writing ../../build/dashboard/dashboard.egg-info/PKG-INFO
+writing dependency_links to ../../build/dashboard/dashboard.egg-info/dependency_links.txt
+writing requirements to ../../build/dashboard/dashboard.egg-info/requires.txt
+writing top-level names to ../../build/dashboard/dashboard.egg-info/top_level.txt
+reading manifest file '../../build/dashboard/dashboard.egg-info/SOURCES.txt'
+writing manifest file '../../build/dashboard/dashboard.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages/dashboard
+copying /home/saber/robox_ws/build/dashboard/build/lib/dashboard/__init__.py -> /home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages/dashboard
+byte-compiling /home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages/dashboard/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/dashboard -> /home/saber/robox_ws/install/dashboard/share/ament_index/resource_index/packages
+copying package.xml -> /home/saber/robox_ws/install/dashboard/share/dashboard
+copying launch/color_tracking.launch.py -> /home/saber/robox_ws/install/dashboard/share/dashboard/launch
+copying launch/color_sorting.launch.py -> /home/saber/robox_ws/install/dashboard/share/dashboard/launch
+copying launch/joystick.launch.py -> /home/saber/robox_ws/install/dashboard/share/dashboard/launch
+copying launch/color_stacking.launch.py -> /home/saber/robox_ws/install/dashboard/share/dashboard/launch
+copying launch/qr_detection.launch.py -> /home/saber/robox_ws/install/dashboard/share/dashboard/launch
+running install_egg_info
+Copying ../../build/dashboard/dashboard.egg-info to /home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages/dashboard-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/saber/robox_ws/build/dashboard/install.log'

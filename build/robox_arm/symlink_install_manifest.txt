@@ -10,6 +10,8 @@
 /home/saber/robox_ws/install/robox_arm/share/robox_arm/urdf/robox_arm.urdf
 /home/saber/robox_ws/install/robox_arm/share/robox_arm/launch/display.launch.py
 /home/saber/robox_ws/install/robox_arm/share/robox_arm/launch/gazebo.launch
+/home/saber/robox_ws/install/robox_arm/share/robox_arm/launch/joystick_arm_display.launch.py
+/home/saber/robox_ws/install/robox_arm/share/robox_arm/rviz/robot.rviz
 /home/saber/robox_ws/install/robox_arm/share/ament_index/resource_index/package_run_dependencies/robox_arm
 /home/saber/robox_ws/install/robox_arm/share/ament_index/resource_index/parent_prefix_path/robox_arm
 /home/saber/robox_ws/install/robox_arm/share/robox_arm/environment/ament_prefix_path.sh

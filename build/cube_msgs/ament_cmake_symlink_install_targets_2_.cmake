@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/saber/robox_ws/build/cube_msgs/rosidl_generator_py/cube_msgs/cube_msgs_s__rosidl_typesupport_c.so" "TARGETS" "cube_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/cube_msgs")

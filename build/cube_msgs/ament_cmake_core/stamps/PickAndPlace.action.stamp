@@ -1,7 +1,7 @@
 # Goal definition
 geometry_msgs/Pose target_pose     # Where to pick the cube
 string color                       # Color of the cube
-
+string qr
 ---
 # Result definition
 bool success                       # True if pick-and-place succeeded

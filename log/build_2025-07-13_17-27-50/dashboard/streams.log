@@ -1,0 +1,19 @@
+[3.164s] Invoking command in '/home/saber/robox_ws/src/dashboard': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/dashboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dashboard build --build-base /home/saber/robox_ws/build/dashboard/build install --record /home/saber/robox_ws/build/dashboard/install.log --single-version-externally-managed install_data
+[3.861s] running egg_info
+[3.916s] writing ../../build/dashboard/dashboard.egg-info/PKG-INFO
+[3.916s] writing dependency_links to ../../build/dashboard/dashboard.egg-info/dependency_links.txt
+[3.917s] writing requirements to ../../build/dashboard/dashboard.egg-info/requires.txt
+[3.917s] writing top-level names to ../../build/dashboard/dashboard.egg-info/top_level.txt
+[4.029s] reading manifest file '../../build/dashboard/dashboard.egg-info/SOURCES.txt'
+[4.031s] writing manifest file '../../build/dashboard/dashboard.egg-info/SOURCES.txt'
+[4.031s] running build
+[4.031s] running build_py
+[4.031s] running install
+[4.042s] running install_lib
+[4.107s] running install_data
+[4.107s] running install_egg_info
+[4.169s] removing '/home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages/dashboard-0.0.0-py3.12.egg-info' (and everything under it)
+[4.170s] Copying ../../build/dashboard/dashboard.egg-info to /home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages/dashboard-0.0.0-py3.12.egg-info
+[4.171s] running install_scripts
+[4.572s] writing list of installed files to '/home/saber/robox_ws/build/dashboard/install.log'
+[4.721s] Invoked command in '/home/saber/robox_ws/src/dashboard' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/dashboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dashboard build --build-base /home/saber/robox_ws/build/dashboard/build install --record /home/saber/robox_ws/build/dashboard/install.log --single-version-externally-managed install_data

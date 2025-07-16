@@ -1,11 +1,16 @@
 [console_scripts]
 bridge = arduinobot_py_examples.bridge:main
+color_tracking_sub = arduinobot_py_examples.color_tracking_sub:main
 cube_pose_publisher = arduinobot_py_examples.cube_pose_publisher:main
+cube_pose_trajectory = arduinobot_py_examples.cube_pose_trajectory:main
 ik_solver = arduinobot_py_examples.ik_solver:main
 ik_to_trajectory_client = arduinobot_py_examples.ik_to_trajectory_client:main
 joystick_handler = arduinobot_py_examples.joystick_handler:main
 pose = arduinobot_py_examples.pose:main
+ppc_action_server = arduinobot_py_examples.ppc_action_server:main
+ppc_action_server_stacking = arduinobot_py_examples.ppc_action_server_stacking:main
 publisher = arduinobot_py_examples.publisher:main
+qr_action_server = arduinobot_py_examples.qr_action_server:main
 reachability_map = arduinobot_py_examples.reach:main
 serial = arduinobot_py_examples.serial:main
 simple_moveit_interface = arduinobot_py_examples.simple_moveit_interface:main

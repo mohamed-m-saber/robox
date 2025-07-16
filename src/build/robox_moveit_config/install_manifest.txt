@@ -28,6 +28,7 @@
 /home/saber/robox_ws/src/install/robox_moveit_config/share/robox_moveit_config/config/robox_arm.urdf.xacro
 /home/saber/robox_ws/src/install/robox_moveit_config/share/robox_moveit_config/config/pilz_cartesian_limits.yaml
 /home/saber/robox_ws/src/install/robox_moveit_config/share/robox_moveit_config/config/joint_limits.yaml
+/home/saber/robox_ws/src/install/robox_moveit_config/share/robox_moveit_config/config/planning_parameters.yaml
 /home/saber/robox_ws/src/install/robox_moveit_config/share/robox_moveit_config/config/ompl_planning.yaml
 /home/saber/robox_ws/src/install/robox_moveit_config/share/robox_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
 /home/saber/robox_ws/src/install/robox_moveit_config/share/robox_moveit_config/config/moveit.rviz

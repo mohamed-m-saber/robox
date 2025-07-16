@@ -35,6 +35,11 @@ setup(
             'cube_pose_publisher = arduinobot_py_examples.cube_pose_publisher:main',
             'cube_pose_trajectory = arduinobot_py_examples.cube_pose_trajectory:main',
             'ppc_action_server = arduinobot_py_examples.ppc_action_server:main',
+            'ppc_action_server_stacking = arduinobot_py_examples.ppc_action_server_stacking:main',
+            'color_tracking_sub = arduinobot_py_examples.color_tracking_sub:main',
+            'qr_action_server = arduinobot_py_examples.qr_action_server:main',
+            'joystick_controller = arduinobot_py_examples.joystick_controller:main',
+
 
 
 
@@ -43,4 +48,6 @@ setup(
         ],
     },
 )
+
+
 

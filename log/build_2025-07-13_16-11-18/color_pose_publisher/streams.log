@@ -1,0 +1,24 @@
+[1.498s] Invoking command in '/home/saber/robox_ws/src/color_pose_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/color_pose_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/color_pose_publisher build --build-base /home/saber/robox_ws/build/color_pose_publisher/build install --record /home/saber/robox_ws/build/color_pose_publisher/install.log --single-version-externally-managed install_data
+[1.805s] running egg_info
+[1.831s] writing ../../build/color_pose_publisher/color_pose_publisher.egg-info/PKG-INFO
+[1.831s] writing dependency_links to ../../build/color_pose_publisher/color_pose_publisher.egg-info/dependency_links.txt
+[1.831s] writing entry points to ../../build/color_pose_publisher/color_pose_publisher.egg-info/entry_points.txt
+[1.831s] writing requirements to ../../build/color_pose_publisher/color_pose_publisher.egg-info/requires.txt
+[1.831s] writing top-level names to ../../build/color_pose_publisher/color_pose_publisher.egg-info/top_level.txt
+[1.883s] reading manifest file '../../build/color_pose_publisher/color_pose_publisher.egg-info/SOURCES.txt'
+[1.884s] writing manifest file '../../build/color_pose_publisher/color_pose_publisher.egg-info/SOURCES.txt'
+[1.884s] running build
+[1.884s] running build_py
+[1.885s] running install
+[1.890s] running install_lib
+[1.917s] running install_data
+[1.917s] running install_egg_info
+[1.944s] removing '/home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher-0.0.1-py3.12.egg-info' (and everything under it)
+[1.944s] Copying ../../build/color_pose_publisher/color_pose_publisher.egg-info to /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher-0.0.1-py3.12.egg-info
+[1.945s] running install_scripts
+[2.113s] Installing color_pose_publisher_node script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+[2.113s] Installing color_tracking_pub script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+[2.113s] Installing ppc_action_client script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+[2.113s] Installing qr_action_client script to /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher
+[2.114s] writing list of installed files to '/home/saber/robox_ws/build/color_pose_publisher/install.log'
+[2.153s] Invoked command in '/home/saber/robox_ws/src/color_pose_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/color_pose_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/color_pose_publisher build --build-base /home/saber/robox_ws/build/color_pose_publisher/build install --record /home/saber/robox_ws/build/color_pose_publisher/install.log --single-version-externally-managed install_data
