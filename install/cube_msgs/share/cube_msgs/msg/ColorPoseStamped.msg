@@ -1,1 +1,4 @@
-/home/saber/robox_ws/src/cube_msgs/msg/ColorPoseStamped.msg
+std_msgs/Header header
+geometry_msgs/Pose pose
+string color
+

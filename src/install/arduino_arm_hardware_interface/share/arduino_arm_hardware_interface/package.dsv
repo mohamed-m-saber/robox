@@ -1,5 +1,0 @@
-source;share/arduino_arm_hardware_interface/local_setup.bash
-source;share/arduino_arm_hardware_interface/local_setup.dsv
-source;share/arduino_arm_hardware_interface/local_setup.ps1
-source;share/arduino_arm_hardware_interface/local_setup.sh
-source;share/arduino_arm_hardware_interface/local_setup.zsh

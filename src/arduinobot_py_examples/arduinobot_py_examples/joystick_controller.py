@@ -60,7 +60,7 @@ class JoystickHandler(Node):
 
         delta_j1 = self.get_joint_from_buttons(msg.buttons[1], msg.buttons[3],speed)
         delta_j2 = self.get_joint_from_buttons(msg.buttons[0], msg.buttons[4],speed)
-        delta_j3 = self.axis_to_command(msg.axes[3],speed)
+        delta_j3 = self.get_joint_from_buttons(msg.buttons[8], msg.buttons[9],speed)
         delta_j4 = self.axis_to_command(msg.axes[7],speed)
         delta_j5 = self.axis_to_command(msg.axes[6],speed)
         delta_j6 = self.get_joint_from_buttons(msg.buttons[6], msg.buttons[7],speed)
@@ -149,9 +149,9 @@ class JoystickHandler(Node):
 
     def axis_to_command(self, val,speed):
         """Converts analog axis to incremental command"""
-        if val > 0.5:
+        if val ==1:
             return speed
-        elif val < -0.5:
+        elif val ==-1:
             return -speed
         else:
             return 0.0

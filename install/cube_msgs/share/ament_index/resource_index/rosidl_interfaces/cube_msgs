@@ -1,1 +1,4 @@
-/home/saber/robox_ws/build/cube_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/cube_msgs
+action/PickAndPlace.action
+action/PickAndPlace.idl
+msg/ColorPoseStamped.idl
+msg/ColorPoseStamped.msg

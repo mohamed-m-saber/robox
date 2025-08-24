@@ -278,7 +278,7 @@ def send_tracking_param(color, log_text):
 def send_stacking_params(priorities, log_text):
     for color, priority in priorities.items():
         param_name = f"{color.lower().strip()}_priority"
-        command = f"source /opt/ros/jazzy/setup.bash && source /home/saber/robox_ws/install/setup.bash && ros2 param set /ppc_action_client {param_name} {priority}"
+        command = f"source /opt/ros/jazzy/setup.bash && source /home/saber/robox_ws/install/setup.bash && ros2 param set /ppc_action_client_stacking {param_name} {priority}"
         
         log_text.insert(tk.END, f"🔧 Setting {param_name} = {priority}\n")
 
@@ -298,7 +298,7 @@ def send_stacking_params(priorities, log_text):
                 log_text.insert(tk.END, f"✅ {output}\n")
                 
                 # Verify the parameter was set
-                verify_command = f"source /opt/ros/jazzy/setup.bash && source /home/saber/robox_ws/install/setup.bash && ros2 param get /ppc_action_client {param_name}"
+                verify_command = f"source /opt/ros/jazzy/setup.bash && source /home/saber/robox_ws/install/setup.bash && ros2 param get /ppc_action_client_stacking {param_name}"
                 try:
                     verify_result = subprocess.run(
                         ["bash", "-c", verify_command],

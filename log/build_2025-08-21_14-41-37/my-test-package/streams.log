@@ -1,0 +1,15 @@
+[1.964s] Invoking command in '/home/saber/robox_ws/venv/lib/python3.12/site-packages/pkg_resources/tests/data/my-test-package-source': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/my-test-package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/my-test-package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../../build/my-test-package build --build-base /home/saber/robox_ws/build/my-test-package/build install --record /home/saber/robox_ws/build/my-test-package/install.log --single-version-externally-managed
+[2.272s] running egg_info
+[2.299s] writing ../../../../../../../../build/my-test-package/my_test_package.egg-info/PKG-INFO
+[2.299s] writing dependency_links to ../../../../../../../../build/my-test-package/my_test_package.egg-info/dependency_links.txt
+[2.300s] writing top-level names to ../../../../../../../../build/my-test-package/my_test_package.egg-info/top_level.txt
+[2.326s] reading manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[2.326s] writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[2.326s] running build
+[2.327s] running install
+[2.332s] running install_egg_info
+[2.393s] removing '/home/saber/robox_ws/install/my-test-package/lib/python3.12/site-packages/my_test_package-1.0-py3.12.egg-info' (and everything under it)
+[2.393s] Copying ../../../../../../../../build/my-test-package/my_test_package.egg-info to /home/saber/robox_ws/install/my-test-package/lib/python3.12/site-packages/my_test_package-1.0-py3.12.egg-info
+[2.394s] running install_scripts
+[2.593s] writing list of installed files to '/home/saber/robox_ws/build/my-test-package/install.log'
+[2.693s] Invoked command in '/home/saber/robox_ws/venv/lib/python3.12/site-packages/pkg_resources/tests/data/my-test-package-source' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/my-test-package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/my-test-package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../../build/my-test-package build --build-base /home/saber/robox_ws/build/my-test-package/build install --record /home/saber/robox_ws/build/my-test-package/install.log --single-version-externally-managed

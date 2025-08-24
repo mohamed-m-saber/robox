@@ -50,11 +50,11 @@ class PickAndPlaceServer(Node):
         self.place_z = 0.15
 
         self.predefined_xyz_poses = {
-            'red': {'x': -0.07348, 'y': 0.407},
-            'green': {'x': 0.1175, 'y': 0.38},
-            'blue': {'x': 0.04201, 'y': 0.407},
-            'binb': {'x': 0.1175, 'y': -0.137},
-            'bina': {'x': 0.04201, 'y': -0.157},
+            'red': {'x': -0.083, 'y': 0.330},
+            'green': {'x': 0.151, 'y': 0.330},
+            'blue': {'x': 0.033, 'y': 0.330},
+            'bina': {'x': 0.033, 'y': -0.130},
+            'binb': {'x': 0.151, 'y': -0.130},
         }
 
     # def add_workspace_obstacles(self):
@@ -101,11 +101,11 @@ class PickAndPlaceServer(Node):
             goal_handle.abort()
             return PickAndPlace.Result(success=False, message=msg)
 
-        x, y = goal_handle.request.target_pose.position.x, goal_handle.request.target_pose.position.y
+        x, y,z = goal_handle.request.target_pose.position.x, goal_handle.request.target_pose.position.y,goal_handle.request.target_pose.position.z
         bin_pose = self.predefined_xyz_poses[qr]
 
-        home_wrist_angle = self.compute_wrist_angle(0.0, 0.0)
-        pick_wrist_angle = self.compute_wrist_angle(x, y)
+        home_wrist_angle = self.compute_wrist_angle(0.0, 0.0,0.0)
+        pick_wrist_angle = self.compute_wrist_angle(x, y,z)
         place_wrist_angle = 0
 
         feedback = PickAndPlace.Feedback()
@@ -176,12 +176,15 @@ class PickAndPlaceServer(Node):
             plan_and_wait(x, y, self.pick_z, pick_wrist_angle)
 
             send_feedback("Lifting cube")
-            plan_and_wait(x-0.05, y, self.approach_z+0.05, pick_wrist_angle)
+            plan_and_wait(x, y, self.approach_z+0.05, pick_wrist_angle)
 
-            if (y<=0.125):
-
+            if (y<=0.125 and bin_pose['y']>0):
                 send_feedback("Centering Cube")
-                plan_and_wait(0.105,y, self.approach_z+0.05, pick_wrist_angle)
+                plan_and_wait(0.105,0.125, self.approach_z+0.05, pick_wrist_angle)
+
+            elif (y>0.125 and bin_pose['y']<0):
+                send_feedback("Centering Cube")
+                plan_and_wait(0.105,0.125, self.approach_z+0.05, pick_wrist_angle)
 
             send_feedback("Moving to bin")
             plan_and_wait(bin_pose['x'], bin_pose['y'], self.approach_z, place_wrist_angle)
@@ -255,7 +258,7 @@ class PickAndPlaceServer(Node):
         except serial.SerialException as e:
             self.get_logger().error(f'Serial error: {e}')
 
-    def compute_wrist_angle(self, x, y):
+    def compute_wrist_angle(self, x, y, z):
         base_x, base_y = 0.0, 0.0
         try:
             trans = self.tf_buffer.lookup_transform('world', 'base_link', rclpy.time.Time())
@@ -263,7 +266,14 @@ class PickAndPlaceServer(Node):
         except (LookupException, ConnectivityException, ExtrapolationException):
             pass
         dx, dy = x - base_x, y - base_y
-        return math.atan2(dy, dx)
+        cube_rotation = z
+
+        if cube_rotation >= 45:
+            cube_rotation = cube_rotation - 90
+            angle = math.atan2(dy, dx) + math.radians(cube_rotation)
+        else:
+            angle = math.atan2(dy, dx) + math.radians(cube_rotation)
+        return angle
 
     def create_pose_constraint(self, pose_stamped):
         constraints = Constraints()

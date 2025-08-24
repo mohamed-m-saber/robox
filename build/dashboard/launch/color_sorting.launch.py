@@ -1,1 +1,0 @@
-/home/saber/robox_ws/src/dashboard/launch/color_sorting.launch.py

@@ -1,0 +1,38 @@
+[1.743s] Invoking command in '/home/saber/robox_ws/src/dashboard': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/dashboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dashboard build --build-base /home/saber/robox_ws/build/dashboard/build install --record /home/saber/robox_ws/build/dashboard/install.log --single-version-externally-managed install_data
+[2.081s] running egg_info
+[2.081s] creating ../../build/dashboard/dashboard.egg-info
+[2.108s] writing ../../build/dashboard/dashboard.egg-info/PKG-INFO
+[2.108s] writing dependency_links to ../../build/dashboard/dashboard.egg-info/dependency_links.txt
+[2.109s] writing requirements to ../../build/dashboard/dashboard.egg-info/requires.txt
+[2.109s] writing top-level names to ../../build/dashboard/dashboard.egg-info/top_level.txt
+[2.109s] writing manifest file '../../build/dashboard/dashboard.egg-info/SOURCES.txt'
+[2.163s] reading manifest file '../../build/dashboard/dashboard.egg-info/SOURCES.txt'
+[2.164s] writing manifest file '../../build/dashboard/dashboard.egg-info/SOURCES.txt'
+[2.164s] running build
+[2.164s] running build_py
+[2.164s] creating /home/saber/robox_ws/build/dashboard/build
+[2.164s] creating /home/saber/robox_ws/build/dashboard/build/lib
+[2.164s] creating /home/saber/robox_ws/build/dashboard/build/lib/dashboard
+[2.164s] copying dashboard/__init__.py -> /home/saber/robox_ws/build/dashboard/build/lib/dashboard
+[2.164s] running install
+[2.169s] running install_lib
+[2.197s] creating /home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages/dashboard
+[2.198s] copying /home/saber/robox_ws/build/dashboard/build/lib/dashboard/__init__.py -> /home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages/dashboard
+[2.198s] byte-compiling /home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages/dashboard/__init__.py to __init__.cpython-312.pyc
+[2.198s] running install_data
+[2.198s] creating /home/saber/robox_ws/install/dashboard/share/ament_index
+[2.198s] creating /home/saber/robox_ws/install/dashboard/share/ament_index/resource_index
+[2.198s] creating /home/saber/robox_ws/install/dashboard/share/ament_index/resource_index/packages
+[2.198s] copying resource/dashboard -> /home/saber/robox_ws/install/dashboard/share/ament_index/resource_index/packages
+[2.199s] copying package.xml -> /home/saber/robox_ws/install/dashboard/share/dashboard
+[2.199s] creating /home/saber/robox_ws/install/dashboard/share/dashboard/launch
+[2.199s] copying launch/color_tracking.launch.py -> /home/saber/robox_ws/install/dashboard/share/dashboard/launch
+[2.199s] copying launch/color_sorting.launch.py -> /home/saber/robox_ws/install/dashboard/share/dashboard/launch
+[2.199s] copying launch/joystick.launch.py -> /home/saber/robox_ws/install/dashboard/share/dashboard/launch
+[2.199s] copying launch/color_stacking.launch.py -> /home/saber/robox_ws/install/dashboard/share/dashboard/launch
+[2.199s] copying launch/qr_detection.launch.py -> /home/saber/robox_ws/install/dashboard/share/dashboard/launch
+[2.199s] running install_egg_info
+[2.228s] Copying ../../build/dashboard/dashboard.egg-info to /home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages/dashboard-0.0.0-py3.12.egg-info
+[2.229s] running install_scripts
+[2.405s] writing list of installed files to '/home/saber/robox_ws/build/dashboard/install.log'
+[2.432s] Invoked command in '/home/saber/robox_ws/src/dashboard' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saber/robox_ws/build/dashboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saber/robox_ws/install/dashboard/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dashboard build --build-base /home/saber/robox_ws/build/dashboard/build install --record /home/saber/robox_ws/build/dashboard/install.log --single-version-externally-managed install_data

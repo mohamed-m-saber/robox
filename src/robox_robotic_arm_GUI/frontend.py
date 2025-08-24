@@ -341,7 +341,7 @@ def setup_styles():
                    font=("Helvetica", 16, "bold"),
                    foreground="#404680",
                    background="#EEEDED",
-                   padding=20)
+                   padding=(20,8,20,4))
 
     # Regular labels
     style.configure("TLabel", 
@@ -380,7 +380,7 @@ def setup_styles():
 def create_device_status_panel(parent, log_text, log_queue):
     """Create device status panel with LEDs"""
     status_frame = tk.Frame(parent, bg="#404680")
-    status_frame.pack(fill='x', pady=10, padx=15)
+    status_frame.pack(fill='x', pady=4, padx=15)
     
     # Title
     status_title = tk.Label(status_frame, text="Device Status", 
@@ -540,24 +540,29 @@ def create_sidebar_sections(sidebar, log_text, log_queue,camera_manager):
     # Add device status panel first
     device_detector = create_device_status_panel(sidebar, log_text, log_queue)
 
-    modes = ["Color Sorting", "Color Stacking", "Color Tracking", "QR Detection", "Joystick"]
+    modes = ["\n  Color Sorting", "\n  Color Stacking", "\n  Color Tracking", "\n  QR Detection", "\n  Joystick"]
     for mode in modes:
         mode_container = tk.Frame(sidebar, bg="#404680")
-        mode_container.pack(pady=6, padx=12, fill='x')
+        mode_container.pack(pady=1, padx=12, fill='x')
 
         mode_frame = ttk.LabelFrame(mode_container, 
                                     text=mode, 
                                     style="Mode.TLabelframe",
-                                    padding=6)
+                                    padding=1)
         mode_frame.pack(fill='x')
 
         # Mode-specific widgets
-        if mode == "Color Stacking":
+        if mode == "\n  Color Stacking":
             stacking_combos.update(build_color_stacking_widgets(mode_frame))
-        elif mode == "Color Tracking":
+        elif mode == "\n  Color Tracking":
             build_color_tracking_widgets(mode_frame, tracking_subwidgets)
 
-        execute_btn(mode_frame, mode, execute_buttons, stacking_combos, process_handles, tracking_subwidgets, log_text, log_queue)
+        execute_btn(mode_frame, mode.strip(), execute_buttons, stacking_combos, process_handles, tracking_subwidgets, log_text, log_queue)
 
     quit_btn(sidebar, process_handles, execute_buttons, log_text, log_queue,camera_manager)
+
+"#EEEDED"
+
+
+
 

@@ -1,1 +1,1 @@
-/home/saber/robox_ws/build/robox_arm/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robox_arm
+urdf;xacro;robot_state_publisher;joint_state_publisher_gui;rviz2;moveit_ros_move_group;moveit_ros_planning_interface;moveit_ros_visualization;moveit_msgs;moveit_core;ament_lint_auto;ament_lint_common

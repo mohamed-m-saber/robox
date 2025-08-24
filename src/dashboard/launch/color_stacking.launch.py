@@ -59,8 +59,8 @@ def generate_launch_description():
     )
 
     # Declare color priority launch arguments
-    blue_priority_arg = DeclareLaunchArgument('blue_priority', default_value='1')
-    red_priority_arg = DeclareLaunchArgument('red_priority', default_value='2')
+    blue_priority_arg = DeclareLaunchArgument('blue_priority', default_value='2')
+    red_priority_arg = DeclareLaunchArgument('red_priority', default_value='1')
     green_priority_arg = DeclareLaunchArgument('green_priority', default_value='3')
 
     return LaunchDescription([
@@ -86,8 +86,8 @@ def generate_launch_description():
         # Action Client node with parameters
         Node(
             package='color_pose_publisher',
-            executable='ppc_action_client',
-            name='ppc_action_client',
+            executable='ppc_action_client_stacking',
+            name='ppc_action_client_stacking',
             output='screen',
             prefix='stdbuf -oL',
             parameters=[{

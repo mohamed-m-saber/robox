@@ -528,6 +528,8 @@ void serial() {
         {
           mappedAngle-=0.3;
         }
+
+        mappedAngle = constrain(mappedAngle, minAngle[i], maxAngle[i]);
         moveToTarget(i, mappedAngle);
       }
     }

@@ -95,6 +95,20 @@ def detect_single_closest_cube(roi_frame, pixel_size_mm, offset_x, offset_y,colo
     v = clahe.apply(v)
     hsv = cv2.merge([h, s, v])
 
+    # # HSV color ranges for each cube color
+    # colors = {
+    #     'Red': [
+    #         ([0, 120, 70], [10, 255, 255]),
+    #         ([170, 120, 70], [180, 255, 255])
+    #     ],
+    #     'Green': [
+    #         ([40, 50, 50], [80, 255, 255])
+    #     ],
+    #     'Blue': [
+    #         ([100, 150, 50], [140, 255, 255])
+    #     ]
+    # }
+
     # HSV color ranges for each cube color
     colors = {
         'Red': [
@@ -102,7 +116,7 @@ def detect_single_closest_cube(roi_frame, pixel_size_mm, offset_x, offset_y,colo
             ([170, 120, 70], [180, 255, 255])
         ],
         'Green': [
-            ([40, 50, 50], [80, 255, 255])
+            ([30, 40, 40], [90, 255, 255])  # Widened to capture all green hues
         ],
         'Blue': [
             ([100, 150, 50], [140, 255, 255])

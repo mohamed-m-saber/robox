@@ -1,1 +1,10 @@
-/home/saber/robox_ws/src/robox_moveit_config/config/initial_positions.yaml
+# Default initial positions for robox_arm's ros2_control fake system
+
+initial_positions:
+  joint_five: 0.0
+  joint_four: 0.0
+  joint_one: 0.0
+  joint_seven: 0.0
+  joint_six: 0.0
+  joint_three: 0.0
+  joint_two: 0.0

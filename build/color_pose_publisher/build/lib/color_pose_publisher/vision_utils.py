@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-def find_workspace(frame, debug=False, real_width_mm=250, real_height_mm=170):
+def find_workspace(frame, debug=False, real_width_mm=200, real_height_mm=170):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     block_size = 25
     C = -10

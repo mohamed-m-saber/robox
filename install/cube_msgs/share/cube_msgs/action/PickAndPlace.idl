@@ -1,1 +1,41 @@
-/home/saber/robox_ws/build/cube_msgs/rosidl_adapter/cube_msgs/action/PickAndPlace.idl
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from cube_msgs/action/PickAndPlace.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module cube_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal definition")
+    struct PickAndPlace_Goal {
+      @verbatim (language="comment", text=
+        "Where to pick the cube")
+      geometry_msgs::msg::Pose target_pose;
+
+      @verbatim (language="comment", text=
+        "Color of the cube")
+      string color;
+
+      string qr;
+    };
+    @verbatim (language="comment", text=
+      "Result definition")
+    struct PickAndPlace_Result {
+      @verbatim (language="comment", text=
+        "True if pick-and-place succeeded")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Optional message (e.g., \"Cube placed\", \"Grasp failed\")")
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback definition")
+    struct PickAndPlace_Feedback {
+      @verbatim (language="comment", text=
+        "Progress feedback (e.g., \"Moving to pick\", \"Picking\", etc.)")
+      string status;
+    };
+  };
+};

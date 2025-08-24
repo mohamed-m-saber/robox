@@ -42,7 +42,7 @@ class PickAndPlaceServer(Node):
         self.move_group_client.wait_for_server()
 
         self.scene_publisher = self.create_publisher(PlanningScene, '/planning_scene', 10)
-        #self.add_workspace_obstacles()
+        self.add_workspace_obstacles()
 
         self.gripper_value = 0
         self.pick_z = 0.01
@@ -50,48 +50,48 @@ class PickAndPlaceServer(Node):
         self.place_z = 0.15
 
         self.predefined_xyz_poses = {
-            'red': {'x': -0.07348, 'y': 0.407},
-            'green': {'x': 0.1175, 'y': 0.38},
-            'blue': {'x': 0.04201, 'y': 0.407},
-            'bina': {'x': 0.1175, 'y': -0.137},
-            'binb': {'x': 0.04201, 'y': -0.157},
+            'red': {'x': -0.083, 'y': 0.330},
+            'green': {'x': 0.151, 'y': 0.330},
+            'blue': {'x': 0.033, 'y': 0.330},
+            'bina': {'x': 0.033, 'y': -0.130},
+            'binb': {'x': 0.151, 'y': -0.130},
         }
 
-    # def add_workspace_obstacles(self):
+    def add_workspace_obstacles(self):
 
-    #     planning_scene = PlanningScene()
-    #     planning_scene.is_diff = True
+        planning_scene = PlanningScene()
+        planning_scene.is_diff = True
 
-    #     #Define boxes: each with unique size [x, y, z] and position [x, y, z] (center in world frame)
-    #     boxes = [
-    #         {'id': 'restricted_area_1', 'size': [1.0, 0.3, 1.0], 'pos': [0.72, 0.125, 0.5]},
-    #         {'id': 'restricted_area_2', 'size': [1.0, 1.0, 0.1], 'pos': [-0.711, 0.1, 0.05]},
-    #         {'id': 'restricted_area_3', 'size': [0.4, 0.2, 0.1], 'pos': [0.05, -0.14, 0.05]},
-    #         {'id': 'restricted_area_4', 'size': [0.4, 0.2, 0.1], 'pos': [0.05, 0.39, 0.05]},
-    #     ]
+        #Define boxes: each with unique size [x, y, z] and position [x, y, z] (center in world frame)
+        boxes = [
+            {'id': 'restricted_area_1', 'size': [1.0, 0.3, 1.0], 'pos': [0.72, 0.125, 0.5]},
+            {'id': 'restricted_area_2', 'size': [1.0, 1.0, 0.1], 'pos': [-0.711, 0.1, 0.05]},
+            {'id': 'restricted_area_3', 'size': [0.4, 0.2, 0.1], 'pos': [0.05, -0.14, 0.05]},
+            {'id': 'restricted_area_4', 'size': [0.4, 0.2, 0.1], 'pos': [0.05, 0.39, 0.05]},
+        ]
 
-    #     for box_info in boxes:
-    #         box = CollisionObject()
-    #         box.id = box_info['id']
-    #         box.header.frame_id = 'world'
+        for box_info in boxes:
+            box = CollisionObject()
+            box.id = box_info['id']
+            box.header.frame_id = 'world'
 
-    #         primitive = SolidPrimitive()
-    #         primitive.type = SolidPrimitive.BOX
-    #         primitive.dimensions = box_info['size']
+            primitive = SolidPrimitive()
+            primitive.type = SolidPrimitive.BOX
+            primitive.dimensions = box_info['size']
 
-    #         box_pose = Pose()
-    #         box_pose.position.x = box_info['pos'][0]
-    #         box_pose.position.y = box_info['pos'][1]
-    #         box_pose.position.z = box_info['pos'][2]
+            box_pose = Pose()
+            box_pose.position.x = box_info['pos'][0]
+            box_pose.position.y = box_info['pos'][1]
+            box_pose.position.z = box_info['pos'][2]
 
-    #         box.primitives.append(primitive)
-    #         box.primitive_poses.append(box_pose)
-    #         box.operation = CollisionObject.ADD
+            box.primitives.append(primitive)
+            box.primitive_poses.append(box_pose)
+            box.operation = CollisionObject.ADD
 
-    #         planning_scene.world.collision_objects.append(box)
+            planning_scene.world.collision_objects.append(box)
 
-    #     self.scene_publisher.publish(planning_scene)
-    #     self.get_logger().info("Added 4 restricted areas to the planning scene.")
+        self.scene_publisher.publish(planning_scene)
+        self.get_logger().info("Added 4 restricted areas to the planning scene.")
 
     async def execute_callback(self, goal_handle):
         color = goal_handle.request.color.lower()
@@ -101,11 +101,11 @@ class PickAndPlaceServer(Node):
             goal_handle.abort()
             return PickAndPlace.Result(success=False, message=msg)
 
-        x, y = goal_handle.request.target_pose.position.x, goal_handle.request.target_pose.position.y
+        x, y,z = goal_handle.request.target_pose.position.x, goal_handle.request.target_pose.position.y,goal_handle.request.target_pose.position.z
         bin_pose = self.predefined_xyz_poses[color]
 
-        home_wrist_angle = self.compute_wrist_angle(0.0, 0.0)
-        pick_wrist_angle = self.compute_wrist_angle(x, y)
+        home_wrist_angle = self.compute_wrist_angle(0.0, 0.0,0.0)
+        pick_wrist_angle = self.compute_wrist_angle(x, y,z)
         place_wrist_angle = 0
 
         feedback = PickAndPlace.Feedback()
@@ -200,13 +200,6 @@ class PickAndPlaceServer(Node):
                 time.sleep(0.05)  # adjust delay as needed for smoothness
 
 
-
-
-
-
-
-
-
         try:
             send_feedback("Moving to home position")
             plan_and_wait(0.0, 0.0, self.approach_z, home_wrist_angle)
@@ -222,12 +215,15 @@ class PickAndPlaceServer(Node):
             plan_and_wait(x, y, self.pick_z, pick_wrist_angle)
 
             send_feedback("Lifting cube")
-            plan_and_wait(x-0.05, y, self.approach_z+0.05, pick_wrist_angle)
+            plan_and_wait(x, y, self.approach_z+0.05, pick_wrist_angle)
 
-            if (y<=0.125):
-
+            if (y<=0.125 and bin_pose['y']>0):
                 send_feedback("Centering Cube")
-                plan_and_wait(0.105,y, self.approach_z+0.05, pick_wrist_angle)
+                plan_and_wait(0.105,0.125, self.approach_z+0.05, pick_wrist_angle)
+
+            elif (y>0.125 and bin_pose['y']<0):
+                send_feedback("Centering Cube")
+                plan_and_wait(0.105,0.125, self.approach_z+0.05, pick_wrist_angle)
 
             send_feedback("Moving to bin")
             plan_and_wait(bin_pose['x'], bin_pose['y'], self.approach_z, place_wrist_angle)
@@ -301,7 +297,7 @@ class PickAndPlaceServer(Node):
         except serial.SerialException as e:
             self.get_logger().error(f'Serial error: {e}')
 
-    def compute_wrist_angle(self, x, y):
+    def compute_wrist_angle(self, x, y, z):
         base_x, base_y = 0.0, 0.0
         try:
             trans = self.tf_buffer.lookup_transform('world', 'base_link', rclpy.time.Time())
@@ -309,7 +305,14 @@ class PickAndPlaceServer(Node):
         except (LookupException, ConnectivityException, ExtrapolationException):
             pass
         dx, dy = x - base_x, y - base_y
-        return math.atan2(dy, dx)
+        cube_rotation = z
+
+        if cube_rotation >= 45:
+            cube_rotation = cube_rotation - 90
+            angle = math.atan2(dy, dx) + math.radians(cube_rotation)
+        else:
+            angle = math.atan2(dy, dx) + math.radians(cube_rotation)
+        return angle
 
     def create_pose_constraint(self, pose_stamped):
         constraints = Constraints()

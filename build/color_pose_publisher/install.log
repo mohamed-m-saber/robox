@@ -3,6 +3,7 @@
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/color_detection.py
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/calibration_utils.py
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/color_pose_publisher_node.py
+/home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/ppc_action_client_stacking.py
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/ppc_action_client.py
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/QR_code_detection.py
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/pose_estimation.py
@@ -13,6 +14,7 @@
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/__pycache__/color_detection.cpython-312.pyc
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/__pycache__/calibration_utils.cpython-312.pyc
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/__pycache__/color_pose_publisher_node.cpython-312.pyc
+/home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/__pycache__/ppc_action_client_stacking.cpython-312.pyc
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/__pycache__/ppc_action_client.cpython-312.pyc
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/__pycache__/QR_code_detection.cpython-312.pyc
 /home/saber/robox_ws/install/color_pose_publisher/lib/python3.12/site-packages/color_pose_publisher/__pycache__/pose_estimation.cpython-312.pyc
@@ -33,4 +35,5 @@
 /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher/color_pose_publisher_node
 /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher/color_tracking_pub
 /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher/ppc_action_client
+/home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher/ppc_action_client_stacking
 /home/saber/robox_ws/install/color_pose_publisher/lib/color_pose_publisher/qr_action_client

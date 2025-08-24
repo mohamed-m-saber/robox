@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "cube_msgs/action/detail/pick_and_place__type_support.h"
 #include "cube_msgs/action/detail/pick_and_place__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "cube_msgs/action/detail/pick_and_place__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "cube_msgs/action/detail/pick_and_place__type_support.h"
 
 #ifdef __cplusplus
 extern "C"
